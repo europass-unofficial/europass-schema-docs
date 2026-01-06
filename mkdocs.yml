@@ -1,0 +1,109 @@
+site_name: Europass CV XML Schema Documentation
+site_description: Unofficial documentation for Europass CV XML Schema v3.0.0
+site_author: europass-unofficial
+site_url: https://europass-unofficial.github.io/europass-schema-docs/
+repo_url: https://github.com/europass-unofficial/europass-schema-docs
+repo_name: europass-unofficial/europass-schema-docs
+
+theme:
+  name: material
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.action.edit
+  language: en
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.tabbed:
+      alternate_style: true
+  - tables
+  - toc:
+      permalink: true
+      toc_depth: 3
+  - attr_list
+  - md_in_html
+  - def_list
+
+plugins:
+  - search
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/europass-unofficial/europass-schema-docs
+
+nav:
+  - Home: index.md
+  - Getting Started:
+      - Introduction: 01_Introduction.md
+      - Background: 02_Background.md
+  - XML Document Elements:
+      - Overview: 03_Europass_XML_Document_elements.md
+      - Candidate (level 0): 03.1_Candidate_level_0.md
+      - Processing Information: 03.2_Processing_Information_level_1.md
+      - Candidate Supplier (level 1): 03.3_CandidateSupplier_level_1.md
+      - Supplier Person Contact (level 2): 03.4_CandidateSupplier_PersonContact_level_2.md
+      - Candidate Person (level 1): 03.5_CandidatePerson_level_1.md
+      - Person Name (level 2): 03.6_CandidatePerson_PersonName_level_2.md
+      - Communication (level 2): 03.7_CandidatePerson_Communication_level_2.md
+      - Disability (level 2): 03.8_CandidatePerson_Disability_level_2.md
+      - Candidate Profile (level 1): 03.9_CandidateProfile_level_1.md
+      - Person Availability (level 2): 03.10_CandidateProfile_PersonAvailability_level_2.md
+      - Education History (level 2): 03.11_CandidateProfile_EducationHistory_level_2.md
+      - Qualifications (level 2): 03.12_CandidateProfile_PersonQualifications_level_2.md
+      - Experience Summary (level 2): 03.13_CandidateProfile_ExperienceSummary_level_2.md
+      - Employment History (level 2): 03.14_CandidateProfile_EmploymentHistory_level_2.md
+      - Employment References (level 2): 03.15_CandidateProfile_EmploymentReferences_level_2.md
+      - Certifications (level 2): 03.16_CandidateProfile_Certifications_level_2.md
+      - Employer Preferences (level 2): 03.17_CandidateProfile_CandidateEmployerPreferences_level_2.md
+      - Position Preferences (level 2): 03.18_CandidateProfile_CandidatePositionPreferences_level_2.md
+      - Licenses (level 2): 03.19_CandidateProfile_Licenses_level_2.md
+      - Military History (level 2): 03.20_CandidateProfile_MilitaryHistory_level_2.md
+      - Patent History (level 2): 03.21_CandidateProfile_PatentHistory_level_2.md
+      - Publication History (level 2): 03.22_CandidateProfile_PublicationHistory_level_2.md
+      - Organization Affiliations (level 2): 03.23_CandidateProfile_OrganizationAffiliations_level_2.md
+      - Speaking History (level 2): 03.24_CandidateProfile_SpeakingHistory_level_2.md
+      - Attachments (level 2): 03.25_CandidateProfile_Attachment_level_2.md
+      - Hobbies and Interests: 03.26_CandidateProfile_HobbiesAndInterests.md
+      - Creative Works: 03.27_CandidateProfile_CreativeWorks.md
+      - Projects: 03.28_CandidateProfile_Projects.md
+      - Communication Skills: 03.29_CandidateProfile_CommunicationAndInterpersonalSkills.md
+      - Leadership Skills: 03.30_CandidateProfile_ManagementAndLeadershipSkills.md
+      - Organizational Skills: 03.31_CandidateProfile_OrganisationalSkills.md
+      - Digital Skills: 03.32_CandidateProfile_DigitalSkills.md
+      - Networks and Memberships: 03.33_CandidateProfile_NetworksAndMemberships.md
+      - Conferences and Seminars: 03.34_CandidateProfile_ConferencesAndSeminars.md
+      - Social Activities: 03.35_CandidateProfile_SocialAndPoliticalActivities.md
+      - Other Skills: 03.36_CandidateProfile_Others.md
+  - Reference:
+      - Common Data Type Elements: 03.37_Common_DataType_Elements_with_Attributes.md
+      - Common Attributes: 03.38_Common_Attributes.md
+      - Code Lists: 03.39_Code_Lists.md
+      - Title & Change Log: 00_Title_Abstract_ChangeLog.md
+  - Annexes:
+      - Business Rules: Annex_1_Treatment_of_Unfulfilled_Business_Rules.md
