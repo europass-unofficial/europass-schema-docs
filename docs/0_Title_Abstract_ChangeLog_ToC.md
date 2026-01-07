@@ -27,14 +27,14 @@ DG Employment, Social Affairs and Inclusion
 
 &lt;img&gt;europass&lt;/img&gt; Europass2 CV XML Schema Documentation
 
-## Abstract
+## 0.2 Abstract
 
 The purpose of this document is to describe in detail the Europass Curriculum Vitae (ECV) Data Standard Specification,
 which is the format used for the exchanges of CVs in Europass e-portfolio, a free web-based tools that foster mobility
 and employment in the EU. This document defines the structure, the code lists to be used and the Business Rules that
 apply for each of the elements in the ECV schema.
 
-## Change log
+## 0.3 Change log
 
 <table>
   <thead>
@@ -116,7 +116,7 @@ apply for each of the elements in the ECV schema.
 </table>
 
 
-## Table of Contents
+## 0.4 Table of Contents
 
 &lt;img&gt;European Union Flag&lt;/img&gt;
 
@@ -348,7 +348,7 @@ apply for each of the elements in the ECV schema.
 </table>
 
 
-## Reference and Applicable Documents
+## 0.5 Reference and Applicable Documents
 
 The following contents or documents may be relevant for better understanding the project and the contents of this
 document.
@@ -384,7 +384,7 @@ document.
 </table>
 
 
-## Abbreviations and Acronyms
+## 0.6 Abbreviations and Acronyms
 
 <table>
   <tr>
