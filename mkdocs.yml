@@ -36,7 +36,6 @@ markdown_extensions:
       custom_fences:
         - name: mermaid
           class: mermaid
-          format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.tasklist:
       custom_checkbox: true
   - pymdownx.highlight:
@@ -67,51 +66,47 @@ extra:
 
 nav:
   - Home: index.md
-  - Getting Started:
-      - Introduction: 01_Introduction.md
-      - Background: 02_Background.md
-  - XML Document Elements:
-      - Overview: 03_Europass_XML_Document_elements.md
-      - Candidate (level 0): 03.1_Candidate_level_0.md
-      - Processing Information: 03.2_Processing_Information_level_1.md
-      - Candidate Supplier (level 1): 03.3_CandidateSupplier_level_1.md
-      - Supplier Person Contact (level 2): 03.4_CandidateSupplier_PersonContact_level_2.md
-      - Candidate Person (level 1): 03.5_CandidatePerson_level_1.md
-      - Person Name (level 2): 03.6_CandidatePerson_PersonName_level_2.md
-      - Communication (level 2): 03.7_CandidatePerson_Communication_level_2.md
-      - Disability (level 2): 03.8_CandidatePerson_Disability_level_2.md
-      - Candidate Profile (level 1): 03.9_CandidateProfile_level_1.md
-      - Person Availability (level 2): 03.10_CandidateProfile_PersonAvailability_level_2.md
-      - Education History (level 2): 03.11_CandidateProfile_EducationHistory_level_2.md
-      - Qualifications (level 2): 03.12_CandidateProfile_PersonQualifications_level_2.md
-      - Experience Summary (level 2): 03.13_CandidateProfile_ExperienceSummary_level_2.md
-      - Employment History (level 2): 03.14_CandidateProfile_EmploymentHistory_level_2.md
-      - Employment References (level 2): 03.15_CandidateProfile_EmploymentReferences_level_2.md
-      - Certifications (level 2): 03.16_CandidateProfile_Certifications_level_2.md
-      - Employer Preferences (level 2): 03.17_CandidateProfile_CandidateEmployerPreferences_level_2.md
-      - Position Preferences (level 2): 03.18_CandidateProfile_CandidatePositionPreferences_level_2.md
-      - Licenses (level 2): 03.19_CandidateProfile_Licenses_level_2.md
-      - Military History (level 2): 03.20_CandidateProfile_MilitaryHistory_level_2.md
-      - Patent History (level 2): 03.21_CandidateProfile_PatentHistory_level_2.md
-      - Publication History (level 2): 03.22_CandidateProfile_PublicationHistory_level_2.md
-      - Organization Affiliations (level 2): 03.23_CandidateProfile_OrganizationAffiliations_level_2.md
-      - Speaking History (level 2): 03.24_CandidateProfile_SpeakingHistory_level_2.md
-      - Attachments (level 2): 03.25_CandidateProfile_Attachment_level_2.md
-      - Hobbies and Interests: 03.26_CandidateProfile_HobbiesAndInterests.md
-      - Creative Works: 03.27_CandidateProfile_CreativeWorks.md
-      - Projects: 03.28_CandidateProfile_Projects.md
-      - Communication Skills: 03.29_CandidateProfile_CommunicationAndInterpersonalSkills.md
-      - Leadership Skills: 03.30_CandidateProfile_ManagementAndLeadershipSkills.md
-      - Organizational Skills: 03.31_CandidateProfile_OrganisationalSkills.md
-      - Digital Skills: 03.32_CandidateProfile_DigitalSkills.md
-      - Networks and Memberships: 03.33_CandidateProfile_NetworksAndMemberships.md
-      - Conferences and Seminars: 03.34_CandidateProfile_ConferencesAndSeminars.md
-      - Social Activities: 03.35_CandidateProfile_SocialAndPoliticalActivities.md
-      - Other Skills: 03.36_CandidateProfile_Others.md
-  - Reference:
-      - Common Data Type Elements: 03.37_Common_DataType_Elements_with_Attributes.md
-      - Common Attributes: 03.38_Common_Attributes.md
-      - Code Lists: 03.39_Code_Lists.md
-      - Title & Change Log: 00_Title_Abstract_ChangeLog.md
-  - Annexes:
-      - Business Rules: Annex_1_Treatment_of_Unfulfilled_Business_Rules.md
+  - Front Matter:
+      - Title & Change Log: 0_Title_Abstract_ChangeLog_ToC.md
+      - Introduction: 1_Introduction.md
+      - Background: 2_Background.md
+  - ToC: 0.4_ToC.md
+  - Europass XML Document Elements:
+      - Candidate (level 0): "3.1_Candidate(level0).md"
+      - Processing Information (level 1): "3.2_ProcessingInformation(level1).md"
+      - Candidate Supplier (level 1): "3.3_CandidateSupplier(level1).md"
+      - Supplier Person Contact (level 2): "3.4_CandidateSupplier_PersonContact(level2).md"
+      - Candidate Person (level 1): "3.5_CandidatePerson(level1).md"
+      - Person Name (level 2): "3.6_CandidatePerson_PersonName(level2).md"
+      - Communication (level 2): "3.7_CandidatePerson_Communication(level2).md"
+      - Disability (level 2): "3.8_CandidatePerson_Disability(level2).md"
+      - Candidate Profile (level 1): "3.9_CandidateProfile(level1).md"
+      - Person Availability (level 2): "3.10_CandidateProfile_PersonAvailability(level2).md"
+      - Education History (level 2): "3.11_CandidateProfile_EducationHistory(level2).md"
+      - Experience Summary (level 2): "3.13_CandidateProfile_ExperienceSummary(level2).md"
+      - Employment History (level 2): "3.14_CandidateProfile_EmploymentHistory(level2).md"
+      - Employment References (level 2): "3.15_CandidateProfile_EmploymentReferences(level2).md"
+      - Certifications (level 2): "3.16_CandidateProfile_Certifications(level2).md"
+      - Employer Preferences (level 2): "3.17_CandidateProfile_CandidateEmployerPreferences(level2).md"
+      - Position Preferences (level 2): "3.18_CandidateProfile_CandidatePositionPreferences(level2).md"
+      - Licenses (level 2): "3.19_CandidateProfile_Licenses(level2).md"
+      - Military History (level 2): "3.20_CandidateProfile_MilitaryHistory(level2).md"
+      - Patent History (level 2): "3.21_CandidateProfile_PatentHistory(level2).md"
+      - Publication History (level 2): "3.22_CandidateProfile_PublicationHistory(level2).md"
+      - Organization Affiliations (level 2): "3.23_CandidateProfile_OrganizationAffiliations(level2).md"
+      - Speaking History (level 2): "3.24_CandidateProfile_SpeakingHistory(level2).md"
+      - Attachments (level 2): "3.25_CandidateProfile_Attachment(level2).md"
+      - Hobbies and Interests: 3.26_CandidateProfile_HobbiesAndInterests.md
+      - Projects: 3.28_CandidateProfile_Projects.md
+      - Communication Skills: 3.29_CandidateProfile_CommunicationAndInterpersonalSkills.md
+      - Leadership Skills: 3.30_CandidateProfile_ManagementAndLeadershipSkills.md
+      - Organizational Skills: 3.31_CandidateProfile_OrganisationalSkills.md
+      - Digital Skills: 3.32_CandidateProfile_DigitalSkills.md
+      - Networks and Memberships: 3.33_CandidateProfile_NetworksAndMemberships.md
+      - Conferences and Seminars: 3.34_CandidateProfile_ConferencesAndSeminars.md
+      - Social Activities: 3.35_CandidateProfile_SocialAndPoliticalActivities.md
+      - Voluntary Works: 3.36_CandidateProfile_VoluntaryWorks.md
+      - Other Skills: 3.37_CandidateProfile_Others.md
+      - Common DataType Elements with Attributes: 3.38_Common_DataType_Elements_with_Attributes.md
+      - Common Attributes: 3.39_Common_Attributes.md
+      - Treatment of Unfulfilled Business Rules: "A_Annex 1.md"
