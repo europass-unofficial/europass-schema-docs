@@ -16,88 +16,74 @@ Candidate is the root element of Europass2 XML document. This element defines a 
 
 ### 3.1.1 Candidate Element Description
 
-<mermaid>
+```mermaid
 graph TD
     subgraph Candidate
         direction LR
-        A[CandidateType] --> B[Attributes]
-        B --> C[eures:DocumentIDGroup]
-        C --> D[hr:DocumentID]
-        C --> E[hr:AlternateDocumentID]
-        C --> F[eures:ProcessingInformation]
-        C --> G[CandidateSupplier]
-        C --> H[hr:PositionSeekingStatusCode]
-        C --> I[CandidatePerson]
-        C --> J[CandidateProfile]
+        A["CandidateType"] --> B["Attributes"]
+        B --> C["eures:DocumentIDGroup"]
+        C --> D["hr:DocumentID"]
+        C --> E["hr:AlternateDocumentID"]
+        C --> F["eures:ProcessingInformation"]
+        C --> G["CandidateSupplier"]
+        C --> H["hr:PositionSeekingStatusCode"]
+        C --> I["CandidatePerson"]
+        C --> J["CandidateProfile"]
     end
 
     subgraph Attributes
         direction LR
-        B --> B1[Attributes]
+        B --> B1["Attributes"]
     end
 
     subgraph eures:DocumentIDGroup
         direction LR
-        C --> C1[eures:DocumentIDGroup]
-        C1 --> C2[Document Identification Group. Details Provides the Identifier(s) of the document being communicated. Uniquely...]
+        C --> C1["eures:DocumentIDGroup"]
+        C1 --> C2["Document Identification Group. Provides identifiers of the document being communicated."]
     end
 
     subgraph hr:DocumentID
         direction LR
-        D --> D1[hr:DocumentID]
-        D1 --> D2[Document Identification. Identifier The DocumentID serves as an identifier of an entity corresponding to the noun. The...]
+        D --> D1["hr:DocumentID"]
+        D1 --> D2["Document Identification. Identifier serves as an identifier of an entity."]
     end
 
     subgraph hr:AlternateDocumentID
         direction LR
-        E --> E1[hr:AlternateDocumentID]
-        E1 --> E2[The DocumentID serves as an identifier of an entity corresponding to the noun instance (i.e., the entity being managed...]
+        E --> E1["hr:AlternateDocumentID"]
+        E1 --> E2["Alternate DocumentID for the entity being managed."]
     end
 
     subgraph eures:ProcessingInformation
         direction LR
-        F --> F1[eures:ProcessingInformation]
-        F1 --> F2[It includes the target system codes that are related to document processing. It is used to carry "visibility" and "data"...]
+        F --> F1["eures:ProcessingInformation"]
+        F1 --> F2["Target system codes for document processing, visibility and data handling."]
     end
 
     subgraph CandidateSupplier
         direction LR
-        G --> G1[CandidateSupplier]
-        G1 --> G2[It contains information about the supplier of the candidate details.]
+        G --> G1["CandidateSupplier"]
+        G1 --> G2["Information about the supplier of the candidate details."]
     end
 
     subgraph hr:PositionSeekingStatusCode
         direction LR
-        H --> H1[hr:PositionSeekingStatusCode]
-        H1 --> H2[A code classifying the candidate's job search posture or disposition. In other words, whether the candidate is actively...]
+        H --> H1["hr:PositionSeekingStatusCode"]
+        H1 --> H2["Code classifying candidate's job search posture or disposition."]
     end
 
     subgraph CandidatePerson
         direction LR
-        I --> I1[CandidatePerson]
-        I1 --> I2[It contains personal details of the person seeking a job, such as his/her name, age, gender, and so on.]
+        I --> I1["CandidatePerson"]
+        I1 --> I2["Personal details of the person seeking a job."]
     end
 
     subgraph CandidateProfile
         direction LR
-        J --> J1[CandidateProfile]
-        J1 --> J2[It contains structured information about a candidate.]
+        J --> J1["CandidateProfile"]
+        J1 --> J2["Structured information about a candidate."]
     end
-
-    subgraph Candidate
-        direction LR
-        Candidate --> CandidateType
-        Candidate --> Attributes
-        Candidate --> eures:DocumentIDGroup
-        Candidate --> hr:DocumentID
-        Candidate --> hr:AlternateDocumentID
-        Candidate --> eures:ProcessingInformation
-        Candidate --> CandidateSupplier
-        Candidate --> hr:PositionSeekingStatusCode
-        Candidate --> CandidatePerson
-        Candidate --> CandidateProfile
-    end
-</mermaid>
+```
 
 <footer>DG EMPL 2020</footer>&lt;page_number&gt;Page 12 of 160&lt;/page_number&gt;
 

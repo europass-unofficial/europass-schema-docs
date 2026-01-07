@@ -27,8 +27,8 @@ This is a community-maintained project. Feel free to suggest improvements or rep
 
 The official Europass CV XML Schema documentation is available in the `reference/` folder:
 
-- [Official PDF Version](ECV_Schema_Documentation_v3.0.0_20200602.pdf) - Original official documentation
-- [Markdown Version](ECV_Schema_Documentation_v3.0.0_20200602.md) -  Machine generated Markdown conversion created using an LLM, provided as a starting point for further review and refinement
+- Official PDF Version: `ECV_Schema_Documentation_v3.0.0_20200602.pdf` - Original official documentation
+- Markdown Version: `ECV_Schema_Documentation_v3.0.0_20200602.md` -  Machine generated Markdown conversion created using an LLM, provided as a starting point for further review and refinement
 
 
 ---
