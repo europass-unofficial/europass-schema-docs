@@ -9,9 +9,9 @@ This repository contains an **unofficial, community maintained** Markdown conver
 
 ## Why this repository exists
 
-The Europass2 CV XML Schema documentation is officially published as a PDF document.
-The format is not optimized for navigation, linking, version control,
-or collaborative review.
+The Europass2 CV XML Schema documentation is officially published as a PDF document. This format is not optimal for developer focused documentation.
+
+Historically published schema files and related resources are fragmented across archived web pages, legacy repositories, and direct file links. Some materials are no longer referenced from active web pages and can be difficult to discover without targeted searches or archival tools.
 
 This repository exists to:
 - Convert the existing documentation into **structured Markdown**

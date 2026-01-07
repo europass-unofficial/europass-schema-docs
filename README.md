@@ -18,9 +18,15 @@ This repository exists to:
 - Enable **transparent discussion and clarification** through issues and pull requests
 - Provide a practical reference for developers and institutions working with the schema
 
+## TODO
+
+- Fix broken Mermaid diagrams in the MkDocs site.
+- Considering using the original diagram images as a fallback (Not a good solution, not machine-readable).
+
 ## Contributing
 
 This is a community-maintained project. Feel free to suggest improvements or report issues on GitHub.
+
 
 ## Original Documentation
 
