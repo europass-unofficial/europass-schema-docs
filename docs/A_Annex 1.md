@@ -1,5 +1,3 @@
-## Page 156
-
 # Annex 1. Treatment of Unfulfilled Business Rules
 
 This annex provides that an action be carried out for each Business Rule that is not met:
@@ -66,17 +64,8 @@ This annex provides that an action be carried out for each Business Rule that is
 </tr>
 </tbody>
 </table>
-
----
 <sup>20</sup> There is currently no validation as the list of qualifications is incomplete. The rule may become active only when the ESCO team finalizes the code list.
 
-DG EMPL 2020
-&lt;page_number&gt;Page 156 of 160&lt;/page_number&gt;
-
----
-
-
-## Page 157
 
 <table>
   <tr>
@@ -177,13 +166,6 @@ DG EMPL 2020
   </tr>
 </table>
 
-DG EMPL 2020
-&lt;page_number&gt;Page 157 of 160&lt;/page_number&gt;
-
----
-
-
-## Page 158
 
 <table>
   <tr>
@@ -290,13 +272,6 @@ DG EMPL 2020
   </tr>
 </table>
 
-DG EMPL 2020
-&lt;page_number&gt;Page 158 of 160&lt;/page_number&gt;
-
----
-
-
-## Page 159
 
 <table>
   <tr>
@@ -389,13 +364,6 @@ DG EMPL 2020
   </tr>
 </table>
 
-DG EMPL 2020
-&lt;page_number&gt;Page 159 of 160&lt;/page_number&gt;
-
----
-
-
-## Page 160
 
 <table>
   <tr>
@@ -451,5 +419,3 @@ DG EMPL 2020
   </tr>
 </table>
 
-DG EMPL 2020
-&lt;page_number&gt;Page 160 of 160&lt;/page_number&gt;

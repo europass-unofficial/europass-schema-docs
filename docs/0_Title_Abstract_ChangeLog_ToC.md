@@ -1,5 +1,3 @@
-## Page 1
-
 &lt;img&gt;European Union Flag with wavy lines&lt;/img&gt;
 
 # EUROPEAN COMMISSION
@@ -26,18 +24,15 @@ DG Employment, Social Affairs and Inclusion
   </tr>
 </table>
 
-<footer>DG EMPL 2020</footer>&lt;page_number&gt;Page 1 of 160&lt;/page_number&gt;
-
----
-
-
-## Page 2
 
 &lt;img&gt;europass&lt;/img&gt; Europass2 CV XML Schema Documentation
 
 ## Abstract
 
-The purpose of this document is to describe in detail the Europass Curriculum Vitae (ECV) Data Standard Specification, which is the format used for the exchanges of CVs in Europass e-portfolio, a free web-based tools that foster mobility and employment in the EU. This document defines the structure, the code lists to be used and the Business Rules that apply for each of the elements in the ECV schema.
+The purpose of this document is to describe in detail the Europass Curriculum Vitae (ECV) Data Standard Specification,
+which is the format used for the exchanges of CVs in Europass e-portfolio, a free web-based tools that foster mobility
+and employment in the EU. This document defines the structure, the code lists to be used and the Business Rules that
+apply for each of the elements in the ECV schema.
 
 ## Change log
 
@@ -120,14 +115,8 @@ The purpose of this document is to describe in detail the Europass Curriculum Vi
   </tbody>
 </table>
 
-DG EMPL 2020 &lt;page_number&gt;Page 2 of 160&lt;/page_number&gt;
 
----
-
-
-## Page 3
-
-# Table of Contents
+## Table of Contents
 
 &lt;img&gt;European Union Flag&lt;/img&gt;
 
@@ -287,16 +276,6 @@ DG EMPL 2020 &lt;page_number&gt;Page 2 of 160&lt;/page_number&gt;
     <td>/CandidateProfile/HobbiesAndInterests</td>
     <td>123</td>
   </tr>
-</table>
-
-DG EMPL 2020 &lt;page_number&gt;Page 3 of 160&lt;/page_number&gt;
-
----
-
-
-## Page 4
-
-<table>
   <tr>
     <td>3.27</td>
     <td>/CandidateProfile/CreativeWorks</td>
@@ -368,17 +347,11 @@ DG EMPL 2020 &lt;page_number&gt;Page 3 of 160&lt;/page_number&gt;
   </tr>
 </table>
 
-DG EMPL 2020
-&lt;page_number&gt;Page 4 of 160&lt;/page_number&gt;
 
----
+## Reference and Applicable Documents
 
-
-## Page 5
-
-# Reference and Applicable Documents
-
-The following contents or documents may be relevant for better understanding the project and the contents of this document.
+The following contents or documents may be relevant for better understanding the project and the contents of this
+document.
 
 **REFERENCE DOCUMENTS**
 
@@ -410,15 +383,8 @@ The following contents or documents may be relevant for better understanding the
   </tbody>
 </table>
 
-DG EMPL 2020
-&lt;page_number&gt;Page 5 of 160&lt;/page_number&gt;
 
----
-
-
-## Page 6
-
-# Abbreviations and Acronyms
+## Abbreviations and Acronyms
 
 <table>
   <tr>
@@ -486,10 +452,4 @@ DG EMPL 2020
     <td>eXtended Markup Language</td>
   </tr>
 </table>
-
-DG EMPL 2020
-&lt;page_number&gt;Page 6 of 160&lt;/page_number&gt;
-
----
-
 
