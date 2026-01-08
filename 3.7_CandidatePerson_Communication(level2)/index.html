@@ -1,0 +1,3116 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Unofficial documentation for Europass CV XML Schema v3.0.0">
+      
+      
+        <meta name="author" content="europass-unofficial">
+      
+      
+        <link rel="canonical" href="https://europass-unofficial.github.io/europass-schema-docs/3.7_CandidatePerson_Communication%28level2%29/">
+      
+      
+        <link rel="prev" href="../3.6_CandidatePerson_PersonName%28level2%29/">
+      
+      
+        <link rel="next" href="../3.8_CandidatePerson_Disability%28level2%29/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.1">
+    
+    
+      
+        <title>Communication (level 2) - Europass CV XML Schema Documentation</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#37-candidatepersoncommunication-level-2" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="Europass CV XML Schema Documentation" class="md-header__button md-logo" aria-label="Europass CV XML Schema Documentation" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Europass CV XML Schema Documentation
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Communication (level 2)
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/europass-unofficial/europass-schema-docs" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    europass-unofficial/europass-schema-docs
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../0_Title_Abstract_ChangeLog_ToC/" class="md-tabs__link">
+          
+  
+  
+  Front Matter
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../0.4_ToC/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  ToC
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../3.1_Candidate%28level0%29/" class="md-tabs__link">
+          
+  
+  
+  Europass XML Document Elements
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Europass CV XML Schema Documentation" class="md-nav__button md-logo" aria-label="Europass CV XML Schema Documentation" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Europass CV XML Schema Documentation
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/europass-unofficial/europass-schema-docs" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    europass-unofficial/europass-schema-docs
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Front Matter
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Front Matter
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../0_Title_Abstract_ChangeLog_ToC/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Title & Change Log
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../1_Introduction/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Introduction
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../2_Background/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Background
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../0.4_ToC/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ToC
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Europass XML Document Elements
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Europass XML Document Elements
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../3.1_Candidate%28level0%29/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Candidate (level 0)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../3.2_ProcessingInformation%28level1%29/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Processing Information (level 1)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../3.3_CandidateSupplier%28level1%29/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Candidate Supplier (level 1)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../3.4_CandidateSupplier_PersonContact%28level2%29/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Supplier Person Contact (level 2)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../3.5_CandidatePerson%28level1%29/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Candidate Person (level 1)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../3.6_CandidatePerson_PersonName%28level2%29/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Person Name (level 2)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Communication (level 2)
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Communication (level 2)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#37-candidatepersoncommunication-level-2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.7 /CandidatePerson/Communication (level 2)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3.7 /CandidatePerson/Communication (level 2)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#371-communication-element-description" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.7.1 Communication Element Description
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#372-communication-attributes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.7.2 Communication Attributes
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#373-sub-element-candidatepersoncommunicationcommunicationchoice-level-3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.7.3 Sub-element: /CandidatePerson/Communication/CommunicationChoice (level 3)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#374-sub-element-candidatepersoncommunicationcommunicationchoiceaddress-level-4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.7.4 Sub-element: /CandidatePerson/Communication/CommunicationChoice/Address (level 4)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#375-sub-element-candidatepersoncommunicationcommunicationchoiceaddressaddresschoice-level-5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.7.5 Sub-element: /CandidatePerson/Communication/CommunicationChoice/Address/AddressChoice (level 5)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../3.8_CandidatePerson_Disability%28level2%29/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Disability (level 2)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../3.9_CandidateProfile%28level1%29/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Candidate Profile (level 1)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../3.10_CandidateProfile_PersonAvailability%28level2%29/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Person Availability (level 2)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../3.11_CandidateProfile_EducationHistory%28level2%29/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Education History (level 2)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../3.13_CandidateProfile_ExperienceSummary%28level2%29/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Experience Summary (level 2)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../3.14_CandidateProfile_EmploymentHistory%28level2%29/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Employment History (level 2)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../3.15_CandidateProfile_EmploymentReferences%28level2%29/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Employment References (level 2)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../3.16_CandidateProfile_Certifications%28level2%29/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Certifications (level 2)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../3.17_CandidateProfile_CandidateEmployerPreferences%28level2%29/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Employer Preferences (level 2)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../3.18_CandidateProfile_CandidatePositionPreferences%28level2%29/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Position Preferences (level 2)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../3.19_CandidateProfile_Licenses%28level2%29/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Licenses (level 2)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../3.20_CandidateProfile_MilitaryHistory%28level2%29/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Military History (level 2)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../3.21_CandidateProfile_PatentHistory%28level2%29/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Patent History (level 2)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../3.22_CandidateProfile_PublicationHistory%28level2%29/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Publication History (level 2)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../3.23_CandidateProfile_OrganizationAffiliations%28level2%29/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Organization Affiliations (level 2)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../3.24_CandidateProfile_SpeakingHistory%28level2%29/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Speaking History (level 2)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../3.25_CandidateProfile_Attachment%28level2%29/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Attachments (level 2)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../3.26_CandidateProfile_HobbiesAndInterests/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Hobbies and Interests
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../3.28_CandidateProfile_Projects/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Projects
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../3.29_CandidateProfile_CommunicationAndInterpersonalSkills/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Communication Skills
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../3.30_CandidateProfile_ManagementAndLeadershipSkills/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Leadership Skills
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../3.31_CandidateProfile_OrganisationalSkills/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Organizational Skills
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../3.32_CandidateProfile_DigitalSkills/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Digital Skills
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../3.33_CandidateProfile_NetworksAndMemberships/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Networks and Memberships
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../3.34_CandidateProfile_ConferencesAndSeminars/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Conferences and Seminars
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../3.35_CandidateProfile_SocialAndPoliticalActivities/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Social Activities
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../3.36_CandidateProfile_VoluntaryWorks/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Voluntary Works
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../3.37_CandidateProfile_Others/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Other Skills
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../3.38_Common_DataType_Elements_with_Attributes/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Common DataType Elements with Attributes
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../3.39_Common_Attributes/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Common Attributes
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../A_Annex%201/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Treatment of Unfulfilled Business Rules
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#37-candidatepersoncommunication-level-2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.7 /CandidatePerson/Communication (level 2)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3.7 /CandidatePerson/Communication (level 2)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#371-communication-element-description" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.7.1 Communication Element Description
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#372-communication-attributes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.7.2 Communication Attributes
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#373-sub-element-candidatepersoncommunicationcommunicationchoice-level-3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.7.3 Sub-element: /CandidatePerson/Communication/CommunicationChoice (level 3)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#374-sub-element-candidatepersoncommunicationcommunicationchoiceaddress-level-4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.7.4 Sub-element: /CandidatePerson/Communication/CommunicationChoice/Address (level 4)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#375-sub-element-candidatepersoncommunicationcommunicationchoiceaddressaddresschoice-level-5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.7.5 Sub-element: /CandidatePerson/Communication/CommunicationChoice/Address/AddressChoice (level 5)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+    <a href="https://github.com/europass-unofficial/europass-schema-docs/edit/master/docs/3.7_CandidatePerson_Communication(level2).md" title="Edit this page" class="md-content__button md-icon" rel="edit">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"/></svg>
+    </a>
+  
+  
+
+
+  <h1>Communication (level 2)</h1>
+
+<h2 id="37-candidatepersoncommunication-level-2">3.7 /CandidatePerson/Communication (level 2)<a class="headerlink" href="#37-candidatepersoncommunication-level-2" title="Permanent link">&para;</a></h2>
+<h3 id="371-communication-element-description">3.7.1 Communication Element Description<a class="headerlink" href="#371-communication-element-description" title="Permanent link">&para;</a></h3>
+<pre class="mermaid"><code>graph TD
+subgraph Communication ABIElementType
+A[CommunicationABIElementType]
+B[Attributes]
+C[ChannelCode]
+D[UseCode]
+E[CountryDialling]
+F[oa:AreaDialing]
+G[oa:DialNumber]
+H[Address]
+I[oa:URI]
+
+A --&gt; B
+A --&gt; C
+A --&gt; D
+A --&gt; E
+A --&gt; F
+A --&gt; G
+A --&gt; H
+A --&gt; I
+
+B --&gt; C
+B --&gt; D
+B --&gt; E
+B --&gt; F
+B --&gt; G
+B --&gt; H
+B --&gt; I
+
+C --&gt; D
+C --&gt; E
+C --&gt; F
+C --&gt; G
+C --&gt; H
+C --&gt; I
+
+D --&gt; E
+D --&gt; F
+D --&gt; G
+D --&gt; H
+D --&gt; I
+
+E --&gt; F
+E --&gt; G
+E --&gt; H
+E --&gt; I
+
+F --&gt; G
+F --&gt; H
+F --&gt; I
+
+G --&gt; H
+G --&gt; I
+
+H --&gt; I
+end
+
+style A fill:#fff,stroke:#333,stroke-width:2px
+style B fill:#fff,stroke:#333,stroke-width:2px
+style C fill:#fff,stroke:#333,stroke-width:2px
+style D fill:#fff,stroke:#333,stroke-width:2px
+style E fill:#fff,stroke:#333,stroke-width:2px
+style F fill:#fff,stroke:#333,stroke-width:2px
+style G fill:#fff,stroke:#333,stroke-width:2px
+style H fill:#fff,stroke:#333,stroke-width:2px
+style I fill:#fff,stroke:#333,stroke-width:2px
+
+linkStyle 0 stroke-dasharray: 5 5;
+linkStyle 1 stroke-dasharray: 5 5;
+linkStyle 2 stroke-dasharray: 5 5;
+linkStyle 3 stroke-dasharray: 5 5;
+linkStyle 4 stroke-dasharray: 5 5;
+linkStyle 5 stroke-dasharray: 5 5;
+linkStyle 6 stroke-dasharray: 5 5;
+linkStyle 7 stroke-dasharray: 5 5;
+linkStyle 8 stroke-dasharray: 5 5;
+linkStyle 9 stroke-dasharray: 5 5;
+linkStyle 10 stroke-dasharray: 5 5;
+linkStyle 11 stroke-dasharray: 5 5;
+linkStyle 12 stroke-dasharray: 5 5;
+linkStyle 13 stroke-dasharray: 5 5;
+linkStyle 14 stroke-dasharray: 5 5;
+linkStyle 15 stroke-dasharray: 5 5;
+linkStyle 16 stroke-dasharray: 5 5;
+linkStyle 17 stroke-dasharray: 5 5;
+linkStyle 18 stroke-dasharray: 5 5;
+linkStyle 19 stroke-dasharray: 5 5;
+linkStyle 20 stroke-dasharray: 5 5;
+linkStyle 21 stroke-dasharray: 5 5;
+linkStyle 22 stroke-dasharray: 5 5;
+linkStyle 23 stroke-dasharray: 5 5;
+linkStyle 24 stroke-dasharray: 5 5;
+linkStyle 25 stroke-dasharray: 5 5;
+linkStyle 26 stroke-dasharray: 5 5;
+linkStyle 27 stroke-dasharray: 5 5;
+linkStyle 28 stroke-dasharray: 5 5;
+linkStyle 29 stroke-dasharray: 5 5;
+linkStyle 30 stroke-dasharray: 5 5;
+linkStyle 31 stroke-dasharray: 5 5;
+linkStyle 32 stroke-dasharray: 5 5;
+linkStyle 33 stroke-dasharray: 5 5;
+linkStyle 34 stroke-dasharray: 5 5;
+linkStyle 35 stroke-dasharray: 5 5;
+linkStyle 36 stroke-dasharray: 5 5;
+linkStyle 37 stroke-dasharray: 5 5;
+linkStyle 38 stroke-dasharray: 5 5;
+linkStyle 39 stroke-dasharray: 5 5;
+linkStyle 40 stroke-dasharray: 5 5;
+linkStyle 41 stroke-dasharray: 5 5;
+linkStyle 42 stroke-dasharray: 5 5;
+linkStyle 43 stroke-dasharray: 5 5;
+linkStyle 44 stroke-dasharray: 5 5;
+linkStyle 45 stroke-dasharray: 5 5;
+linkStyle 46 stroke-dasharray: 5 5;
+linkStyle 47 stroke-dasharray: 5 5;
+linkStyle 48 stroke-dasharray: 5 5;
+linkStyle 49 stroke-dasharray: 5 5;
+linkStyle 50 stroke-dasharray: 5 5;
+linkStyle 51 stroke-dasharray: 5 5;
+linkStyle 52 stroke-dasharray: 5 5;
+linkStyle 53 stroke-dasharray: 5 5;
+linkStyle 54 stroke-dasharray: 5 5;
+linkStyle 55 stroke-dasharray: 5 5;
+linkStyle 56 stroke-dasharray: 5 5;
+linkStyle 57 stroke-dasharray: 5 5;
+linkStyle 58 stroke-dasharray: 5 5;
+linkStyle 59 stroke-dasharray: 5 5;
+linkStyle 60 stroke-dasharray: 5 5;
+linkStyle 61 stroke-dasharray: 5 5;
+linkStyle 62 stroke-dasharray: 5 5;
+linkStyle 63 stroke-dasharray: 5 5;
+linkStyle 64 stroke-dasharray: 5 5;
+linkStyle 65 stroke-dasharray: 5 5;
+linkStyle 66 stroke-dasharray: 5 5;
+linkStyle 67 stroke-dasharray: 5 5;
+linkStyle 68 stroke-dasharray: 5 5;
+linkStyle 69 stroke-dasharray: 5 5;
+linkStyle 70 stroke-dasharray: 5 5;
+linkStyle 71 stroke-dasharray: 5 5;
+linkStyle 72 stroke-dasharray: 5 5;
+linkStyle 73 stroke-dasharray: 5 5;
+linkStyle 74 stroke-dasharray: 5 5;
+linkStyle 75 stroke-dasharray: 5 5;
+linkStyle 76 stroke-dasharray: 5 5;
+linkStyle 77 stroke-dasharray: 5 5;
+linkStyle 78 stroke-dasharray: 5 5;
+linkStyle 79 stroke-dasharray: 5 5;
+linkStyle 80 stroke-dasharray: 5 5;
+linkStyle 81 stroke-dasharray: 5 5;
+linkStyle 82 stroke-dasharray: 5 5;
+linkStyle 83 stroke-dasharray: 5 5;
+linkStyle 84 stroke-dasharray: 5 5;
+linkStyle 85 stroke-dasharray: 5 5;
+linkStyle 86 stroke-dasharray: 5 5;
+linkStyle 87 stroke-dasharray: 5 5;
+linkStyle 88 stroke-dasharray: 5 5;
+linkStyle 89 stroke-dasharray: 5 5;
+linkStyle 90 stroke-dasharray: 5 5;
+linkStyle 91 stroke-dasharray: 5 5;
+linkStyle 92 stroke-dasharray: 5 5;
+linkStyle 93 stroke-dasharray: 5 5;
+linkStyle 94 stroke-dasharray: 5 5;
+linkStyle 95 stroke-dasharray: 5 5;
+linkStyle 96 stroke-dasharray: 5 5;
+linkStyle 97 stroke-dasharray: 5 5;
+linkStyle 98 stroke-dasharray: 5 5;
+linkStyle 99 stroke-dasharray: 5 5;
+linkStyle 100 stroke-dasharray: 5 5;
+linkStyle 101 stroke-dasharray: 5 5;
+linkStyle 102 stroke-dasharray: 5 5;
+linkStyle 103 stroke-dasharray: 5 5;
+linkStyle 104 stroke-dasharray: 5 5;
+linkStyle 105 stroke-dasharray: 5 5;
+linkStyle 106 stroke-dasharray: 5 5;
+linkStyle 107 stroke-dasharray: 5 5;
+linkStyle 108 stroke-dasharray: 5 5;
+linkStyle 109 stroke-dasharray: 5 5;
+linkStyle 110 stroke-dasharray: 5 5;
+linkStyle 111 stroke-dasharray: 5 5;
+linkStyle 112 stroke-dasharray: 5 5;
+linkStyle 113 stroke-dasharray: 5 5;
+linkStyle 114 stroke-dasharray: 5 5;
+linkStyle 115 stroke-dasharray: 5 5;
+linkStyle 116 stroke-dasharray: 5 5;
+linkStyle 117 stroke-dasharray: 5 5;
+linkStyle 118 stroke-dasharray: 5 5;
+linkStyle 119 stroke-dasharray: 5 5;
+linkStyle 120 stroke-dasharray: 5 5;
+linkStyle 121 stroke-dasharray: 5 5;
+linkStyle 122 stroke-dasharray: 5 5;
+linkStyle 123 stroke-dasharray: 5 5;
+linkStyle 124 stroke-dasharray: 5 5;
+linkStyle 125 stroke-dasharray: 5 5;
+linkStyle 126 stroke-dasharray: 5 5;
+linkStyle 127 stroke-dasharray: 5 5;
+linkStyle 128 stroke-dasharray: 5 5;
+linkStyle 129 stroke-dasharray: 5 5;
+linkStyle 130 stroke-dasharray: 5 5;
+linkStyle 131 stroke-dasharray: 5 5;
+linkStyle 132 stroke-dasharray: 5 5;
+linkStyle 133 stroke-dasharray: 5 5;
+linkStyle 134 stroke-dasharray: 5 5;
+linkStyle 135 stroke-dasharray: 5 5;
+linkStyle 136 stroke-dasharray: 5 5;
+linkStyle 137 stroke-dasharray: 5 5;
+linkStyle 138 stroke-dasharray: 5 5;
+linkStyle 139 stroke-dasharray: 5 5;
+linkStyle 140 stroke-dasharray: 5 5;
+linkStyle 141 stroke-dasharray: 5 5;
+linkStyle 142 stroke-dasharray: 5 5;
+linkStyle 143 stroke-dasharray: 5 5;
+linkStyle 144 stroke-dasharray: 5 5;
+linkStyle 145 stroke-dasharray: 5 5;
+linkStyle 146 stroke-dasharray: 5 5;
+linkStyle 147 stroke-dasharray: 5 5;
+linkStyle 148 stroke-dasharray: 5 5;
+linkStyle 149 stroke-dasharray: 5 5;
+linkStyle 150 stroke-dasharray: 5 5;
+linkStyle 151 stroke-dasharray: 5 5;
+linkStyle 152 stroke-dasharray: 5 5;
+linkStyle 153 stroke-dasharray: 5 5;
+linkStyle 154 stroke-dasharray: 5 5;
+linkStyle 155 stroke-dasharray: 5 5;
+linkStyle 156 stroke-dasharray: 5 5;
+linkStyle 157 stroke-dasharray: 5 5;
+linkStyle 158 stroke-dasharray: 5 5;
+linkStyle 159 stroke-dasharray: 5 5;
+linkStyle 160 stroke-dasharray: 5 5;
+linkStyle 161 stroke-dasharray: 5 5;
+linkStyle 162 stroke-dasharray: 5 5;
+linkStyle 163 stroke-dasharray: 5 5;
+linkStyle 164 stroke-dasharray: 5 5;
+linkStyle 165 stroke-dasharray: 5 5;
+linkStyle 166 stroke-dasharray: 5 5;
+linkStyle 167 stroke-dasharray: 5 5;
+linkStyle 168 stroke-dasharray: 5 5;
+linkStyle 169 stroke-dasharray: 5 5;
+linkStyle 170 stroke-dasharray: 5 5;
+linkStyle 171 stroke-dasharray: 5 5;
+linkStyle 172 stroke-dasharray: 5 5;
+linkStyle 173 stroke-dasharray: 5 5;
+linkStyle 174 stroke-dasharray: 5 5;
+linkStyle 175 stroke-dasharray: 5 5;
+linkStyle 176 stroke-dasharray: 5 5;
+linkStyle 177 stroke-dasharray: 5 5;
+linkStyle 178 stroke-dasharray: 5 5;
+linkStyle 179 stroke-dasharray: 5 5;
+linkStyle 180 stroke-dasharray: 5 5;
+linkStyle 181 stroke-dasharray: 5 5;
+linkStyle 182 stroke-dasharray: 5 5;
+linkStyle 183 stroke-dasharray: 5 5;
+linkStyle 184 stroke-dasharray: 5 5;
+linkStyle 185 stroke-dasharray: 5 5;
+linkStyle 186 stroke-dasharray: 5 5;
+linkStyle 187 stroke-dasharray: 5 5;
+linkStyle 188 stroke-dasharray: 5 5;
+linkStyle 189 stroke-dasharray: 5 5;
+linkStyle 190 stroke-dasharray: 5 5;
+linkStyle 191 stroke-dasharray: 5 5;
+linkStyle 192 stroke-dasharray: 5 5;
+linkStyle 193 stroke-dasharray: 5 5;
+linkStyle 194 stroke-dasharray: 5 5;
+linkStyle 195 stroke-dasharray: 5 5;
+linkStyle 196 stroke-dasharray: 5 5;
+linkStyle 197 stroke-dasharray: 5 5;
+linkStyle 198 stroke-dasharray: 5 5;
+linkStyle 199 stroke-dasharray: 5 5;
+linkStyle 200 stroke-dasharray: 5 5;
+linkStyle 201 stroke-dasharray: 5 5;
+linkStyle 202 stroke-dasharray: 5 5;
+linkStyle 203 stroke-dasharray: 5 5;
+linkStyle 204 stroke-dasharray: 5 5;
+linkStyle 205 stroke-dasharray: 5 5;
+linkStyle 206 stroke-dasharray: 5 5;
+linkStyle 207 stroke-dasharray: 5 5;
+linkStyle 208 stroke-dasharray: 5 5;
+linkStyle 209 stroke-dasharray: 5 5;
+linkStyle 210 stroke-dasharray: 5 5;
+linkStyle 211 stroke-dasharray: 5 5;
+linkStyle 212 stroke-dasharray: 5 5;
+linkStyle 213 stroke-dasharray: 5 5;
+linkStyle 214 stroke-dasharray: 5 5;
+linkStyle 215 stroke-dasharray: 5 5;
+linkStyle 216 stroke-dasharray: 5 5;
+linkStyle 217 stroke-dasharray: 5 5;
+linkStyle 218 stroke-dasharray: 5 5;
+linkStyle 219 stroke-dasharray: 5 5;
+linkStyle 220 stroke-dasharray: 5 5;
+linkStyle 221 stroke-dasharray: 5 5;
+linkStyle 222 stroke-dasharray: 5 5;
+linkStyle 223 stroke-dasharray: 5 5;
+linkStyle 224 stroke-dasharray: 5 5;
+linkStyle 225 stroke-dasharray: 5 5;
+linkStyle 226 stroke-dasharray: 5 5;
+linkStyle 227 stroke-dasharray: 5 5;
+linkStyle 228 stroke-dasharray: 5 5;
+linkStyle 229 stroke-dasharray: 5 5;
+linkStyle 230 stroke-dasharray: 5 5;
+linkStyle 231 stroke-dasharray: 5 5;
+linkStyle 232 stroke-dasharray: 5 5;
+linkStyle 233 stroke-dasharray: 5 5;
+linkStyle 234 stroke-dasharray: 5 5;
+linkStyle 235 stroke-dasharray: 5 5;
+linkStyle 236 stroke-dasharray: 5 5;
+linkStyle 237 stroke-dasharray: 5 5;
+linkStyle 238 stroke-dasharray: 5 5;
+linkStyle 239 stroke-dasharray: 5 5;
+linkStyle 240 stroke-dasharray: 5 5;
+linkStyle 241 stroke-dasharray: 5 5;
+linkStyle 242 stroke-dasharray: 5 5;
+linkStyle 243 stroke-dasharray: 5 5;
+linkStyle 244 stroke-dasharray: 5 5;
+linkStyle 245 stroke-dasharray: 5 5;
+linkStyle 246 stroke-dasharray: 5 5;
+linkStyle 247 stroke-dasharray: 5 5;
+linkStyle 248 stroke-dasharray: 5 5;
+linkStyle 249 stroke-dasharray: 5 5;
+linkStyle 250 stroke-dasharray: 5 5;
+linkStyle 251 stroke-dasharray: 5 5;
+linkStyle 252 stroke-dasharray: 5 5;
+linkStyle 253 stroke-dasharray: 5 5;
+linkStyle 254 stroke-dasharray: 5 5;
+linkStyle 255 stroke-dasharray: 5 5;
+linkStyle 256 stroke-dasharray: 5 5;
+linkStyle 257 stroke-dasharray: 5 5;
+linkStyle 258 stroke-dasharray: 5 5;
+linkStyle 259 stroke-dasharray: 5 5;
+linkStyle 260 stroke-dasharray: 5 5;
+linkStyle 261 stroke-dasharray: 5 5;
+linkStyle 262 stroke-dasharray: 5 5;
+linkStyle 263 stroke-dasharray: 5 5;
+linkStyle 264 stroke-dasharray: 5 5;
+linkStyle 265 stroke-dasharray: 5 5;
+linkStyle 266 stroke-dasharray: 5 5;
+linkStyle 267 stroke-dasharray: 5 5;
+linkStyle 268 stroke-dasharray: 5 5;
+linkStyle 269 stroke-dasharray: 5 5;
+linkStyle 270 stroke-dasharray: 5 5;
+linkStyle 271 stroke-dasharray: 5 5;
+linkStyle 272 stroke-dasharray: 5 5;
+linkStyle 273 stroke-dasharray: 5 5;
+linkStyle 274 stroke-dasharray: 5 5;
+linkStyle 275 stroke-dasharray: 5 5;
+linkStyle 276 stroke-dasharray: 5 5;
+linkStyle 277 stroke-dasharray: 5 5;
+linkStyle 278 stroke-dasharray: 5 5;
+linkStyle 279 stroke-dasharray: 5 5;
+linkStyle 280 stroke-dasharray: 5 5;
+linkStyle 281 stroke-dasharray: 5 5;
+linkStyle 282 stroke-dasharray: 5 5;
+linkStyle 283 stroke-dasharray: 5 5;
+linkStyle 284 stroke-dasharray: 5 5;
+linkStyle 285 stroke-dasharray: 5 5;
+linkStyle 286 stroke-dasharray: 5 5;
+linkStyle 287 stroke-dasharray: 5 5;
+linkStyle 288 stroke-dasharray: 5 5;
+linkStyle 289 stroke-dasharray: 5 5;
+linkStyle 290 stroke-dasharray: 5 5;
+linkStyle 291 stroke-dasharray: 5 5;
+linkStyle 292 stroke-dasharray: 5 5;
+linkStyle 293 stroke-dasharray: 5 5;
+linkStyle 294 stroke-dasharray: 5 5;
+linkStyle 295 stroke-dasharray: 5 5;
+linkStyle 296 stroke-dasharray: 5 5;
+linkStyle 297 stroke-dasharray: 5 5;
+linkStyle 298 stroke-dasharray: 5 5;
+linkStyle 299 stroke-dasharray: 5 5;
+linkStyle 300 stroke-dasharray: 5 5;
+linkStyle 301 stroke-dasharray: 5 5;
+linkStyle 302 stroke-dasharray: 5 5;
+linkStyle 303 stroke-dasharray: 5 5;
+linkStyle 304 stroke-dasharray: 5 5;
+linkStyle 305 stroke-dasharray: 5 5;
+linkStyle 306 stroke-dasharray: 5 5;
+linkStyle 307 stroke-dasharray: 5 5;
+linkStyle 308 stroke-dasharray: 5 5;
+linkStyle 309 stroke-dasharray: 5 5;
+linkStyle 310 stroke-dasharray: 5 5;
+linkStyle 311 stroke-dasharray: 5 5;
+linkStyle 312 stroke-dasharray: 5 5;
+linkStyle 313 stroke-dasharray: 5 5;
+linkStyle 314 stroke-dasharray: 5 5;
+linkStyle 315 stroke-dasharray: 5 5;
+linkStyle 316 stroke-dasharray: 5 5;
+linkStyle 317 stroke-dasharray: 5 5;
+linkStyle 318 stroke-dasharray: 5 5;
+linkStyle 319 stroke-dasharray: 5 5;
+linkStyle 320 stroke-dasharray: 5 5;
+linkStyle 321 stroke-dasharray: 5 5;
+linkStyle 322 stroke-dasharray: 5 5;
+linkStyle 323 stroke-dasharray: 5 5;
+linkStyle 324 stroke-dasharray: 5 5;
+linkStyle 325 stroke-dasharray: 5 5;
+linkStyle 326 stroke-dasharray: 5 5;
+linkStyle 327 stroke-dasharray: 5 5;
+linkStyle 328 stroke-dasharray: 5 5;
+linkStyle 329 stroke-dasharray: 5 5;
+linkStyle 330 stroke-dasharray: 5 5;
+linkStyle 331 stroke-dasharray: 5 5;
+linkStyle 332 stroke-dasharray: 5 5;
+linkStyle 333 stroke-dasharray: 5 5;
+linkStyle 334 stroke-dasharray: 5 5;
+linkStyle 335 stroke-dasharray: 5 5;
+linkStyle 336 stroke-dasharray: 5 5;
+linkStyle 337 stroke-dasharray: 5 5;
+linkStyle 338 stroke-dasharray: 5 5;
+linkStyle 339 stroke-dasharray: 5 5;
+linkStyle 340 stroke-dasharray: 5 5;
+linkStyle 341 stroke-dasharray: 5 5;
+linkStyle 342 stroke-dasharray: 5 5;
+linkStyle 343 stroke-dasharray: 5 5;
+linkStyle 344 stroke-dasharray: 5 5;
+linkStyle 345 stroke-dasharray: 5 5;
+linkStyle 346 stroke-dasharray: 5 5;
+linkStyle 347 stroke-dasharray: 5 5;
+linkStyle 348 stroke-dasharray: 5 5;
+linkStyle 349 stroke-dasharray: 5 5;
+linkStyle 350 stroke-dasharray: 5 5;
+linkStyle 351 stroke-dasharray: 5 5;
+linkStyle 352 stroke-dasharray: 5 5;
+linkStyle 353 stroke-dasharray: 5 5;
+linkStyle 354 stroke-dasharray: 5 5;
+linkStyle 355 stroke-dasharray: 5 5;
+linkStyle 356 stroke-dasharray: 5 5;
+linkStyle 357 stroke-dasharray: 5 5;
+linkStyle 358 stroke-dasharray: 5 5;
+linkStyle 359 stroke-dasharray: 5 5;
+linkStyle 360 stroke-dasharray: 5 5;
+linkStyle 361 stroke-dasharray: 5 5;
+linkStyle 362 stroke-dasharray: 5 5;
+linkStyle 363 stroke-dasharray: 5 5;
+linkStyle 364 stroke-dasharray: 5 5;
+linkStyle 365 stroke-dasharray: 5 5;
+linkStyle 366 stroke-dasharray: 5 5;
+linkStyle 367 stroke-dasharray: 5 5;
+linkStyle 368 stroke-dasharray: 5 5;
+linkStyle 369 stroke-dasharray: 5 5;
+linkStyle 370 stroke-dasharray: 5 5;
+linkStyle 371 stroke-dasharray: 5 5;
+linkStyle 372 stroke-dasharray: 5 5;
+linkStyle 373 stroke-dasharray: 5 5;
+linkStyle 374 stroke-dasharray: 5 5;
+linkStyle 375 stroke-dasharray: 5 5;
+linkStyle 376 stroke-dasharray: 5 5;
+linkStyle 377 stroke-dasharray: 5 5;
+linkStyle 378 stroke-dasharray: 5 5;
+linkStyle 379 stroke-dasharray: 5 5;
+linkStyle 380 stroke-dasharray: 5 5;
+linkStyle 381 stroke-dasharray: 5 5;
+linkStyle 382 stroke-dasharray: 5 5;
+linkStyle 383 stroke-dasharray: 5 5;
+linkStyle 384 stroke-dasharray: 5 5;
+linkStyle 385 stroke-dasharray: 5 5;
+linkStyle 386 stroke-dasharray: 5 5;
+linkStyle 387 stroke-dasharray: 5 5;
+linkStyle 388 stroke-dasharray: 5 5;
+linkStyle 389 stroke-dasharray: 5 5;
+linkStyle 390 stroke-dasharray: 5 5;
+linkStyle 391 stroke-dasharray: 5 5;
+linkStyle 392 stroke-dasharray: 5 5;
+linkStyle 393 stroke-dasharray: 5 5;
+linkStyle 394 stroke-dasharray: 5 5;
+linkStyle 395 stroke-dasharray: 5 5;
+linkStyle 396 stroke-dasharray: 5 5;
+linkStyle 397 stroke-dasharray: 5 5;
+linkStyle 398 stroke-dasharray: 5 5;
+linkStyle 399 stroke-dasharray: 5 5;
+linkStyle 400 stroke-dasharray: 5 5;
+linkStyle 401 stroke-dasharray: 5 5;
+linkStyle 402 stroke-dasharray: 5 5;
+linkStyle 403 stroke-dasharray: 5 5;
+linkStyle 404 stroke-dasharray: 5 5;
+linkStyle 405 stroke-dasharray: 5 5;
+linkStyle 406 stroke-dasharray: 5 5;
+linkStyle 407 stroke-dasharray: 5 5;
+linkStyle 408 stroke-dasharray: 5 5;
+linkStyle 409 stroke-dasharray: 5 5;
+linkStyle 410 stroke-dasharray: 5 5;
+linkStyle 411 stroke-dasharray: 5 5;
+linkStyle 412 stroke-dasharray: 5 5;
+linkStyle 413 stroke-dasharray: 5 5;
+linkStyle 414 stroke-dasharray: 5 5;
+linkStyle 415 stroke-dasharray: 5 5;
+linkStyle 416 stroke-dasharray: 5 5;
+linkStyle 417 stroke-dasharray: 5 5;
+linkStyle 418 stroke-dasharray: 5 5;
+linkStyle 419 stroke-dasharray: 5 5;
+linkStyle 420 stroke-dasharray: 5 5;
+linkStyle 421 stroke-dasharray: 5 5;
+linkStyle 422 stroke-dasharray: 5 5;
+linkStyle 423 stroke-dasharray: 5 5;
+linkStyle 424 stroke-dasharray: 5 5;
+linkStyle 425 stroke-dasharray: 5 5;
+linkStyle 426 stroke-dasharray: 5 5;
+linkStyle 427 stroke-dasharray: 5 5;
+linkStyle 428 stroke-dasharray: 5 5;
+linkStyle 429 stroke-dasharray: 5 5;
+linkStyle 430 stroke-dasharray: 5 5;
+linkStyle 431 stroke-dasharray: 5 5;
+linkStyle 432 stroke-dasharray: 5 5;
+linkStyle 433 stroke-dasharray: 5 5;
+linkStyle 434 stroke-dasharray: 5 5;
+linkStyle 435 stroke-dasharray: 5 5;
+linkStyle 436 stroke-dasharray: 5 5;
+linkStyle 437 stroke-dasharray: 5 5;
+linkStyle 438 stroke-dasharray: 5 5;
+linkStyle 439 stroke-dasharray: 5 5;
+linkStyle 440 stroke-dasharray: 5 5;
+linkStyle 441 stroke-dasharray: 5 5;
+linkStyle 442 stroke-dasharray: 5 5;
+linkStyle 443 stroke-dasharray: 5 5;
+linkStyle 444 stroke-dasharray: 5 5;
+linkStyle 445 stroke-dasharray: 5 5;
+linkStyle 446 stroke-dasharray: 5 5;
+linkStyle 447 stroke-dasharray: 5 5;
+linkStyle 448 stroke-dasharray: 5 5;
+linkStyle 449 stroke-dasharray: 5 5;
+linkStyle 450 stroke-dasharray: 5 5;
+linkStyle 451 stroke-dasharray: 5 5;
+linkStyle 452 stroke-dasharray: 5 5;
+linkStyle 453 stroke-dasharray: 5 5;
+linkStyle 454 stroke-dasharray: 5 5;
+linkStyle 455 stroke-dasharray: 5 5;
+linkStyle 456 stroke-dasharray: 5 5;
+linkStyle 457 stroke-dasharray: 5 5;
+linkStyle 458 stroke-dasharray: 5 5;
+linkStyle 459 stroke-dasharray: 5 5;
+linkStyle 460 stroke-dasharray: 5 5;
+linkStyle 461 stroke-dasharray: 5 5;
+linkStyle 462 stroke-dasharray: 5 5;
+linkStyle 463 stroke-dasharray: 5 5;
+linkStyle 464 stroke-dasharray: 5 5;
+linkStyle 465 stroke-dasharray: 5 5;
+linkStyle 466 stroke-dasharray: 5 5;
+linkStyle 467 stroke-dasharray: 5 5;
+linkStyle 468 stroke-dasharray: 5 5;
+linkStyle 469 stroke-dasharray: 5 5;
+linkStyle 470 stroke-dasharray: 5 5;
+linkStyle 471 stroke-dasharray: 5 5;
+linkStyle 472 stroke-dasharray: 5 5;
+linkStyle 473 stroke-dasharray: 5 5;
+linkStyle 474 stroke-dasharray: 5 5;
+linkStyle 475 stroke-dasharray: 5 5;
+linkStyle 476 stroke-dasharray: 5 5;
+linkStyle 477 stroke-dasharray: 5 5;
+linkStyle 478 stroke-dasharray: 5 5;
+linkStyle 479 stroke-dasharray: 5 5;
+linkStyle 480 stroke-dasharray: 5 5;
+linkStyle 481 stroke-dasharray: 5 5;
+linkStyle 482 stroke-dasharray: 5 5;
+linkStyle 483 stroke-dasharray: 5 5;
+linkStyle 484 stroke-dasharray: 5 5;
+linkStyle 485 stroke-dasharray: 5 5;
+linkStyle 486 stroke-dasharray: 5 5;
+linkStyle 487 stroke-dasharray: 5 5;
+linkStyle 488 stroke-dasharray: 5 5;
+linkStyle 489 stroke-dasharray: 5 5;
+linkStyle 490 stroke-dasharray: 5 5;
+linkStyle 491 stroke-dasharray: 5 5;
+linkStyle 492 stroke-dasharray: 5 5;
+linkStyle 493 stroke-dasharray: 5 5;
+linkStyle 494 stroke-dasharray: 5 5;
+linkStyle 495 stroke-dasharray: 5 5;
+linkStyle 496 stroke-dasharray: 5 5;
+linkStyle 497 stroke-dasharray: 5 5;
+linkStyle 498 stroke-dasharray: 5 5;
+linkStyle 499 stroke-dasharray: 5 5;
+linkStyle 500 stroke-dasharray: 5 5;
+linkStyle 501 stroke-dasharray: 5 5;
+linkStyle 502 stroke-dasharray: 5 5;
+linkStyle 503 stroke-dasharray: 5 5;
+linkStyle 504 stroke-dasharray: 5 5;
+linkStyle 505 stroke-dasharray: 5 5;
+linkStyle 506 stroke-dasharray: 5 5;
+linkStyle 507 stroke-dasharray: 5 5;
+linkStyle 508 stroke-dasharray: 5 5;
+linkStyle 509 stroke-dasharray: 5 5;
+linkStyle 510 stroke-dasharray: 5 5;
+linkStyle 511 stroke-dasharray: 5 5;
+linkStyle 512 stroke-dasharray: 5 5;
+linkStyle 513 stroke-dasharray: 5 5;
+linkStyle 514 stroke-dasharray: 5 5;
+linkStyle 515 stroke-dasharray: 5 5;
+linkStyle 516 stroke-dasharray: 5 5;
+linkStyle 517 stroke-dasharray: 5 5;
+linkStyle 518 stroke-dasharray: 5 5;
+linkStyle 519 stroke-dasharray: 5 5;
+linkStyle 520 stroke-dasharray: 5 5;
+linkStyle 521 stroke-dasharray: 5 5;
+linkStyle 522 stroke-dasharray: 5 5;
+linkStyle 523 stroke-dasharray: 5 5;
+linkStyle 524 stroke-dasharray: 5 5;
+linkStyle 525 stroke-dasharray: 5 5;
+linkStyle 526 stroke-dasharray: 5 5;
+linkStyle 527 stroke-dasharray: 5 5;
+linkStyle 528 stroke-dasharray: 5 5;
+linkStyle 529 stroke-dasharray: 5 5;
+linkStyle 530 stroke-dasharray: 5 5;
+linkStyle 531 stroke-dasharray: 5 5;
+linkStyle 532 stroke-dasharray: 5 5;
+linkStyle 533 stroke-dasharray: 5 5;
+linkStyle 534 stroke-dasharray: 5 5;
+linkStyle 535 stroke-dasharray: 5 5;
+linkStyle 536 stroke-dasharray: 5 5;
+linkStyle 537 stroke-dasharray: 5 5;
+linkStyle 538 stroke-dasharray: 5 5;
+linkStyle 539 stroke-dasharray: 5 5;
+linkStyle 540 stroke-dasharray: 5 5;
+linkStyle 541 stroke-dasharray: 5 5;
+linkStyle 542 stroke-dasharray: 5 5;
+linkStyle 543 stroke-dasharray: 5 5;
+linkStyle 544 stroke-dasharray: 5 5;
+linkStyle 545 stroke-dasharray: 5 5;
+linkStyle 546 stroke-dasharray: 5 5;
+linkStyle 547 stroke-dasharray: 5 5;
+linkStyle 548 stroke-dasharray: 5 5;
+linkStyle 549 stroke-dasharray: 5 5;
+linkStyle 550 stroke-dasharray: 5 5;
+linkStyle 551 stroke-dasharray: 5 5;
+linkStyle 552 stroke-dasharray: 5 5;
+linkStyle 553 stroke-dasharray: 5 5;
+linkStyle 554 stroke-dasharray: 5 5;
+linkStyle 555 stroke-dasharray: 5 5;
+linkStyle 556 stroke-dasharray: 5 5;
+linkStyle 557 stroke-dasharray: 5 5;
+linkStyle 558 stroke-dasharray: 5 5;
+linkStyle 559 stroke-dasharray: 5 5;
+linkStyle 560 stroke-dasharray: 5 5;
+linkStyle 561 stroke-dasharray: 5 5;
+linkStyle 562 stroke-dasharray: 5 5;
+linkStyle 563 stroke-dasharray: 5 5;
+linkStyle 564 stroke-dasharray: 5 5;
+linkStyle 565 stroke-dasharray: 5 5;
+linkStyle 566 stroke-dasharray: 5 5;
+linkStyle 567 stroke-dasharray: 5 5;
+linkStyle 568 stroke-dasharray: 5 5;
+linkStyle 569 stroke-dasharray: 5 5;
+linkStyle 570 stroke-dasharray: 5 5;
+linkStyle 571 stroke-dasharray: 5 5;
+linkStyle 572 stroke-dasharray: 5 5;
+linkStyle 573 stroke-dasharray: 5 5;
+linkStyle 574 stroke-dasharray: 5 5;
+linkStyle 575 stroke-dasharray: 5 5;
+linkStyle 576 stroke-dasharray: 5 5;
+linkStyle 577 stroke-dasharray: 5 5;
+linkStyle 578 stroke-dasharray: 5 5;
+linkStyle 579 stroke-dasharray: 5 5;
+linkStyle 580 stroke-dasharray: 5 5;
+linkStyle 581 stroke-dasharray: 5 5;
+linkStyle 582 stroke-dasharray: 5 5;
+linkStyle 583 stroke-dasharray: 5 5;
+linkStyle 584 stroke-dasharray: 5 5;
+linkStyle 585 stroke-dasharray: 5 5;
+linkStyle 586 stroke-dasharray: 5 5;
+linkStyle 587 stroke-dasharray: 5 5;
+linkStyle 588 stroke-dasharray: 5 5;
+linkStyle 589 stroke-dasharray: 5 5;
+linkStyle 590 stroke-dasharray: 5 5;
+linkStyle 591 stroke-dasharray: 5 5;
+linkStyle 592 stroke-dasharray: 5 5;
+linkStyle 593 stroke-dasharray: 5 5;
+linkStyle 594 stroke-dasharray: 5 5;
+linkStyle 595 stroke-dasharray: 5 5;
+linkStyle 596 stroke-dasharray: 5 5;
+linkStyle 597 stroke-dasharray: 5 5;
+linkStyle 598 stroke-dasharray: 5 5;
+linkStyle 599 stroke-dasharray: 5 5;
+linkStyle 600 stroke-dasharray: 5 5;
+linkStyle 601 stroke-dasharray: 5 5;
+linkStyle 602 stroke-dasharray: 5 5;
+linkStyle 603 stroke-dasharray: 5 5;
+linkStyle 604 stroke-dasharray: 5 5;
+linkStyle 605 stroke-dasharray: 5 5;
+linkStyle 606 stroke-dasharray: 5 5;
+linkStyle 607 stroke-dasharray: 5 5;
+linkStyle 608 stroke-dasharray: 5 5;
+linkStyle 609 stroke-dasharray: 5 5;
+linkStyle 610 stroke-dasharray: 5 5;
+linkStyle 611 stroke-dasharray: 5 5;
+linkStyle 612 stroke-dasharray: 5 5;
+linkStyle 613 stroke-dasharray: 5 5;
+linkStyle 614 stroke-dasharray: 5 5;
+linkStyle 615 stroke-dasharray: 5 5;
+linkStyle 616 stroke-dasharray: 5 5;
+linkStyle 617 stroke-dasharray: 5 5;
+linkStyle 618 stroke-dasharray: 5 5;
+linkStyle 619 stroke-dasharray: 5 5;
+linkStyle 620 stroke-dasharray: 5 5;
+linkStyle 621 stroke-dasharray: 5 5;
+linkStyle 622 stroke-dasharray: 5 5;
+linkStyle 623 stroke-dasharray: 5 5;
+linkStyle 624 stroke-dasharray: 5 5;
+linkStyle 625 stroke-dasharray: 5 5;
+linkStyle 626 stroke-dasharray: 5 5;
+linkStyle 627 stroke-dasharray: 5 5;
+linkStyle 628 stroke-dasharray: 5 5;
+linkStyle 629 stroke-dasharray: 5 5;
+linkStyle 630 stroke-dasharray: 5 5;
+linkStyle 631 stroke-dasharray: 5 5;
+linkStyle 632 stroke-dasharray: 5 5;
+linkStyle 633 stroke-dasharray: 5 5;
+linkStyle 634 stroke-dasharray: 5 5;
+linkStyle 635 stroke-dasharray: 5 5;
+linkStyle 636 stroke-dasharray: 5 5;
+linkStyle 637 stroke-dasharray: 5 5;
+linkStyle 638 stroke-dasharray: 5 5;
+linkStyle 639 stroke-dasharray: 5 5;
+linkStyle 640 stroke-dasharray: 5 5;
+linkStyle 641 stroke-dasharray: 5 5;
+linkStyle 642 stroke-dasharray: 5 5;
+linkStyle 643 stroke-dasharray: 5 5;
+linkStyle 644 stroke-dasharray: 5 5;
+linkStyle 645 stroke-dasharray: 5 5;
+linkStyle 646 stroke-dasharray: 5 5;
+linkStyle 647 stroke-dasharray: 5 5;
+linkStyle 648 stroke-dasharray: 5 5;
+linkStyle 649 stroke-dasharray: 5 5;
+linkStyle 650 stroke-dasharray: 5 5;
+linkStyle 651 stroke-dasharray: 5 5;
+linkStyle 652 stroke-dasharray: 5 5;
+linkStyle 653 stroke-dasharray: 5 5;
+linkStyle 654 stroke-dasharray: 5 5;
+linkStyle 655 stroke-dasharray: 5 5;
+linkStyle 656 stroke-dasharray: 5 5;
+linkStyle 657 stroke-dasharray: 5 5;
+linkStyle 658 stroke-dasharray: 5 5;
+linkStyle 659 stroke-dasharray: 5 5;
+linkStyle 660 stroke-dasharray: 5 5;
+linkStyle 661 stroke-dasharray: 5 5;
+linkStyle 662 stroke-dasharray: 5 5;
+linkStyle 663 stroke-dasharray: 5 5;
+linkStyle 664 stroke-dasharray: 5 5;
+linkStyle 665 stroke-dasharray: 5 5;
+linkStyle 666 stroke-dasharray: 5 5;
+linkStyle 667 stroke-dasharray: 5 5;
+linkStyle 668 stroke-dasharray: 5 5;
+linkStyle 669 stroke-dasharray: 5 5;
+linkStyle 670 stroke-dasharray: 5 5;
+linkStyle 671 stroke-dasharray: 5 5;
+linkStyle 672 stroke-dasharray: 5 5;
+linkStyle 673 stroke-dasharray: 5 5;
+linkStyle 674 stroke-dasharray: 5 5;
+linkStyle 675 stroke-dasharray: 5 5;
+linkStyle 676 stroke-dasharray: 5 5;
+linkStyle 677 stroke-dasharray: 5 5;
+linkStyle 678 stroke-dasharray: 5 5;
+linkStyle 679 stroke-dasharray: 5 5;
+linkStyle 680 stroke-dasharray: 5 5;
+linkStyle 681 stroke-dasharray: 5 5;
+linkStyle 682 stroke-dasharray: 5 5;
+linkStyle 683 stroke-dasharray: 5 5;
+linkStyle 684 stroke-dasharray: 5 5;
+linkStyle 685 stroke-dasharray: 5 5;
+linkStyle 686 stroke-dasharray: 5 5;
+linkStyle 687 stroke-dasharray: 5 5;
+linkStyle 688 stroke-dasharray: 5 5;
+linkStyle 689 stroke-dasharray: 5 5;
+linkStyle 690 stroke-dasharray: 5 5;
+linkStyle 691 stroke-dasharray: 5 5;
+linkStyle 692 stroke-dasharray: 5 5;
+linkStyle 693 stroke-dasharray: 5 5;
+linkStyle 694 stroke-dasharray: 5 5;
+linkStyle 695 stroke-dasharray: 5 5;
+linkStyle 696 stroke-dasharray: 5 5;
+linkStyle 697 stroke-dasharray: 5 5;
+linkStyle 698 stroke-dasharray: 5 5;
+linkStyle 699 stroke-dasharray: 5 5;
+linkStyle 700 stroke-dasharray: 5 5;
+linkStyle 701 stroke-dasharray: 5 5;
+linkStyle 702 stroke-dasharray: 5 5;
+linkStyle 703 stroke-dasharray: 5 5;
+linkStyle 704 stroke-dasharray:</code></pre>
+<hr />
+<h3 id="372-communication-attributes">3.7.2 Communication Attributes<a class="headerlink" href="#372-communication-attributes" title="Permanent link">&para;</a></h3>
+<p>&lt;img&gt;Diagram showing CommunicationABIEType with attributes @sequence and @preferredIndicator, and a
+hr:EffectiveDateAttributeGroup with attributes @validFrom and @validTo. A note explains that HR-XML's 3.0 architecture
+makes a distinction between effective-date meta data and effective dating that is an integral part of the attribute
+value. Another note states that this flexibly allows capture of information about a variety of communication channels
+(telephone, email, fax,...). An arrow points to a Communication element.&lt;/img&gt;</p>
+<p>Note that where Candidate is a target format for a resume parsing operation, the Communication/Address component...</p>
+<p>This flexibly allows capture of information about a variety of communication channels (telephone, email, fax,...</p>
+<table>
+  <thead>
+    <tr>
+      <th>Attributes</th>
+      <th>Description</th>
+      <th>Card.</th>
+      <th>Rule</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>The same as /CandidateSupplier/PersonContact/Communication</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="373-sub-element-candidatepersoncommunicationcommunicationchoice-level-3">3.7.3 Sub-element: /CandidatePerson/Communication/CommunicationChoice (level 3)<a class="headerlink" href="#373-sub-element-candidatepersoncommunicationcommunicationchoice-level-3" title="Permanent link">&para;</a></h3>
+<h4 id="3731-communicationchoice-element-description">3.7.3.1 CommunicationChoice Element Description<a class="headerlink" href="#3731-communicationchoice-element-description" title="Permanent link">&para;</a></h4>
+<table>
+  <thead>
+    <tr>
+      <th>Element</th>
+      <th>Description</th>
+      <th>Layer / Cardinality</th>
+      <th>Rule</th>
+      <th>Examples</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Choice</td>
+      <td>Selection between the types of channels<br>1-Address<br>2-Telephone<br>3-URL<br>4-Text</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+    </tr>
+    <tr>
+      <td colspan="5">Choice Elements</td>
+    </tr>
+    <tr>
+      <td colspan="5">The same as /CandidateSupplier/PersonContact/Communication</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4 id="3732-communicationchoice-attributes">3.7.3.2 CommunicationChoice Attributes<a class="headerlink" href="#3732-communicationchoice-attributes" title="Permanent link">&para;</a></h4>
+<table>
+  <thead>
+    <tr>
+      <th>Attributes</th>
+      <th>Description</th>
+      <th>Card.</th>
+      <th>Rule</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>The same as /CandidateSupplier/PersonContact/Communication</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="374-sub-element-candidatepersoncommunicationcommunicationchoiceaddress-level-4">3.7.4 Sub-element: /CandidatePerson/Communication/CommunicationChoice/Address (level 4)<a class="headerlink" href="#374-sub-element-candidatepersoncommunicationcommunicationchoiceaddress-level-4" title="Permanent link">&para;</a></h3>
+<h4 id="3741-address-element-description">3.7.4.1 Address Element Description<a class="headerlink" href="#3741-address-element-description" title="Permanent link">&para;</a></h4>
+<p>&lt;img&gt;Diagram showing AddressType, AddressBaseType (extension base), Attributes, AddressLine (0..∞),
+BuildingNumber, StreetName, Unit, CityName, CountrySubDivisionCode, CountryCode, PostalCode, and their
+relationships.&lt;/img&gt;</p>
+<table>
+  <thead>
+    <tr>
+      <th>Element</th>
+      <th>Description</th>
+      <th>Layer / Cardinality</th>
+      <th>Rule</th>
+      <th>Examples</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Address</strong></td>
+      <td>Properties specifying an entity's physical location</td>
+      <td>0..1</td>
+      <td>N/A</td>
+      <td>N/A</td>
+    </tr>
+    <tr>
+      <td colspan="5"><strong>Sub-elements</strong></td>
+    </tr>
+    <tr>
+      <td><strong>AddressChoice</strong></td>
+      <td>Selection between the types of addresses:<br>1-Address Line<br>2-Building Number<br>3-Street
+        Name<br>4-Unit<br>See section /CandidatePerson/Communication/CommunicationChoice/Address/AddressChoice for more
+        information</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+    </tr>
+    <tr>
+      <td><strong>CityName</strong></td>
+      <td>Identifies the town or city</td>
+      <td>0..1</td>
+      <td>N/A</td>
+      <td>"Bruxelles", "Roma", etc.</td>
+    </tr>
+  </tbody>
+</table>
+
+<pre class="mermaid"><code>erDiagram
+AddressType ||--o{ Address : Address
+Address ||--|{ AddressBaseType : (extension base)
+AddressBaseType {
+@ Attributes
+@ type
+}
+AddressBaseType {
+@ Attributes
+hr:EffectiveDateAttributeGroup
+@ validFrom
+@ validTo
+@ currentAddressIndicator
+}</code></pre>
+<h4 id="3742-address-attributes">3.7.4.2 <em>Address Attributes</em><a class="headerlink" href="#3742-address-attributes" title="Permanent link">&para;</a></h4>
+<table>
+  <thead>
+    <tr>
+      <th>Attributes</th>
+      <th>Description</th>
+      <th>Card.</th>
+      <th>Rule</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>validFrom</strong></td>
+      <td>Validity start date for this entity's information</td>
+      <td>0..1</td>
+      <td><strong>BR-COM-06:</strong> Compulsory Date Format is: YYYY-MM-DD, YYYY-MM, YYYY or YYYY-MM-DDThh:mm:ss.</td>
+    </tr>
+    <tr>
+      <td><strong>validTo</strong></td>
+      <td>Validity end date for this entity's information</td>
+      <td>0..1</td>
+      <td><strong>BR-COM-06:</strong> Compulsory Date Format is: YYYY-MM-DD, YYYY-MM, YYYY or YYYY-MM-DDThh:mm:ss.</td>
+    </tr>
+    <tr>
+      <td><strong>currentAddressIndicator</strong></td>
+      <td>Current address of the information</td>
+      <td>0..1</td>
+      <td>N/A</td>
+    </tr>
+    <tr>
+      <td><strong>type</strong></td>
+      <td>The address type</td>
+      <td>0..1</td>
+      <td>N/A</td>
+    </tr>
+    <tr>
+      <td colspan="4"><strong>CityName attributes</strong></td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th>Attributes</th>
+      <th>Description</th>
+      <th>Card.</th>
+      <th>Rule</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td colspan="4">Refer to NameType Attributes section for additional attributes</td>
+    </tr>
+    <tr>
+      <td colspan="4"><b>CountryCode attributes</b></td>
+    </tr>
+    <tr>
+      <td><b>Attributes</b></td>
+      <td><b>Description</b></td>
+      <td><b>Card.</b></td>
+      <td><b>Rule</b></td>
+    </tr>
+    <tr>
+      <td>validFrom</td>
+      <td>Validity start date for this entity's information</td>
+      <td>0..1</td>
+      <td>BR-COM-06: Compulsory Date Format is: YYYY-MM-DD, YYYY-MM, YYYY or YYYY-MM-DDThh:mm:ss.</td>
+    </tr>
+    <tr>
+      <td>validTo</td>
+      <td>Validity end date for this entity's information</td>
+      <td>0..1</td>
+      <td>BR-COM-06: Compulsory Date Format is: YYYY-MM-DD, YYYY-MM, YYYY or YYYY-MM-DDThh:mm:ss.</td>
+    </tr>
+    <tr>
+      <td colspan="4">Refer to CodeListAttributeGroup Attributes section for additional attributes</td>
+    </tr>
+    <tr>
+      <td colspan="4"><b>CountrySubdivisionCode attributes</b></td>
+    </tr>
+    <tr>
+      <td><b>Attributes</b></td>
+      <td><b>Description</b></td>
+      <td><b>Card.</b></td>
+      <td><b>Rule</b></td>
+    </tr>
+    <tr>
+      <td colspan="4">Refer to CodeListAttributeGroup Attributes section for additional attributes</td>
+    </tr>
+    <tr>
+      <td colspan="4"><b>PostalCode attributes</b></td>
+    </tr>
+    <tr>
+      <td><b>Attributes</b></td>
+      <td><b>Description</b></td>
+      <td><b>Card.</b></td>
+      <td><b>Rule</b></td>
+    </tr>
+    <tr>
+      <td colspan="4">Refer to CodeType Attributes section for additional attributes</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="375-sub-element-candidatepersoncommunicationcommunicationchoiceaddressaddresschoice-level-5">3.7.5 Sub-element: /CandidatePerson/Communication/CommunicationChoice/Address/AddressChoice (level 5)<a class="headerlink" href="#375-sub-element-candidatepersoncommunicationcommunicationchoiceaddressaddresschoice-level-5" title="Permanent link">&para;</a></h3>
+<h4 id="3751-addresschoice-element-description">3.7.5.1 AddressChoice Element Description<a class="headerlink" href="#3751-addresschoice-element-description" title="Permanent link">&para;</a></h4>
+<table>
+  <thead>
+    <tr>
+      <th>Element</th>
+      <th>Description</th>
+      <th>Cardinality</th>
+      <th>Rule</th>
+      <th>Examples</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Choice</td>
+      <td>Selection between the types of addresses:<br>1-Address Line<br>2-Building Number<br>3-Street Name<br>4-Unit
+      </td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+    </tr>
+    <tr>
+      <td colspan="5"><b>Choice Elements</b></td>
+    </tr>
+    <tr>
+      <td colspan="5"><b>Choice 1</b></td>
+    </tr>
+    <tr>
+      <td>AddressLine</td>
+      <td>Full address text in a text field</td>
+      <td>0..n</td>
+      <td>N/A</td>
+      <td>"Apartment 10, Derp House, 20 Longstreet, Rotterdam, Netherlands, 3000 AA", etc.</td>
+    </tr>
+    <tr>
+      <td colspan="5"><b>Choice 2</b></td>
+    </tr>
+    <tr>
+      <td>BuildingNumber</td>
+      <td>The Building/house Number on the street that identifies where to deliver mail (for example, Building 300 on
+        Standards Parkway)</td>
+      <td>0..1</td>
+      <td>N/A</td>
+      <td>"10", etc.</td>
+    </tr>
+    <tr>
+      <td>StreetName</td>
+      <td>The Street Name where the building/house is located</td>
+      <td>0..1</td>
+      <td>N/A</td>
+      <td>"Longstreet", etc.</td>
+    </tr>
+    <tr>
+      <td>Unit</td>
+      <td>The apartment number or office suite</td>
+      <td>0..1</td>
+      <td>N/A</td>
+      <td>"20", etc.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4 id="3752-addresschoice-attributes">3.7.5.2 AddressChoice Attributes<a class="headerlink" href="#3752-addresschoice-attributes" title="Permanent link">&para;</a></h4>
+<table>
+  <thead>
+    <tr>
+      <th>Attributes</th>
+      <th>Description</th>
+      <th>Card.</th>
+      <th>Rule</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td colspan="4">This element has no attributes.</td>
+    </tr>
+    <tr>
+      <td colspan="4"><b>BuildingNumber, Unit, StreetName attributes</b></td>
+    </tr>
+    <tr>
+      <td><b>Attributes</b></td>
+      <td><b>Description</b></td>
+      <td><b>Card.</b></td>
+      <td><b>Rule</b></td>
+    </tr>
+    <tr>
+      <td>languageID</td>
+      <td>Language in which the GivenName is mentioned</td>
+      <td>0..1</td>
+      <td>"en"</td>
+    </tr>
+    <tr>
+      <td colspan="4"><b>AddressLine attributes</b></td>
+    </tr>
+    <tr>
+      <td><b>Attributes</b></td>
+      <td><b>Description</b></td>
+      <td><b>Card.</b></td>
+      <td><b>Rule</b></td>
+    </tr>
+    <tr>
+      <td colspan="4">Refer to NameType Attributes section for additional attributes.</td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+        
+<div class="md-social">
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://github.com/europass-unofficial/europass-schema-docs" target="_blank" rel="noopener" title="github.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.tabs", "navigation.sections", "navigation.expand", "navigation.top", "search.suggest", "search.highlight", "content.code.copy", "content.action.edit"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+        <script src="https://unpkg.com/mermaid@10/dist/mermaid.min.js"></script>
+      
+        <script src="../javascripts/mermaid.js"></script>
+      
+    
+  </body>
+</html>

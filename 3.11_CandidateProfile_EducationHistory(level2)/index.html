@@ -1,0 +1,5853 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Unofficial documentation for Europass CV XML Schema v3.0.0">
+      
+      
+        <meta name="author" content="europass-unofficial">
+      
+      
+        <link rel="canonical" href="https://europass-unofficial.github.io/europass-schema-docs/3.11_CandidateProfile_EducationHistory%28level2%29/">
+      
+      
+        <link rel="prev" href="../3.10_CandidateProfile_PersonAvailability%28level2%29/">
+      
+      
+        <link rel="next" href="../3.13_CandidateProfile_ExperienceSummary%28level2%29/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.1">
+    
+    
+      
+        <title>Education History (level 2) - Europass CV XML Schema Documentation</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#311-candidateprofileeducationhistory-level-2" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="Europass CV XML Schema Documentation" class="md-header__button md-logo" aria-label="Europass CV XML Schema Documentation" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Europass CV XML Schema Documentation
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Education History (level 2)
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/europass-unofficial/europass-schema-docs" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    europass-unofficial/europass-schema-docs
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../0_Title_Abstract_ChangeLog_ToC/" class="md-tabs__link">
+          
+  
+  
+  Front Matter
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../0.4_ToC/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  ToC
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../3.1_Candidate%28level0%29/" class="md-tabs__link">
+          
+  
+  
+  Europass XML Document Elements
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Europass CV XML Schema Documentation" class="md-nav__button md-logo" aria-label="Europass CV XML Schema Documentation" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Europass CV XML Schema Documentation
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/europass-unofficial/europass-schema-docs" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    europass-unofficial/europass-schema-docs
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Front Matter
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Front Matter
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../0_Title_Abstract_ChangeLog_ToC/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Title & Change Log
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../1_Introduction/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Introduction
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../2_Background/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Background
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../0.4_ToC/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ToC
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Europass XML Document Elements
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Europass XML Document Elements
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../3.1_Candidate%28level0%29/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Candidate (level 0)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../3.2_ProcessingInformation%28level1%29/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Processing Information (level 1)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../3.3_CandidateSupplier%28level1%29/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Candidate Supplier (level 1)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../3.4_CandidateSupplier_PersonContact%28level2%29/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Supplier Person Contact (level 2)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../3.5_CandidatePerson%28level1%29/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Candidate Person (level 1)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../3.6_CandidatePerson_PersonName%28level2%29/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Person Name (level 2)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../3.7_CandidatePerson_Communication%28level2%29/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Communication (level 2)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../3.8_CandidatePerson_Disability%28level2%29/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Disability (level 2)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../3.9_CandidateProfile%28level1%29/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Candidate Profile (level 1)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../3.10_CandidateProfile_PersonAvailability%28level2%29/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Person Availability (level 2)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Education History (level 2)
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Education History (level 2)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#311-candidateprofileeducationhistory-level-2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.11 /CandidateProfile/EducationHistory (level 2)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3.11 /CandidateProfile/EducationHistory (level 2)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#3111-educationhistory-element-description" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.11.1 EducationHistory Element Description
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3112-educationhistory-attributes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.11.2 EducationHistory Attributes
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3113-sub-element-candidateprofileeducationhistoryeducationorganizationattendance-level-3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.11.3 Sub-element: /CandidateProfile/EducationHistory/EducationOrganizationAttendance (level 3)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3114-sub-element-candidateprofileeducationhistoryeducationorganizationattendanceeducationdegree-level-4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.11.4 Sub-element: /CandidateProfile/EducationHistory/EducationOrganizationAttendance/EducationDegree (level 4)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3115-sub-element-candidateprofileeducationhistoryeducationorganizationattendanceeducationdegreedegreedate-level-5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.11.5 Sub-element: /CandidateProfile/EducationHistory/EducationOrganizationAttendance/EducationDegree/DegreeDate (level 5)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3116-sub-element-candidateprofileeducationhistoryeducationorganizationattendanceeducationdegreedegreemajor-level-5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.11.6 Sub-element: /CandidateProfile/EducationHistory/EducationOrganizationAttendance/EducationDegree/DegreeMajor (level 5)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3117-sub-element-candidateprofileeducationhistoryeducationorganizationattendanceeducationdegreefieldofstudy-level-5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.11.7 Sub-element: /CandidateProfile/EducationHistory/EducationOrganizationAttendance/EducationDegree/FieldOfStudy (level 5)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3118-sub-element-candidateprofileeducationhistoryeducationorganizationattendanceattendanceperiod-level-4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.11.8 Sub-element: /CandidateProfile/EducationHistory/EducationOrganizationAttendance/AttendancePeriod (level 4)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3119-sub-element-candidateprofileeducationhistoryeducationorganizationattendanceattendanceperiodstartdate-level-5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.11.9 Sub-element: /CandidateProfile/EducationHistory/EducationOrganizationAttendance/AttendancePeriod/StartDate (level 5)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#31110-sub-element-candidateprofileeducationhistoryeducationorganizationattendanceattendanceperiodenddate-level-5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.11.10 Sub-element: /CandidateProfile/EducationHistory/EducationOrganizationAttendance/AttendancePeriod/EndDate (level 5)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#31111-sub-element-candidateprofileeducationhistoryeducationorganizationattendanceorganizationcontact" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.11.11 Sub-element: /CandidateProfile/EducationHistory/EducationOrganizationAttendance/OrganizationContact
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#312-candidateprofilepersonqualifications-level-2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.12 /CandidateProfile/PersonQualifications (level 2)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3121-personqualifications-element-description" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.12.1 PersonQualifications Element Description
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3122-personqualifications-attributes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.12.2 PersonQualifications Attributes
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3123-sub-element-candidateprofilepersonqualificationspersoncompetency-level-3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.12.3 Sub-element: /CandidateProfile/PersonQualifications/PersonCompetency (level 3)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3124-sub-element-candidateprofilepersonqualificationspersoncompetencyproficiencylevel-level-4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.12.4 Sub-element: /CandidateProfile/PersonQualifications/PersonCompetency/ProficiencyLevel (level 4)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3125-sub-element-candidateprofilepersonqualificationspersoncompetencycompetencydimension-level-4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.12.5 Sub-element: /CandidateProfile/PersonQualifications/PersonCompetency/CompetencyDimension (level 4)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../3.13_CandidateProfile_ExperienceSummary%28level2%29/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Experience Summary (level 2)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../3.14_CandidateProfile_EmploymentHistory%28level2%29/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Employment History (level 2)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../3.15_CandidateProfile_EmploymentReferences%28level2%29/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Employment References (level 2)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../3.16_CandidateProfile_Certifications%28level2%29/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Certifications (level 2)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../3.17_CandidateProfile_CandidateEmployerPreferences%28level2%29/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Employer Preferences (level 2)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../3.18_CandidateProfile_CandidatePositionPreferences%28level2%29/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Position Preferences (level 2)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../3.19_CandidateProfile_Licenses%28level2%29/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Licenses (level 2)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../3.20_CandidateProfile_MilitaryHistory%28level2%29/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Military History (level 2)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../3.21_CandidateProfile_PatentHistory%28level2%29/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Patent History (level 2)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../3.22_CandidateProfile_PublicationHistory%28level2%29/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Publication History (level 2)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../3.23_CandidateProfile_OrganizationAffiliations%28level2%29/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Organization Affiliations (level 2)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../3.24_CandidateProfile_SpeakingHistory%28level2%29/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Speaking History (level 2)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../3.25_CandidateProfile_Attachment%28level2%29/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Attachments (level 2)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../3.26_CandidateProfile_HobbiesAndInterests/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Hobbies and Interests
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../3.28_CandidateProfile_Projects/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Projects
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../3.29_CandidateProfile_CommunicationAndInterpersonalSkills/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Communication Skills
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../3.30_CandidateProfile_ManagementAndLeadershipSkills/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Leadership Skills
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../3.31_CandidateProfile_OrganisationalSkills/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Organizational Skills
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../3.32_CandidateProfile_DigitalSkills/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Digital Skills
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../3.33_CandidateProfile_NetworksAndMemberships/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Networks and Memberships
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../3.34_CandidateProfile_ConferencesAndSeminars/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Conferences and Seminars
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../3.35_CandidateProfile_SocialAndPoliticalActivities/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Social Activities
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../3.36_CandidateProfile_VoluntaryWorks/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Voluntary Works
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../3.37_CandidateProfile_Others/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Other Skills
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../3.38_Common_DataType_Elements_with_Attributes/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Common DataType Elements with Attributes
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../3.39_Common_Attributes/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Common Attributes
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../A_Annex%201/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Treatment of Unfulfilled Business Rules
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#311-candidateprofileeducationhistory-level-2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.11 /CandidateProfile/EducationHistory (level 2)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3.11 /CandidateProfile/EducationHistory (level 2)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#3111-educationhistory-element-description" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.11.1 EducationHistory Element Description
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3112-educationhistory-attributes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.11.2 EducationHistory Attributes
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3113-sub-element-candidateprofileeducationhistoryeducationorganizationattendance-level-3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.11.3 Sub-element: /CandidateProfile/EducationHistory/EducationOrganizationAttendance (level 3)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3114-sub-element-candidateprofileeducationhistoryeducationorganizationattendanceeducationdegree-level-4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.11.4 Sub-element: /CandidateProfile/EducationHistory/EducationOrganizationAttendance/EducationDegree (level 4)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3115-sub-element-candidateprofileeducationhistoryeducationorganizationattendanceeducationdegreedegreedate-level-5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.11.5 Sub-element: /CandidateProfile/EducationHistory/EducationOrganizationAttendance/EducationDegree/DegreeDate (level 5)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3116-sub-element-candidateprofileeducationhistoryeducationorganizationattendanceeducationdegreedegreemajor-level-5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.11.6 Sub-element: /CandidateProfile/EducationHistory/EducationOrganizationAttendance/EducationDegree/DegreeMajor (level 5)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3117-sub-element-candidateprofileeducationhistoryeducationorganizationattendanceeducationdegreefieldofstudy-level-5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.11.7 Sub-element: /CandidateProfile/EducationHistory/EducationOrganizationAttendance/EducationDegree/FieldOfStudy (level 5)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3118-sub-element-candidateprofileeducationhistoryeducationorganizationattendanceattendanceperiod-level-4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.11.8 Sub-element: /CandidateProfile/EducationHistory/EducationOrganizationAttendance/AttendancePeriod (level 4)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3119-sub-element-candidateprofileeducationhistoryeducationorganizationattendanceattendanceperiodstartdate-level-5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.11.9 Sub-element: /CandidateProfile/EducationHistory/EducationOrganizationAttendance/AttendancePeriod/StartDate (level 5)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#31110-sub-element-candidateprofileeducationhistoryeducationorganizationattendanceattendanceperiodenddate-level-5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.11.10 Sub-element: /CandidateProfile/EducationHistory/EducationOrganizationAttendance/AttendancePeriod/EndDate (level 5)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#31111-sub-element-candidateprofileeducationhistoryeducationorganizationattendanceorganizationcontact" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.11.11 Sub-element: /CandidateProfile/EducationHistory/EducationOrganizationAttendance/OrganizationContact
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#312-candidateprofilepersonqualifications-level-2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.12 /CandidateProfile/PersonQualifications (level 2)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3121-personqualifications-element-description" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.12.1 PersonQualifications Element Description
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3122-personqualifications-attributes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.12.2 PersonQualifications Attributes
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3123-sub-element-candidateprofilepersonqualificationspersoncompetency-level-3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.12.3 Sub-element: /CandidateProfile/PersonQualifications/PersonCompetency (level 3)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3124-sub-element-candidateprofilepersonqualificationspersoncompetencyproficiencylevel-level-4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.12.4 Sub-element: /CandidateProfile/PersonQualifications/PersonCompetency/ProficiencyLevel (level 4)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3125-sub-element-candidateprofilepersonqualificationspersoncompetencycompetencydimension-level-4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.12.5 Sub-element: /CandidateProfile/PersonQualifications/PersonCompetency/CompetencyDimension (level 4)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+    <a href="https://github.com/europass-unofficial/europass-schema-docs/edit/master/docs/3.11_CandidateProfile_EducationHistory(level2).md" title="Edit this page" class="md-content__button md-icon" rel="edit">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"/></svg>
+    </a>
+  
+  
+
+
+  <h1>Education History (level 2)</h1>
+
+<h2 id="311-candidateprofileeducationhistory-level-2">3.11 /CandidateProfile/EducationHistory (level 2)<a class="headerlink" href="#311-candidateprofileeducationhistory-level-2" title="Permanent link">&para;</a></h2>
+<h3 id="3111-educationhistory-element-description">3.11.1 EducationHistory Element Description<a class="headerlink" href="#3111-educationhistory-element-description" title="Permanent link">&para;</a></h3>
+<pre class="mermaid"><code>graph TD
+A[EducationHistoryType] --&gt; B[Attributes]
+B --&gt; C[hr:EducationHistoryID]
+C --&gt; D[EducationOrganizationAttendance]
+D --&gt; E[A collection of information documenting a person's education, including data relevant to verifying such
+education. OED,...]
+
+subgraph EducationHistory
+direction LR
+F(EducationHistory)
+G(The systematic instruction, schooling, or training given to the young in preparation for the work of life; by...)
+F -- "1..*" --&gt; D
+F -- "1" --&gt; C
+F -- "1" --&gt; G
+end</code></pre>
+<table>
+  <thead>
+    <tr>
+      <th>Element</th>
+      <th>Description</th>
+      <th>Cardinality</th>
+      <th>Rule</th>
+      <th>Examples</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>EducationHistory</strong></td>
+      <td>A collection of information documenting a person's education, including data relevant to verifying such
+        education, continuous education, schooling or training in preparation for work life; by extension, similar
+        instruction or training obtained as an adult.</td>
+      <td>1</td>
+      <td>N/A</td>
+      <td>N/A</td>
+    </tr>
+    <tr>
+      <td colspan="5"><strong>Sub-elements</strong></td>
+    </tr>
+    <tr>
+      <td><strong>EducationHistoryID</strong></td>
+      <td>A key by which to distinguish or refer to information about a person's education.</td>
+      <td>0..1</td>
+      <td>N/A</td>
+      <td>N/A</td>
+    </tr>
+    <tr>
+      <td><strong>EducationOrganizationAttendance</strong></td>
+      <td>A detailed set of data with details regarding a person's attendance at an educational institution<br>See
+        section /CandidateProfile/EducationHistory /EducationOrganizationAttendance for more information</td>
+      <td>1..n</td>
+      <td>N/A</td>
+      <td>N/A</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="3112-educationhistory-attributes">3.11.2 EducationHistory Attributes<a class="headerlink" href="#3112-educationhistory-attributes" title="Permanent link">&para;</a></h3>
+<pre class="mermaid"><code>graph TD
+A[EducationHistoryType] --&gt; B[Attributes]
+B --&gt; C[hr:EffectiveDateAttributeGroup]
+C --&gt; D[validFrom]
+C --&gt; E[validTo]
+D --&gt; F[HR-XML's 3.0 architecture makes a distinction between effective-date meta data and effective dating that is an
+integral...]
+E --&gt; F
+subgraph EducationHistory
+direction LR
+G(EducationHistory)
+H(The systematic instruction, schooling, or training given to the young in preparation for the work of life; by...)
+G -- "1" --&gt; C
+G -- "1" --&gt; H
+end</code></pre>
+<table>
+  <thead>
+    <tr>
+      <th>Attributes</th>
+      <th>Description</th>
+      <th>Card.</th>
+      <th>Rule</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>validFrom</strong></td>
+      <td>Validity start date for this entity's information</td>
+      <td>0..1</td>
+      <td>BR-COM-06: Compulsory Date Format: YYYY-MM-DD, YYYY-MM, YYYY or YYYY-MM-DDThh:mm:ss.</td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <tr>
+    <td><strong>validTo</strong></td>
+    <td>Validity end date for this entity's information</td>
+    <td>0..1</td>
+    <td>BR-COM-06: Compulsory Date Format: YYYY-MM-DD, YYYY-MM, YYYY-MM-DDThh:mm:ss.</td>
+  </tr>
+</table>
+
+<p><strong>EducationHistoryID attributes</strong></p>
+<table>
+  <thead>
+    <tr>
+      <th>Attributes</th>
+      <th>Description</th>
+      <th>Card.</th>
+      <th>Rule</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td colspan="4">Refer to IdentifierType Attributes for additional attributes.</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>EducationOrganizationAttendance attributes</strong></p>
+<table>
+  <thead>
+    <tr>
+      <th>Attributes</th>
+      <th>Description</th>
+      <th>Card.</th>
+      <th>Rule</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td colspan="4">See section /CandidateProfile/EducationHistory /EducationOrganizationAttendance for more
+        information</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="3113-sub-element-candidateprofileeducationhistoryeducationorganizationattendance-level-3">3.11.3 Sub-element: /CandidateProfile/EducationHistory/EducationOrganizationAttendance (level 3)<a class="headerlink" href="#3113-sub-element-candidateprofileeducationhistoryeducationorganizationattendance-level-3" title="Permanent link">&para;</a></h3>
+<h4 id="31131-educationorganizationattendance-element-description">3.11.3.1 EducationOrganizationAttendance Element Description<a class="headerlink" href="#31131-educationorganizationattendance-element-description" title="Permanent link">&para;</a></h4>
+<pre class="mermaid"><code>graph TD
+subgraph EducationOrganizationAttendanceType
+A[hr:EducationalOrganizationID] --&gt; B{It contains identifier of the Educational Organisation.}
+C[hr:OrganizationName] --&gt; D{Usually an official or legal name by which to refer to an organization.}
+E[OrganizationContact] --&gt; F{It contains the Educational Organisation's contact data.}
+G[hr:ProgramName] --&gt; H{It contains title of the qualification.}
+I[EducationalLevelCode] --&gt; J{"A code classifying the level of educational organisation."}
+K[AttendancePeriod] --&gt; L{It contains free form options for representing attendance period data.}
+M[EducationalDegree] --&gt; N{It contains details about the student's degree.}
+O[Link] --&gt; P{It specifies website link.}
+end
+
+subgraph EducationOrganizationAttendanceBaseType (extension base)
+A --&gt; A
+C --&gt; C
+E --&gt; E
+G --&gt; G
+I --&gt; I
+K --&gt; K
+M --&gt; M
+O --&gt; O
+end
+
+subgraph EducationOrganizationAttendance
+A -- 0..∞ --&gt; A
+C -- 0..∞ --&gt; C
+E -- 0..∞ --&gt; E
+G -- 0..∞ --&gt; G
+I -- 0..∞ --&gt; I
+K -- 0..∞ --&gt; K
+M -- 0..∞ --&gt; M
+O -- 1..∞ --&gt; O
+end
+
+subgraph EducationOrganizationAttendance
+A -- 1..∞ --&gt; A
+C -- 0..∞ --&gt; C
+E -- 0..∞ --&gt; E
+G -- 0..∞ --&gt; G
+I -- 0..∞ --&gt; I
+K -- 0..∞ --&gt; K
+M -- 0..∞ --&gt; M
+O -- 1..∞ --&gt; O
+end
+
+subgraph EducationOrganizationAttendance
+A -- 1..∞ --&gt; A
+C -- 0..∞ --&gt; C
+E -- 0..∞ --&gt; E
+G -- 0..∞ --&gt; G
+I -- 0..∞ --&gt; I
+K -- 0..∞ --&gt; K
+M -- 0..∞ --&gt; M
+O -- 1..∞ --&gt; O
+end
+
+subgraph EducationOrganizationAttendance
+A -- 1..∞ --&gt; A
+C -- 0..∞ --&gt; C
+E -- 0..∞ --&gt; E
+G -- 0..∞ --&gt; G
+I -- 0..∞ --&gt; I
+K -- 0..∞ --&gt; K
+M -- 0..∞ --&gt; M
+O -- 1..∞ --&gt; O
+end
+
+subgraph EducationOrganizationAttendance
+A -- 1..∞ --&gt; A
+C -- 0..∞ --&gt; C
+E -- 0..∞ --&gt; E
+G -- 0..∞ --&gt; G
+I -- 0..∞ --&gt; I
+K -- 0..∞ --&gt; K
+M -- 0..∞ --&gt; M
+O -- 1..∞ --&gt; O
+end
+
+subgraph EducationOrganizationAttendance
+A -- 1..∞ --&gt; A
+C -- 0..∞ --&gt; C
+E -- 0..∞ --&gt; E
+G -- 0..∞ --&gt; G
+I -- 0..∞ --&gt; I
+K -- 0..∞ --&gt; K
+M -- 0..∞ --&gt; M
+O -- 1..∞ --&gt; O
+end
+
+subgraph EducationOrganizationAttendance
+A -- 1..∞ --&gt; A
+C -- 0..∞ --&gt; C
+E -- 0..∞ --&gt; E
+G -- 0..∞ --&gt; G
+I -- 0..∞ --&gt; I
+K -- 0..∞ --&gt; K
+M -- 0..∞ --&gt; M
+O -- 1..∞ --&gt; O
+end
+
+subgraph EducationOrganizationAttendance
+A -- 1..∞ --&gt; A
+C -- 0..∞ --&gt; C
+E -- 0..∞ --&gt; E
+G -- 0..∞ --&gt; G
+I -- 0..∞ --&gt; I
+K -- 0..∞ --&gt; K
+M -- 0..∞ --&gt; M
+O -- 1..∞ --&gt; O
+end
+
+subgraph EducationOrganizationAttendance
+A -- 1..∞ --&gt; A
+C -- 0..∞ --&gt; C
+E -- 0..∞ --&gt; E
+G -- 0..∞ --&gt; G
+I -- 0..∞ --&gt; I
+K -- 0..∞ --&gt; K
+M -- 0..∞ --&gt; M
+O -- 1..∞ --&gt; O
+end
+
+subgraph EducationOrganizationAttendance
+A -- 1..∞ --&gt; A
+C -- 0..∞ --&gt; C
+E -- 0..∞ --&gt; E
+G -- 0..∞ --&gt; G
+I -- 0..∞ --&gt; I
+K -- 0..∞ --&gt; K
+M -- 0..∞ --&gt; M
+O -- 1..∞ --&gt; O
+end
+
+subgraph EducationOrganizationAttendance
+A -- 1..∞ --&gt; A
+C -- 0..∞ --&gt; C
+E -- 0..∞ --&gt; E
+G -- 0..∞ --&gt; G
+I -- 0..∞ --&gt; I
+K -- 0..∞ --&gt; K
+M -- 0..∞ --&gt; M
+O -- 1..∞ --&gt; O
+end
+
+subgraph EducationOrganizationAttendance
+A -- 1..∞ --&gt; A
+C -- 0..∞ --&gt; C
+E -- 0..∞ --&gt; E
+G -- 0..∞ --&gt; G
+I -- 0..∞ --&gt; I
+K -- 0..∞ --&gt; K
+M -- 0..∞ --&gt; M
+O -- 1..∞ --&gt; O
+end
+
+subgraph EducationOrganizationAttendance
+A -- 1..∞ --&gt; A
+C -- 0..∞ --&gt; C
+E -- 0..∞ --&gt; E
+G -- 0..∞ --&gt; G
+I -- 0..∞ --&gt; I
+K -- 0..∞ --&gt; K
+M -- 0..∞ --&gt; M
+O -- 1..∞ --&gt; O
+end
+
+subgraph EducationOrganizationAttendance
+A -- 1..∞ --&gt; A
+C -- 0..∞ --&gt; C
+E -- 0..∞ --&gt; E
+G -- 0..∞ --&gt; G
+I -- 0..∞ --&gt; I
+K -- 0..∞ --&gt; K
+M -- 0..∞ --&gt; M
+O -- 1..∞ --&gt; O
+end
+
+subgraph EducationOrganizationAttendance
+A -- 1..∞ --&gt; A
+C -- 0..∞ --&gt; C
+E -- 0..∞ --&gt; E
+G -- 0..∞ --&gt; G
+I -- 0..∞ --&gt; I
+K -- 0..∞ --&gt; K
+M -- 0..∞ --&gt; M
+O -- 1..∞ --&gt; O
+end
+
+subgraph EducationOrganizationAttendance
+A -- 1..∞ --&gt; A
+C -- 0..∞ --&gt; C
+E -- 0..∞ --&gt; E
+G -- 0..∞ --&gt; G
+I -- 0..∞ --&gt; I
+K -- 0..∞ --&gt; K
+M -- 0..∞ --&gt; M
+O -- 1..∞ --&gt; O
+end
+
+subgraph EducationOrganizationAttendance
+A -- 1..∞ --&gt; A
+C -- 0..∞ --&gt; C
+E -- 0..∞ --&gt; E
+G -- 0..∞ --&gt; G
+I -- 0..∞ --&gt; I
+K -- 0..∞ --&gt; K
+M -- 0..∞ --&gt; M
+O -- 1..∞ --&gt; O
+end
+
+subgraph EducationOrganizationAttendance
+A -- 1..∞ --&gt; A
+C -- 0..∞ --&gt; C
+E -- 0..∞ --&gt; E
+G -- 0..∞ --&gt; G
+I -- 0..∞ --&gt; I
+K -- 0..∞ --&gt; K
+M -- 0..∞ --&gt; M
+O -- 1..∞ --&gt; O
+end
+
+subgraph EducationOrganizationAttendance
+A -- 1..∞ --&gt; A
+C -- 0..∞ --&gt; C
+E -- 0..∞ --&gt; E
+G -- 0..∞ --&gt; G
+I -- 0..∞ --&gt; I
+K -- 0..∞ --&gt; K
+M -- 0..∞ --&gt; M
+O -- 1..∞ --&gt; O
+end
+
+subgraph EducationOrganizationAttendance
+A -- 1..∞ --&gt; A
+C -- 0..∞ --&gt; C
+E -- 0..∞ --&gt; E
+G -- 0..∞ --&gt; G
+I -- 0..∞ --&gt; I
+K -- 0..∞ --&gt; K
+M -- 0..∞ --&gt; M
+O -- 1..∞ --&gt; O
+end
+
+subgraph EducationOrganizationAttendance
+A -- 1..∞ --&gt; A
+C -- 0..∞ --&gt; C
+E -- 0..∞ --&gt; E
+G -- 0..∞ --&gt; G
+I -- 0..∞ --&gt; I
+K -- 0..∞ --&gt; K
+M -- 0..∞ --&gt; M
+O -- 1..∞ --&gt; O
+end
+
+subgraph EducationOrganizationAttendance
+A -- 1..∞ --&gt; A
+C -- 0..∞ --&gt; C
+E -- 0..∞ --&gt; E
+G -- 0..∞ --&gt; G
+I -- 0..∞ --&gt; I
+K -- 0..∞ --&gt; K
+M -- 0..∞ --&gt; M
+O -- 1..∞ --&gt; O
+end
+
+subgraph EducationOrganizationAttendance
+A -- 1..∞ --&gt; A
+C -- 0..∞ --&gt; C
+E -- 0..∞ --&gt; E
+G -- 0..∞ --&gt; G
+I -- 0..∞ --&gt; I
+K -- 0..∞ --&gt; K
+M -- 0..∞ --&gt; M
+O -- 1..∞ --&gt; O
+end
+
+subgraph EducationOrganizationAttendance
+A -- 1..∞ --&gt; A
+C -- 0..∞ --&gt; C
+E -- 0..∞ --&gt; E
+G -- 0..∞ --&gt; G
+I -- 0..∞ --&gt; I
+K -- 0..∞ --&gt; K
+M -- 0..∞ --&gt; M
+O -- 1..∞ --&gt; O
+end
+
+subgraph EducationOrganizationAttendance
+A -- 1..∞ --&gt; A
+C -- 0..∞ --&gt; C
+E -- 0..∞ --&gt; E
+G -- 0..∞ --&gt; G
+I -- 0..∞ --&gt; I
+K -- 0..∞ --&gt; K
+M -- 0..∞ --&gt; M
+O -- 1..∞ --&gt; O
+end
+
+subgraph EducationOrganizationAttendance
+A -- 1..∞ --&gt; A
+C -- 0..∞ --&gt; C
+E -- 0..∞ --&gt; E
+G -- 0..∞ --&gt; G
+I -- 0..∞ --&gt; I
+K -- 0..∞ --&gt; K
+M -- 0..∞ --&gt; M
+O -- 1..∞ --&gt; O
+end
+
+subgraph EducationOrganizationAttendance
+A -- 1..∞ --&gt; A
+C -- 0..∞ --&gt; C
+E -- 0..∞ --&gt; E
+G -- 0..∞ --&gt; G
+I -- 0..∞ --&gt; I
+K -- 0..∞ --&gt; K
+M -- 0..∞ --&gt; M
+O -- 1..∞ --&gt; O
+end
+
+subgraph EducationOrganizationAttendance
+A -- 1..∞ --&gt; A
+C -- 0..∞ --&gt; C
+E -- 0..∞ --&gt; E
+G -- 0..∞ --&gt; G
+I -- 0..∞ --&gt; I
+K -- 0..∞ --&gt; K
+M -- 0..∞ --&gt; M
+O -- 1..∞ --&gt; O
+end
+
+subgraph EducationOrganizationAttendance
+A -- 1..∞ --&gt; A
+C -- 0..∞ --&gt; C
+E -- 0..∞ --&gt; E
+G -- 0..∞ --&gt; G
+I -- 0..∞ --&gt; I
+K -- 0..∞ --&gt; K
+M -- 0..∞ --&gt; M
+O -- 1..∞ --&gt; O
+end
+
+subgraph EducationOrganizationAttendance
+A -- 1..∞ --&gt; A
+C -- 0..∞ --&gt; C
+E -- 0..∞ --&gt; E
+G -- 0..∞ --&gt; G
+I -- 0..∞ --&gt; I
+K -- 0..∞ --&gt; K
+M -- 0..∞ --&gt; M
+O -- 1..∞ --&gt; O
+end
+
+subgraph EducationOrganizationAttendance
+A -- 1..∞ --&gt; A
+C -- 0..∞ --&gt; C
+E -- 0..∞ --&gt; E
+G -- 0..∞ --&gt; G
+I -- 0..∞ --&gt; I
+K -- 0..∞ --&gt; K
+M -- 0..∞ --&gt; M
+O -- 1..∞ --&gt; O
+end
+
+subgraph EducationOrganizationAttendance
+A -- 1..∞ --&gt; A
+C -- 0..∞ --&gt; C
+E -- 0..∞ --&gt; E
+G -- 0..∞ --&gt; G
+I -- 0..∞ --&gt; I
+K -- 0..∞ --&gt; K
+M -- 0..∞ --&gt; M
+O -- 1..∞ --&gt; O
+end
+
+subgraph EducationOrganizationAttendance
+A -- 1..∞ --&gt; A
+C -- 0..∞ --&gt; C
+E -- 0..∞ --&gt; E
+G -- 0..∞ --&gt; G
+I -- 0..∞ --&gt; I
+K -- 0..∞ --&gt; K
+M -- 0..∞ --&gt; M
+O -- 1..∞ --&gt; O
+end
+
+subgraph EducationOrganizationAttendance
+A -- 1..∞ --&gt; A
+C -- 0..∞ --&gt; C
+E -- 0..∞ --&gt; E
+G -- 0..∞ --&gt; G
+I -- 0..∞ --&gt; I
+K -- 0..∞ --&gt; K
+M -- 0..∞ --&gt; M
+O -- 1..∞ --&gt; O
+end
+
+subgraph EducationOrganizationAttendance
+A -- 1..∞ --&gt; A
+C -- 0..∞ --&gt; C
+E -- 0..∞ --&gt; E
+G -- 0..∞ --&gt; G
+I -- 0..∞ --&gt; I
+K -- 0..∞ --&gt; K
+M -- 0..∞ --&gt; M
+O -- 1..∞ --&gt; O
+end
+
+subgraph EducationOrganizationAttendance
+A -- 1..∞ --&gt; A
+C -- 0..∞ --&gt; C
+E -- 0..∞ --&gt; E
+G -- 0..∞ --&gt; G
+I -- 0..∞ --&gt; I
+K -- 0..∞ --&gt; K
+M -- 0..∞ --&gt; M
+O -- 1..∞ --&gt; O
+end
+
+subgraph EducationOrganizationAttendance
+A -- 1..∞ --&gt; A
+C -- 0..∞ --&gt; C
+E -- 0..∞ --&gt; E
+G -- 0..∞ --&gt; G
+I -- 0..∞ --&gt; I
+K -- 0..∞ --&gt; K
+M -- 0..∞ --&gt; M
+O -- 1..∞ --&gt; O
+end
+
+subgraph EducationOrganizationAttendance
+A -- 1..∞ --&gt; A
+C -- 0..∞ --&gt; C
+E -- 0..∞ --&gt; E
+G -- 0..∞ --&gt; G
+I -- 0..∞ --&gt; I
+K -- 0..∞ --&gt; K
+M -- 0..∞ --&gt; M
+O -- 1..∞ --&gt; O
+end
+
+subgraph EducationOrganizationAttendance
+A -- 1..∞ --&gt; A
+C -- 0..∞ --&gt; C
+E -- 0..∞ --&gt; E
+G -- 0..∞ --&gt; G
+I -- 0..∞ --&gt; I
+K -- 0..∞ --&gt; K
+M -- 0..∞ --&gt; M
+O -- 1..∞ --&gt; O
+end
+
+subgraph EducationOrganizationAttendance
+A -- 1..∞ --&gt; A
+C -- 0..∞ --&gt; C
+E -- 0..∞ --&gt; E
+G -- 0..∞ --&gt; G
+I -- 0..∞ --&gt; I
+K -- 0..∞ --&gt; K
+M -- 0..∞ --&gt; M
+O -- 1..∞ --&gt; O
+end
+
+subgraph EducationOrganizationAttendance
+A -- 1..∞ --&gt; A
+C -- 0..∞ --&gt; C
+E -- 0..∞ --&gt; E
+G -- 0..∞ --&gt; G
+I -- 0..∞ --&gt; I
+K -- 0..∞ --&gt; K
+M -- 0..∞ --&gt; M
+O -- 1..∞ --&gt; O
+end
+
+subgraph EducationOrganizationAttendance
+A -- 1..∞ --&gt; A
+C -- 0..∞ --&gt; C
+E -- 0..∞ --&gt; E
+G -- 0..∞ --&gt; G
+I -- 0..∞ --&gt; I
+K -- 0..∞ --&gt; K
+M -- 0..∞ --&gt; M
+O -- 1..∞ --&gt; O
+end
+
+subgraph EducationOrganizationAttendance
+A -- 1..∞ --&gt; A
+C -- 0..∞ --&gt; C
+E -- 0..∞ --&gt; E
+G -- 0..∞ --&gt; G
+I -- 0..∞ --&gt; I
+K -- 0..∞ --&gt; K
+M -- 0..∞ --&gt; M
+O -- 1..∞ --&gt; O
+end
+
+subgraph EducationOrganizationAttendance
+A -- 1..∞ --&gt; A
+C -- 0..∞ --&gt; C
+E -- 0..∞ --&gt; E
+G -- 0..∞ --&gt; G
+I -- 0..∞ --&gt; I
+K -- 0..∞ --&gt; K
+M -- 0..∞ --&gt; M
+O -- 1..∞ --&gt; O
+end
+
+subgraph EducationOrganizationAttendance
+A -- 1..∞ --&gt; A
+C -- 0..∞ --&gt; C
+E -- 0..∞ --&gt; E
+G -- 0..∞ --&gt; G
+I -- 0..∞ --&gt; I
+K -- 0..∞ --&gt; K
+M -- 0..∞ --&gt; M
+O -- 1..∞ --&gt; O
+end
+
+subgraph EducationOrganizationAttendance
+A -- 1..∞ --&gt; A
+C -- 0..∞ --&gt; C
+E -- 0..∞ --&gt; E
+G -- 0..∞ --&gt; G
+I -- 0..∞ --&gt; I
+K -- 0..∞ --&gt; K
+M -- 0..∞ --&gt; M
+O -- 1..∞ --&gt; O
+end
+
+subgraph EducationOrganizationAttendance
+A -- 1..∞ --&gt; A
+C -- 0..∞ --&gt; C
+E -- 0..∞ --&gt; E
+G -- 0..∞ --&gt; G
+I -- 0..∞ --&gt; I
+K -- 0..∞ --&gt; K
+M -- 0..∞ --&gt; M
+O -- 1..∞ --&gt; O
+end
+
+subgraph EducationOrganizationAttendance
+A -- 1..∞ --&gt; A
+C -- 0..∞ --&gt; C
+E -- 0..∞ --&gt; E
+G -- 0..∞ --&gt; G
+I -- 0..∞ --&gt; I
+K -- 0..∞ --&gt; K
+M -- 0..∞ --&gt; M
+O -- 1..∞ --&gt; O
+end
+
+subgraph EducationOrganizationAttendance
+A -- 1..∞ --&gt; A
+C -- 0..∞ --&gt; C
+E -- 0..∞ --&gt; E
+G -- 0..∞ --&gt; G
+I -- 0..∞ --&gt; I
+K -- 0..∞ --&gt; K
+M -- 0..∞ --&gt; M
+O -- 1..∞ --&gt; O
+end
+
+subgraph EducationOrganizationAttendance
+A -- 1..∞ --&gt; A
+C -- 0..∞ --&gt; C
+E -- 0..∞ --&gt; E
+G -- 0..∞ --&gt; G
+I -- 0..∞ --&gt; I
+K -- 0..∞ --&gt; K
+M -- 0..∞ --&gt; M
+O -- 1..∞ --&gt; O
+end
+
+subgraph EducationOrganizationAttendance
+A -- 1..∞ --&gt; A
+C -- 0..∞ --&gt; C
+E -- 0..∞ --&gt; E
+G -- 0..∞ --&gt; G
+I -- 0..∞ --&gt; I
+K -- 0..∞ --&gt; K
+M -- 0..∞ --&gt; M
+O -- 1..∞ --&gt; O
+end
+
+subgraph EducationOrganizationAttendance
+A -- 1..∞ --&gt; A
+C -- 0..∞ --&gt; C
+E -- 0..∞ --&gt; E
+G -- 0..∞ --&gt; G
+I -- 0..∞ --&gt; I
+K -- 0..∞ --&gt; K
+M -- 0..∞ --&gt; M
+O -- 1..∞ --&gt; O
+end
+
+subgraph EducationOrganizationAttendance
+A -- 1..∞ --&gt; A
+C -- 0..∞ --&gt; C
+E -- 0..∞ --&gt; E
+G -- 0..∞ --&gt; G
+I -- 0..∞ --&gt; I
+K -- 0..∞ --&gt; K
+M -- 0..∞ --&gt; M
+O -- 1..∞ --&gt; O
+end
+
+subgraph EducationOrganizationAttendance
+A -- 1..∞ --&gt; A
+C -- 0..∞ --&gt; C
+E -- 0..∞ --&gt; E
+G -- 0..∞ --&gt; G
+I -- 0..∞ --&gt; I
+K -- 0..∞ --&gt; K
+M -- 0..∞ --&gt; M
+O -- 1..∞ --&gt; O
+end
+
+subgraph EducationOrganizationAttendance
+A -- 1..∞ --&gt; A
+C -- 0..∞ --&gt; C
+E -- 0..∞ --&gt; E
+G -- 0..∞ --&gt; G
+I -- 0..∞ --&gt; I
+K -- 0..∞ --&gt; K
+M -- 0..∞ --&gt; M
+O -- 1..∞ --&gt; O
+end
+
+subgraph EducationOrganizationAttendance
+A -- 1..∞ --&gt; A
+C -- 0..∞ --&gt; C
+E -- 0..∞ --&gt; E
+G -- 0..∞ --&gt; G
+I -- 0..∞ --&gt; I
+K -- 0..∞ --&gt; K
+M -- 0..∞ --&gt; M
+O -- 1..∞ --&gt; O
+end
+
+subgraph EducationOrganizationAttendance
+A -- 1..∞ --&gt; A
+C -- 0..∞ --&gt; C
+E -- 0..∞ --&gt; E
+G -- 0..∞ --&gt; G
+I -- 0..∞ --&gt; I
+K -- 0..∞ --&gt; K
+M -- 0..∞ --&gt; M
+O -- 1..∞ --&gt; O
+end
+
+subgraph EducationOrganizationAttendance
+A -- 1..∞ --&gt; A
+C -- 0..∞ --&gt; C
+E -- 0..∞ --&gt; E
+G -- 0..∞ --&gt; G
+I -- 0..∞ --&gt; I
+K -- 0..∞ --&gt; K
+M -- 0..∞ --&gt; M
+O -- 1..∞ --&gt; O
+end
+
+subgraph EducationOrganizationAttendance
+A -- 1..∞ --&gt; A
+C -- 0..∞ --&gt; C
+E -- 0..∞ --&gt; E
+G -- 0..∞ --&gt; G
+I -- 0..∞ --&gt; I
+K -- 0..∞ --&gt; K
+M -- 0..∞ --&gt; M
+O -- 1..∞ --&gt; O
+end
+
+subgraph EducationOrganizationAttendance
+A -- 1..∞ --&gt; A
+C -- 0..∞ --&gt; C
+E -- 0..∞ --&gt; E
+G -- 0..∞ --&gt; G
+I -- 0..∞ --&gt; I
+K -- 0..∞ --&gt; K
+M -- 0..∞ --&gt; M
+O -- 1..∞ --&gt; O
+end
+
+subgraph EducationOrganizationAttendance
+A -- 1..∞ --&gt; A
+C -- 0..∞ --&gt; C
+E -- 0..∞ --&gt; E
+G -- 0..∞ --&gt; G
+I -- 0..∞ --&gt; I
+K -- 0..∞ --&gt; K
+M -- 0..∞ --&gt; M
+O -- 1..∞ --&gt; O
+end
+
+subgraph EducationOrganizationAttendance
+A -- 1..∞ --&gt; A
+C -- 0..∞ --&gt; C
+E -- 0..∞ --&gt; E
+G -- 0..∞ --&gt; G
+I -- 0..∞ --&gt; I
+K -- 0..∞ --&gt; K
+M -- 0..∞ --&gt; M
+O -- 1..∞ --&gt; O
+end
+
+subgraph EducationOrganizationAttendance
+A -- 1..∞ --&gt; A
+C -- 0..∞ --&gt; C
+E -- 0..∞ --&gt; E
+G -- 0..∞ --&gt; G
+I -- 0..∞ --&gt; I
+K -- 0..∞ --&gt; K
+M -- 0..∞ --&gt; M
+O -- 1..∞ --&gt; O
+end
+
+subgraph EducationOrganizationAttendance
+A -- 1..∞ --&gt; A
+C -- 0..∞ --&gt; C
+E -- 0..∞ --&gt; E
+G -- 0..∞ --&gt; G
+I -- 0..∞ --&gt; I
+K -- 0..∞ --&gt; K
+M -- 0..∞ --&gt; M
+O -- 1..∞ --&gt; O
+end
+
+subgraph EducationOrganizationAttendance
+A -- 1..∞ --&gt; A
+C -- 0..∞ --&gt; C
+E -- 0..∞ --&gt; E
+G -- 0..∞ --&gt; G
+I -- 0..∞ --&gt; I
+K -- 0..∞ --&gt; K
+M -- 0..∞ --&gt; M
+O -- 1..∞ --&gt; O
+end
+
+subgraph EducationOrganizationAttendance
+A -- 1..∞ --&gt; A
+C -- 0..∞ --&gt; C
+E -- 0..∞ --&gt; E
+G -- 0..∞ --&gt; G
+I -- 0..∞ --&gt; I
+K -- 0..∞ --&gt; K
+M -- 0..∞ --&gt; M
+O -- 1..∞ --&gt; O
+end
+
+subgraph EducationOrganizationAttendance
+A -- 1..∞ --&gt; A
+C -- 0..∞ --&gt; C
+E -- 0..∞ --&gt; E
+G -- 0..∞ --&gt; G
+I -- 0..∞ --&gt; I
+K -- 0..∞ --&gt; K
+M -- 0..∞ --&gt; M
+O -- 1..∞ --&gt; O
+end
+
+subgraph EducationOrganizationAttendance
+A -- 1..∞ --&gt; A
+C -- 0..∞ --&gt; C
+E -- 0..∞ --&gt; E
+G -- 0..∞ --&gt; G
+I -- 0..∞ --&gt; I
+K -- 0..∞ --&gt; K
+M -- 0..∞ --&gt; M
+O -- 1..∞ --&gt; O
+end
+
+subgraph EducationOrganizationAttendance
+A -- 1..∞ --&gt; A
+C -- 0..∞ --&gt; C
+E -- 0..∞ --&gt; E
+G -- 0..∞ --&gt; G
+I -- 0..∞ --&gt; I
+K -- 0..∞ --&gt; K
+M -- 0..∞ --&gt; M
+O -- 1..∞ --&gt; O
+end
+
+subgraph EducationOrganizationAttendance
+A -- 1..∞ --&gt; A
+C -- 0..∞ --&gt; C
+E -- 0..∞ --&gt; E
+G -- 0..∞ --&gt; G
+I -- 0..∞ --&gt; I
+K -- 0..∞ --&gt; K
+M -- 0..∞ --&gt; M
+O -- 1..∞ --&gt; O
+end
+
+subgraph EducationOrganizationAttendance
+A -- 1..∞ --&gt; A
+C -- 0..∞ --&gt; C
+E -- 0..∞ --&gt; E
+G -- 0..∞ --&gt; G
+I -- 0..∞ --&gt; I
+K -- 0..∞ --&gt; K
+M -- 0..∞ --&gt; M
+O -- 1..∞ --&gt; O
+end
+
+subgraph EducationOrganizationAttendance
+A -- 1..∞ --&gt; A
+C -- 0..∞ --&gt; C
+E -- 0..∞ --&gt; E
+G -- 0..∞ --&gt; G
+I -- 0..∞ --&gt; I
+K -- 0..∞ --&gt; K
+M -- 0..∞ --&gt; M
+O -- 1..∞ --&gt; O
+end
+
+subgraph EducationOrganizationAttendance
+A -- 1..∞ --&gt; A
+C -- 0..∞ --&gt; C
+E -- 0..∞ --&gt; E
+G -- 0..∞ --&gt; G
+I -- 0..∞ --&gt; I
+K -- 0..∞ --&gt; K
+M -- 0..∞ --&gt; M
+O -- 1..∞ --&gt; O
+end
+
+subgraph EducationOrganizationAttendance
+A -- 1..∞ --&gt; A
+C -- 0..∞ --&gt; C
+E -- 0..∞ --&gt; E
+G -- 0..∞ --&gt; G
+I -- 0..∞ --&gt; I
+K -- 0..∞ --&gt; K
+M -- 0..∞ --&gt; M
+O -- 1..∞ --&gt; O
+end
+
+subgraph EducationOrganizationAttendance
+A -- 1..∞ --&gt; A
+C -- 0..∞ --&gt; C
+E -- 0..∞ --&gt; E
+G -- 0..∞ --&gt; G
+I -- 0..∞ --&gt; I
+K -- 0..∞ --&gt; K
+M -- 0..∞ --&gt; M
+O -- 1..∞ --&gt; O
+end
+
+subgraph EducationOrganizationAttendance
+A -- 1..∞ --&gt; A
+C -- 0..∞ --&gt; C
+E -- 0..∞ --&gt; E
+G -- 0..∞ --&gt; G
+I -- 0..∞ --&gt; I
+K -- 0..∞ --&gt; K
+M -- 0..∞ --&gt; M
+O -- 1..∞ --&gt; O
+end
+
+subgraph EducationOrganizationAttendance
+A -- 1..∞ --&gt; A
+C -- 0..∞ --&gt; C
+E -- 0..∞ --&gt; E
+G -- 0..∞ --&gt; G
+I -- 0..∞ --&gt; I
+K -- 0..∞ --&gt; K
+M -- 0..∞ --&gt; M
+O -- 1..∞ --&gt; O
+end
+
+subgraph EducationOrganizationAttendance
+A -- 1..∞ --&gt; A
+C -- 0..∞ --&gt; C
+E -- 0..∞ --&gt; E
+G -- 0..∞ --&gt; G
+I -- 0..∞ --&gt; I
+K -- 0..∞ --&gt; K
+M -- 0..∞ --&gt; M
+O -- 1..∞ --&gt; O
+end
+
+subgraph EducationOrganizationAttendance
+A -- 1..∞ --&gt; A
+C -- 0..∞ --&gt; C
+E -- 0..∞ --&gt; E
+G -- 0..∞ --&gt; G
+I -- 0..∞ --&gt; I
+K -- 0..∞ --&gt; K
+M -- 0..∞ --&gt; M
+O -- 1..∞ --&gt; O
+end
+
+subgraph EducationOrganizationAttendance
+A -- 1..∞ --&gt; A
+C -- 0..∞ --&gt; C
+E -- 0..∞ --&gt; E
+G -- 0..∞ --&gt; G
+I -- 0..∞ --&gt; I
+K -- 0..∞ --&gt; K
+M -- 0..∞ --&gt; M
+O -- 1..∞ --&gt; O
+end
+
+subgraph EducationOrganizationAttendance
+A -- 1..∞ --&gt; A
+C -- 0..∞ --&gt; C
+E -- 0..∞ --&gt; E
+G -- 0..∞ --&gt; G
+I -- 0..∞ --&gt; I
+K -- 0..∞ --&gt; K
+M -- 0..∞ --&gt; M
+O -- 1..∞ --&gt; O
+end
+
+subgraph EducationOrganizationAttendance
+A -- 1..∞ --&gt; A
+C -- 0..∞ --&gt; C
+E -- 0..∞ --&gt; E
+G -- 0..∞ --&gt; G
+I -- 0..∞ --&gt; I
+K -- 0..∞ --&gt; K
+M -- 0..∞ --&gt; M
+O -- 1..∞ --&gt; O
+end
+
+subgraph EducationOrganizationAttendance
+A -- 1..∞ --&gt; A
+C -- 0..∞ --&gt; C
+E -- 0..∞ --&gt; E
+G -- 0..∞ --&gt; G
+I -- 0..∞ --&gt; I
+K -- 0..∞ --&gt; K
+M -- 0..∞ --&gt; M
+O -- 1..∞ --&gt; O
+end
+
+subgraph EducationOrganizationAttendance
+A -- 1..∞ --&gt; A
+C -- 0..∞ --&gt; C
+E -- 0..∞ --&gt; E
+G -- 0..∞ --&gt; G
+I -- 0..∞ --&gt; I
+K -- 0..∞ --&gt; K
+M -- 0..∞ --&gt; M
+O -- 1..∞ --&gt; O
+end
+
+subgraph EducationOrganizationAttendance
+A -- 1..∞ --&gt; A
+C -- 0..∞ --&gt; C
+E -- 0..∞ --&gt; E
+G -- 0..∞ --&gt; G
+I -- 0..∞ --&gt; I
+K -- 0..∞ --&gt; K
+M -- 0..∞ --&gt; M
+O -- 1..∞ --&gt; O
+end
+
+subgraph EducationOrganizationAttendance
+A -- 1..∞ --&gt; A
+C -- 0..∞ --&gt; C
+E -- 0..∞ --&gt; E
+G -- 0..∞ --&gt; G
+I -- 0..∞ --&gt; I
+K -- 0..∞ --&gt; K
+M -- 0..∞ --&gt; M
+O -- 1..∞ --&gt; O
+end
+
+subgraph EducationOrganizationAttendance
+A -- 1..∞ --&gt; A
+C -- 0..∞ --&gt; C
+E -- 0..∞ --&gt; E
+G -- 0..∞ --&gt; G
+I -- 0..∞ --&gt; I
+K -- 0..∞ --&gt; K
+M -- 0..∞ --&gt; M
+O -- 1..∞ --&gt; O
+end
+
+subgraph EducationOrganizationAttendance
+A -- 1..∞ --&gt; A
+C -- 0..∞ --&gt; C
+E -- 0..∞ --&gt; E
+G -- 0..∞ --&gt; G
+I -- 0..∞ --&gt; I
+K -- 0..∞ --&gt; K
+M -- 0..∞ --&gt; M
+O -- 1..∞ --&gt; O
+end
+
+subgraph EducationOrganizationAttendance
+A -- 1..∞ --&gt; A
+C -- 0..∞ --&gt; C
+E -- 0..∞ --&gt; E
+G -- 0..∞ --&gt; G
+I -- 0..∞ --&gt; I
+K -- 0..∞ --&gt; K
+M -- 0..∞ --&gt; M
+O -- 1..∞ --&gt; O
+end
+
+subgraph EducationOrganizationAttendance
+A -- 1..∞ --&gt; A
+C -- 0..∞ --&gt; C
+E -- 0..∞ --&gt; E
+G -- 0..∞ --&gt; G
+I -- 0..∞ --&gt; I
+K -- 0..∞ --&gt; K
+M -- 0..∞ --&gt; M
+O -- 1..∞ --&gt; O
+end
+
+subgraph EducationOrganizationAttendance
+A -- 1..∞ --&gt; A
+C -- 0..∞ --&gt; C
+E -- 0..∞ --&gt; E
+G -- 0..∞ --&gt; G
+I -- 0..∞ --&gt; I
+K -- 0..∞ --&gt; K
+M -- 0..∞ --&gt; M
+O -- 1..∞ --&gt; O
+end
+
+subgraph EducationOrganizationAttendance
+A -- 1..∞ --&gt; A
+C -- 0..∞ --&gt; C
+E -- 0..∞ --&gt; E
+G -- 0..∞ --&gt; G
+I -- 0..∞ --&gt; I
+K -- 0..∞ --&gt; K
+M -- 0..∞ --&gt; M
+O -- 1..∞ --&gt; O
+end
+
+subgraph EducationOrganizationAttendance
+A -- 1..∞ --&gt; A
+C -- 0..∞ --&gt; C
+E -- 0..∞ --&gt; E
+G -- 0..∞ --&gt; G
+I -- 0..∞ --&gt; I
+K -- 0..∞ --&gt; K
+M -- 0..∞ --&gt; M
+O -- 1..∞ --&gt; O
+end
+
+subgraph EducationOrganizationAttendance
+A -- 1..∞ --&gt; A
+C -- 0..∞ --&gt; C
+E -- 0..∞ --&gt; E
+G -- 0..∞ --&gt; G
+I -- 0..∞ --&gt; I
+K -- 0..∞ --&gt; K
+M -- 0..∞ --&gt; M
+O -- 1..∞ --&gt; O
+end
+
+subgraph EducationOrganizationAttendance
+A -- 1..∞ --&gt; A
+C -- 0..∞ --&gt; C
+E -- 0..∞ --&gt; E
+G -- 0..∞ --&gt; G
+I -- 0..∞ --&gt; I
+K -- 0..∞ --&gt; K
+M -- 0..∞ --&gt; M
+O -- 1..∞ --&gt; O
+end
+
+subgraph EducationOrganizationAttendance
+A -- 1..∞ --&gt; A
+C -- 0..∞ --&gt; C
+E -- 0..∞ --&gt; E
+G -- 0..∞ --&gt; G
+I -- 0..∞ --&gt; I
+K -- 0..∞ --&gt; K
+M -- 0..∞ --&gt; M
+O -- 1..∞ --&gt; O
+end
+
+subgraph EducationOrganizationAttendance
+A -- 1..∞ --&gt; A
+C -- 0..∞ --&gt; C
+E -- 0..∞ --&gt; E
+G -- 0..∞ --&gt; G
+I -- 0..∞ --&gt; I
+K -- 0..∞ --&gt; K
+M -- 0..∞ --&gt; M
+O -- 1..∞ --&gt; O
+end
+
+subgraph EducationOrganizationAttendance
+A -- 1..∞ --&gt; A
+C -- 0..∞ --&gt; C
+E -- 0..∞ --&gt; E
+G -- 0..∞ --&gt; G
+I -- 0..∞ --&gt; I
+K -- 0..∞ --&gt; K
+M -- 0..∞ --&gt; M
+O -- 1..∞ --&gt; O
+end
+
+subgraph EducationOrganizationAttendance
+A -- 1..∞ --&gt; A
+C -- 0..∞ --&gt; C
+E -- 0..∞ --&gt; E
+G -- 0..∞ --&gt; G
+I -- 0..∞ --&gt; I
+K -- 0..∞ --&gt; K
+M -- 0..∞ --&gt; M
+O -- 1..∞ --&gt; O
+end
+
+subgraph EducationOrganizationAttendance
+A -- 1..∞ --&gt; A
+C -- 0..∞ --&gt; C
+E -- 0..∞ --&gt; E
+G -- 0..∞ --&gt; G
+I -- 0..∞ --&gt; I
+K -- 0..∞ --&gt; K
+M -- 0..∞ --&gt; M
+O -- 1..∞ --&gt; O
+end
+
+subgraph EducationOrganizationAttendance
+A -- 1..∞ --&gt; A
+C -- 0..∞ --&gt; C
+E -- 0..∞ --&gt; E
+G -- 0..∞ --&gt; G
+I -- 0..∞ --&gt; I
+K -- 0..∞ --&gt; K
+M -- 0..∞ --&gt; M
+O -- 1..∞ --&gt; O
+end
+
+subgraph EducationOrganizationAttendance
+A -- 1..∞ --&gt; A
+C -- 0..∞ --&gt; C
+E -- 0..∞ --&gt; E
+G -- 0..∞ --&gt; G
+I -- 0..∞ --&gt; I
+K -- 0..∞ --&gt; K
+M -- 0..∞ --&gt; M
+O -- 1..∞ --&gt; O
+end
+
+subgraph EducationOrganizationAttendance
+A -- 1..∞ --&gt; A
+C -- 0..∞ --&gt; C
+E -- 0..∞ --&gt; E
+G -- 0..∞ --&gt; G
+I -- 0..∞ --&gt; I
+K -- 0..∞ --&gt; K
+M -- 0..∞ --&gt; M
+O -- 1..∞ --&gt; O
+end
+
+subgraph EducationOrganizationAttendance
+A -- 1..∞ --&gt; A
+C -- 0..∞ --&gt; C
+E -- 0..∞ --&gt; E
+G -- 0..∞ --&gt; G
+I -- 0..∞ --&gt; I
+K -- 0..∞ --&gt; K
+M -- 0..∞ --&gt; M
+O -- 1..∞ --&gt; O
+end
+
+subgraph EducationOrganizationAttendance
+A -- 1..∞ --&gt; A
+C -- 0..∞ --&gt; C
+E -- 0..∞ --&gt; E
+G -- 0..∞ --&gt; G
+I -- 0..∞ --&gt; I
+K -- 0..∞ --&gt; K
+M -- 0..∞ --&gt; M
+O -- 1..∞ --&gt; O
+end
+
+subgraph EducationOrganizationAttendance
+A -- 1..∞ --&gt; A
+C -- 0..∞ --&gt; C
+E -- 0..∞ --&gt; E
+G -- 0..∞ --&gt; G
+I -- 0..∞ --&gt; I
+K -- 0..∞ --&gt; K
+M -- 0..∞ --&gt; M
+O -- 1..∞ --&gt; O
+end
+
+subgraph EducationOrganizationAttendance
+A -- 1..∞ --&gt; A
+C -- 0..∞ --&gt; C
+E -- 0..∞ --&gt; E
+G -- 0..∞ --&gt; G
+I -- 0..∞ --&gt; I
+K -- 0..∞ --&gt; K
+M -- 0..∞ --&gt; M
+O -- 1..∞ --&gt; O
+end
+
+subgraph EducationOrganizationAttendance
+A -- 1..∞ --&gt; A
+C -- 0..∞ --&gt; C
+E -- 0..∞ --&gt; E
+G -- 0..∞ --&gt; G
+I -- 0..∞ --&gt; I
+K -- 0..∞ --&gt; K
+M -- 0..∞ --&gt; M
+O -- 1..∞ --&gt; O
+end
+
+subgraph EducationOrganizationAttendance
+A -- 1..∞ --&gt; A
+C -- 0..∞ --&gt; C
+E -- 0..∞ --&gt; E
+G -- 0..∞ --&gt; G
+I -- 0..∞ --&gt; I
+K -- 0..∞ --&gt; K
+M -- 0..∞ --&gt; M
+O -- 1..∞ --&gt; O
+end
+
+subgraph EducationOrganizationAttendance
+A -- 1..∞ --&gt; A
+C -- 0..∞ --&gt; C
+E -- 0..∞ --&gt; E
+G -- 0..∞ --&gt; G
+I -- 0..∞ --&gt; I
+K -- 0..∞ --&gt; K
+M -- 0..∞ --&gt; M
+O -- 1..∞ --&gt; O
+end
+
+subgraph EducationOrganizationAttendance
+A -- 1..∞ --&gt; A
+C -- 0..∞ --&gt; C
+E -- 0..∞ --&gt; E
+G -- 0..∞ --&gt; G
+I -- 0..∞ --&gt; I
+K -- 0..∞ --&gt; K
+M -- 0..∞ --&gt; M
+O -- 1..∞ --&gt; O
+end
+
+subgraph EducationOrganizationAttendance
+A -- 1..∞ --&gt; A
+C -- 0..∞ --&gt; C
+E -- 0..∞ --&gt; E
+G -- 0..∞ --&gt; G
+I -- 0..∞ --&gt; I
+K -- 0..∞ --&gt; K
+M -- 0..∞ --&gt; M
+O -- 1..∞ --&gt; O
+end
+
+subgraph EducationOrganizationAttendance
+A -- 1..∞ --&gt; A
+C -- 0..∞ --&gt; C
+E -- 0..∞ --&gt; E
+G -- 0..∞ --&gt; G
+I -- 0..∞ --&gt; I
+K -- 0..∞ --&gt; K
+M -- 0..∞ --&gt; M
+O -- 1..∞ --&gt; O
+end
+
+subgraph EducationOrganizationAttendance
+A -- 1..∞ --&gt; A
+C -- 0..∞ --&gt; C
+E -- 0..∞ --&gt; E
+G -- 0..∞ --&gt; G
+I -- 0..∞ --&gt; I
+K -- 0..∞ --&gt; K
+M -- 0..∞ --&gt; M
+O -- 1..∞ --&gt; O
+end
+
+subgraph EducationOrganizationAttendance
+A -- 1..∞ --&gt; A
+C -- 0..∞ --&gt; C
+E -- 0..∞ --&gt; E
+G -- 0..∞ --&gt; G
+I -- 0..∞ --&gt; I
+K -- 0..∞ --&gt; K
+M -- 0..∞ --&gt; M
+O -- 1..∞ --&gt; O
+end
+
+subgraph EducationOrganizationAttendance
+A -- 1..∞ --&gt; A
+C -- 0..∞ --&gt; C
+E -- 0..∞ --&gt; E
+G -- 0..∞ --&gt; G
+I -- 0..∞ --&gt; I
+K -- 0..∞ --&gt; K
+M -- 0..∞ --&gt; M
+O -- 1..∞ --&gt; O
+end
+
+subgraph EducationOrganizationAttendance
+A -- 1..∞ --&gt; A
+C -- 0..∞ --&gt; C
+E -- 0..∞ --&gt; E
+G -- 0..∞ --&gt; G
+I -- 0..∞ --&gt; I
+K -- 0..∞ --&gt; K
+M -- 0..∞ --&gt; M
+O -- 1..∞ --&gt; O
+end
+
+subgraph EducationOrganizationAttendance
+A -- 1..∞ --&gt; A
+C -- 0..∞ --&gt; C
+E -- 0..∞ --&gt; E
+G -- 0..∞ --&gt; G
+I -- 0..∞ --&gt; I
+K -- 0..∞ --&gt; K
+M -- 0..∞ --&gt; M
+O -- 1..∞ --&gt; O
+end
+
+subgraph EducationOrganizationAttendance
+A -- 1..∞ --&gt; A
+C -- 0..∞ --&gt; C
+E -- 0..∞ --&gt; E
+G -- 0..∞ --&gt; G
+I -- 0..∞ --&gt; I
+K -- 0..∞ --&gt; K
+M -- 0..∞ --&gt; M
+O -- 1..∞ --&gt; O
+end
+
+subgraph EducationOrganizationAttendance
+A -- 1..∞ --&gt; A
+C -- 0..∞ --&gt; C
+E -- 0..∞ --&gt; E
+G -- 0..∞ --&gt; G
+I -- 0..∞ --&gt; I
+K -- 0..∞ --&gt; K
+M -- 0..∞ --&gt; M
+O -- 1..∞ --&gt; O
+end
+
+subgraph EducationOrganizationAttendance
+A -- 1..∞ --&gt; A
+C -- 0..∞ --&gt; C
+E -- 0..∞ --&gt; E
+G -- 0..∞ --&gt; G
+I -- 0..∞ --&gt; I
+K -- 0..∞ --&gt; K
+M -- 0..∞ --&gt; M
+O -- 1..∞ --&gt; O
+end
+
+subgraph EducationOrganizationAttendance
+A -- 1..∞ --&gt; A
+C -- 0..∞ --&gt; C
+E -- 0..∞ --&gt; E
+G -- 0..∞ --&gt; G
+I -- 0..∞ --&gt; I
+K -- 0..∞ --&gt; K
+M -- 0..∞ --&gt; M
+O -- 1..∞ --&gt; O
+end
+
+subgraph EducationOrganizationAttendance
+A -- 1..∞ --&gt; A
+C -- 0..∞ --&gt; C
+E -- 0..∞ --&gt; E
+G -- 0..∞ --&gt; G
+I -- 0..∞ --&gt; I
+K -- 0..∞ --&gt; K
+M -- 0..∞ --&gt; M
+O -- 1..∞ --&gt; O
+end
+
+subgraph EducationOrganizationAttendance
+A -- 1..∞ --&gt; A
+C -- 0..∞ --&gt; C
+E -- 0..∞ --&gt; E
+G -- 0..∞ --&gt; G
+I -- 0..∞ --&gt; I
+K -- 0..∞ --&gt; K
+M -- 0..∞ --&gt; M
+O -- 1..∞ --&gt; O
+end
+
+subgraph EducationOrganizationAttendance
+A -- 1..∞ --&gt; A
+C -- 0..∞ --&gt; C
+E -- 0..∞ --&gt; E
+G -- 0..∞ --&gt; G
+I -- 0..∞ --&gt; I
+K -- 0..∞ --&gt; K
+M -- 0..∞ --&gt; M
+O -- 1..∞ --&gt; O
+end
+
+subgraph EducationOrganizationAttendance
+A -- 1..∞ --&gt; A
+C -- 0..∞ --&gt; C
+E -- 0..∞ --&gt; E
+G -- 0..∞ --&gt; G
+I -- 0..∞ --&gt; I
+K -- 0..∞ --&gt; K
+M -- 0..∞ --&gt; M
+O -- 1..∞ --&gt; O
+end
+
+subgraph EducationOrganizationAttendance
+A -- 1..∞ --&gt; A
+C -- 0..∞ --&gt; C
+E -- 0..∞ --&gt; E
+G -- 0..∞ --&gt; G
+I -- 0..∞ --&gt; I
+K -- 0..∞ --&gt; K
+M -- 0..∞ --&gt; M
+O -- 1..∞ --&gt; O
+end
+
+subgraph EducationOrganizationAttendance
+A -- 1..∞ --&gt; A
+C -- 0..∞ --&gt; C
+E -- 0..∞ --&gt; E
+G -- 0..∞ --&gt; G
+I -- 0..∞ --&gt; I
+K -- 0..∞ --&gt; K
+M -- 0..∞ --&gt; M
+O -- 1..∞ --&gt; O
+end
+
+subgraph EducationOrganizationAttendance
+A -- 1..∞ --&gt; A
+C -- 0..∞ --&gt; C
+E -- 0..∞ --&gt; E
+G -- 0..∞ --&gt; G
+I -- 0..∞ --&gt; I
+K -- 0..∞ --&gt; K
+M -- 0..∞ --&gt; M
+O -- 1..∞ --&gt; O
+end
+
+subgraph EducationOrganizationAttendance
+A -- 1..∞ --&gt; A
+C -- 0..∞ --&gt; C
+E -- 0..∞ --&gt; E
+G -- 0..∞ --&gt; G
+I -- 0..∞ --&gt; I
+K -- 0..∞ --&gt; K
+M -- 0..∞ --&gt; M
+O -- 1..∞ --&gt; O
+end
+
+subgraph EducationOrganizationAttendance
+A -- 1..∞ --&gt; A
+C -- 0..∞ --&gt; C
+E -- 0..∞ --&gt; E
+G -- 0..∞ --&gt; G
+I -- 0..∞ --&gt; I
+K -- 0..∞ --&gt; K
+M -- 0..</code></pre>
+<hr />
+<table>
+  <thead>
+    <tr>
+      <th>Attributes</th>
+      <th>Description</th>
+      <th>Card.</th>
+      <th>Rule</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>OrganizationContact</td>
+      <td>The Educational Organisation's contact data</td>
+      <td>0..n</td>
+      <td>N/A</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>See section /CandidateProfile/EducationHistory/EducationOrganizationAttendance/OrganizationContact for more
+        information</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>ProgramName</td>
+      <td>The title of the qualification</td>
+      <td>1</td>
+      <td>N/A</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>"Education Leadership Program", "Biomedical engineering", etc.</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Educational LevelCode</td>
+      <td>A code classifying the level of educational organisation. In this case, the standard used could be EQF or
+        ISCED.</td>
+      <td>0..n</td>
+      <td>HR-Open/EURES: EQF [CL15]<br><br>BR-COM-44: One value for each code list is allowed.<br><br>BR-COM-55:
+        Compulsory use of the attributes "listVersionID", "listName" and "listURI".</td>
+    </tr>
+    <tr>
+      <td>AttendancePeriod</td>
+      <td>Free form options for representing attendance period data.</td>
+      <td>0..1</td>
+      <td>If the End Date sub-element is not filled, it means that the candidate is currently studying</td>
+    </tr>
+    <tr>
+      <td>EducationalDegree</td>
+      <td>Details about the student's degree<br>See section
+        /CandidateProfile/EducationHistory/EducationOrganizationAttendance/EducationDegree for more information</td>
+      <td>0..1</td>
+      <td>N/A</td>
+    </tr>
+    <tr>
+      <td>Link</td>
+      <td>It specifies url link.</td>
+      <td>0..1</td>
+      <td>N/A</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4 id="31132-educationorganizationattendance-attributes">3.11.3.2 <em>EducationOrganizationAttendance Attributes</em><a class="headerlink" href="#31132-educationorganizationattendance-attributes" title="Permanent link">&para;</a></h4>
+<table>
+  <thead>
+    <tr>
+      <th>Attributes</th>
+      <th>Description</th>
+      <th>Card.</th>
+      <th>Rule</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td colspan="4">This element has no attributes.</td>
+    </tr>
+    <tr>
+      <td colspan="4"><b>EducationalOrganizationID attributes</b></td>
+    </tr>
+    <tr>
+      <td colspan="4"><b>Attributes</b></td>
+    </tr>
+    <tr>
+      <td colspan="4">Refer to IdentifierType Attributes for additional attributes.</td>
+    </tr>
+    <tr>
+      <td colspan="4"><b>OrganizationContact attributes</b></td>
+    </tr>
+    <tr>
+      <td colspan="4"><b>Attributes</b></td>
+    </tr>
+    <tr>
+      <td colspan="4">See section /CandidateProfile/EducationHistory/EducationOrganizationAttendance/OrganizationContact
+        for more information</td>
+    </tr>
+    <tr>
+      <td colspan="4"><b>ProgramName attributes</b></td>
+    </tr>
+    <tr>
+      <td colspan="4"><b>Attributes</b></td>
+    </tr>
+    <tr>
+      <td>languageID</td>
+      <td>Identifier of the language used in the program name</td>
+      <td>0..1</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td colspan="4"><b>EducationalDegree attributes</b></td>
+    </tr>
+    <tr>
+      <td colspan="4"><b>Attributes</b></td>
+    </tr>
+    <tr>
+      <td colspan="4">See section /CandidateProfile/EducationHistory/EducationOrganizationAttendance/EducationDegree for
+        more information</td>
+    </tr>
+    <tr>
+      <td colspan="4"><b>OrganizationName attributes</b></td>
+    </tr>
+    <tr>
+      <td colspan="4"><b>Attributes</b></td>
+    </tr>
+    <tr>
+      <td>validFrom</td>
+      <td>Validity start date for this entity's information</td>
+      <td>0..1</td>
+      <td>BR-COM-06: Compulsory Date Format is: YYYY-MM-DD, YYYY-MM, YYYY or YYYY-MM-DDThh:mm:ss.</td>
+    </tr>
+    <tr>
+      <td>validTo</td>
+      <td>Validity end date for this entity's information</td>
+      <td>0..1</td>
+      <td>BR-COM-06: Compulsory Date Format is: YYYY-MM-DD, YYYY-MM, YYYY or YYYY-MM-DDThh:mm:ss.</td>
+    </tr>
+    <tr>
+      <td>languageID</td>
+      <td>Identifier of the language used in the organisation name</td>
+      <td>0..1</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td colspan="4"><b>AttendancePeriod attributes</b></td>
+    </tr>
+    <tr>
+      <td colspan="4"><b>Attributes</b></td>
+    </tr>
+    <tr>
+      <td colspan="4">See section /CandidateProfile/EducationHistory/EducationOrganizationAttendance/AttendancePeriod
+        for more information</td>
+    </tr>
+    <tr>
+      <td colspan="4"><b>EducationalLevelCode attributes</b></td>
+    </tr>
+    <tr>
+      <td colspan="4"><b>Attributes</b></td>
+    </tr>
+    <tr>
+      <td colspan="4">Refer to CodeListAttributeGroup Attributes section for additional attributes.</td>
+    </tr>
+    <tr>
+      <td colspan="4"><b>Link attributes</b></td>
+    </tr>
+    <tr>
+      <td colspan="4"><b>Attributes</b></td>
+    </tr>
+    <tr>
+      <td colspan="4">It has no attributes.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="3114-sub-element-candidateprofileeducationhistoryeducationorganizationattendanceeducationdegree-level-4">3.11.4 Sub-element: /CandidateProfile/EducationHistory/EducationOrganizationAttendance/EducationDegree (level 4)<a class="headerlink" href="#3114-sub-element-candidateprofileeducationhistoryeducationorganizationattendanceeducationdegree-level-4" title="Permanent link">&para;</a></h3>
+<h4 id="31141-educationdegree-element-description">3.11.4.1 EducationDegree Element Description<a class="headerlink" href="#31141-educationdegree-element-description" title="Permanent link">&para;</a></h4>
+<pre class="mermaid"><code>graph TD
+subgraph EducationDegreeType
+A[hr:DegreeName]
+B[hr:DegreeTypeCode]
+C[eures:DegreeDate]
+D[DegreeMajor]
+E[FieldOfStudy]
+F[FinalGrade]
+G[Thesis]
+H[OccupationalSkillsCovered]
+I[NationalClassification]
+J[CreditType]
+K[NumberOfCredit]
+L[validUntil]
+end
+
+subgraph EducationDegree
+M[EducationDegree]
+end
+
+subgraph CommonFields
+N[Contains details about the student's degree.]
+end
+
+M --&gt; A
+M --&gt; B
+M --&gt; C
+M --&gt; D
+M --&gt; E
+M --&gt; F
+M --&gt; G
+M --&gt; H
+M --&gt; I
+M --&gt; J
+M --&gt; K
+M --&gt; L
+
+A -- "The name of the degree." --&gt; N
+B -- "The level of the degree, certificate, or award granted for the successful completion of requirements of an
+academic..." --&gt; N
+C -- "The date upon which an educational degree was awarded or conferred." --&gt; N
+D -- "It contains the degree specialisation." --&gt; N
+E -- "Identifies the field of study." --&gt; N
+F -- "It specifies the final grade obtained for an educational degree." --&gt; N
+G -- "It contains information about the thesis topic." --&gt; N
+H -- "It will contain references to main subjects/skills, which can be used by the application to identify and
+suggest..." --&gt; N
+I -- "It specifies under which national classification category the degree falls in." --&gt; N
+J -- "It specifies type of credit received for the given educational degree." --&gt; N
+K -- "It specifies number of of credits received for the given educational degree." --&gt; N
+L -- "It specifies, if there exist, a date until which certain training/education is valid." --&gt; N</code></pre>
+<table>
+  <thead>
+    <tr>
+      <th>Element</th>
+      <th>Description</th>
+      <th>Cardinality</th>
+      <th>Rule</th>
+      <th>Examples</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>EducationDegree</strong></td>
+      <td>Contains details about the student's degree</td>
+      <td>0..1</td>
+      <td>N/A</td>
+      <td>N/A</td>
+    </tr>
+    <tr>
+      <td colspan="5"><strong>Sub-elements</strong></td>
+    </tr>
+    <tr>
+      <td><strong>DegreeName</strong></td>
+      <td>Narrative details of the degree awarded</td>
+      <td>1</td>
+      <td>N/A</td>
+      <td>"B.B.A.", "PhD", etc.</td>
+    </tr>
+    <tr>
+      <td><strong>DegreeTypeCode</strong></td>
+      <td>The certificate obtained with the degree, or award granted for the successful completion of requirements of an
+        academic program</td>
+      <td>0..1</td>
+      <td>BR-COM-17: Compulsory use of the "EURES_DegreeType-CodeList.gc" list defined by EURES. This is based on ESCO
+        Qualifications – version 1.0</td>
+      <td>HR-Open/EURES: DegreeType [CL10]</td>
+    </tr>
+    <tr>
+      <td><strong>DegreeDate</strong></td>
+      <td>The date in which an educational degree is awarded or conferred</td>
+      <td>0..1</td>
+      <td>BR-COM-16: At least one of its sub-elements must be provided.</td>
+      <td>N/A</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td colspan="4">See section
+        /CandidateProfile/EducationHistory/EducationOrganizationAttendance/EducationDegree/DegreeDate for more
+        information</td>
+    </tr>
+    <tr>
+      <td><strong>DegreeMajor</strong></td>
+      <td>The degree of specialisation</td>
+      <td>0..n</td>
+      <td>N/A</td>
+      <td>N/A</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td colspan="4">See section
+        /CandidateProfile/EducationHistory/EducationOrganizationAttendance/EducationDegree/DegreeMajor for more
+        information</td>
+    </tr>
+    <tr>
+      <td><strong>FieldOfStudy</strong></td>
+      <td>Identifies the field of study</td>
+      <td>0..n</td>
+      <td>isced-f (top level) controlled list/String,</td>
+      <td>N/A</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td colspan="4">See section
+        /CandidateProfile/EducationHistory/EducationOrganizationAttendance/EducationDegree/FieldOfStudy for more
+        information</td>
+    </tr>
+    <tr>
+      <td><strong>FinalGrade</strong></td>
+      <td>Specifies the final grade obtained for an educational degree</td>
+      <td>0..1</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td colspan="4">Same as /CandidateProfile/PersonQualifications/PersonCompetency/ProficiencyLevel</td>
+    </tr>
+    <tr>
+      <td><strong>Thesis</strong></td>
+      <td>Information about the thesis topic</td>
+      <td>0..1</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>OccupationalSkillsCovered</strong></td>
+      <td>It will contain references to skills, which can be used by the application to identify and suggest relevant
+        ESCO skills.</td>
+      <td>0..1</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>NationalClassification</strong></td>
+      <td>It specifies under which category the degree falls in</td>
+      <td>0..1</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>CreditType</strong></td>
+      <td>It specifies type of credit received for the given educational degree.</td>
+      <td>0..1</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>NumberOfCredit</strong></td>
+      <td>It specifies number of credits received for the given educational degree.</td>
+      <td>0..1</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>validUnti</strong></td>
+      <td>It specifies, if there eist, a date until which certain training/education is valid.</td>
+      <td>0..1</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td colspan="4">Sub-elements of validUntil is same as DegreeDate. See section
+        /CandidateProfile/EducationHistory/EducationOrganizationAttendance/EducationDegree/DegreeDate for more
+        information</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4 id="31142-educationdegree-attributes">3.11.4.2 <em>EducationDegree Attributes</em><a class="headerlink" href="#31142-educationdegree-attributes" title="Permanent link">&para;</a></h4>
+<table>
+  <thead>
+    <tr>
+      <th>Attributes</th>
+      <th>Description</th>
+      <th>Card.</th>
+      <th>Rule</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>This element has no attributes.</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td colspan="4"><strong>DegreeName attributes</strong></td>
+    </tr>
+    <tr>
+      <td><strong>Attributes</strong></td>
+      <td><strong>Description</strong></td>
+      <td><strong>Card.</strong></td>
+      <td><strong>Rule</strong></td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th>languageID</th>
+      <th>Description</th>
+      <th>Card.</th>
+      <th>Rule</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td></td>
+      <td>Identifier of the language used in the Degree name</td>
+      <td>0..1</td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th colspan="4">DegreeTypeCode attributes</th>
+    </tr>
+    <tr>
+      <th>Attributes</th>
+      <th>Description</th>
+      <th>Card.</th>
+      <th>Rule</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td colspan="4">Refer to CodeType Attributes section for additional attributes.</td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th colspan="4">DegreeDate attributes</th>
+    </tr>
+    <tr>
+      <th>Attributes</th>
+      <th>Description</th>
+      <th>Card.</th>
+      <th>Rule</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td colspan="4">See section
+        /CandidateProfile/EducationHistory/EducationOrganizationAttendance/EducationDegree/DegreeDate for more
+        information</td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th colspan="4">DegreeMajor attributes</th>
+    </tr>
+    <tr>
+      <th>Attributes</th>
+      <th>Description</th>
+      <th>Card.</th>
+      <th>Rule</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td colspan="4">See section
+        /CandidateProfile/EducationHistory/EducationOrganizationAttendance/EducationDegree/DegreeMajor for more
+        information</td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th colspan="4">FieldOfStudy attributes</th>
+    </tr>
+    <tr>
+      <th>Attributes</th>
+      <th>Description</th>
+      <th>Card.</th>
+      <th>Rule</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td colspan="4">See section
+        /CandidateProfile/EducationHistory/EducationOrganizationAttendance/EducationDegree/FieldOfStudy for more
+        information</td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th colspan="4">FinalGrade attributes</th>
+    </tr>
+    <tr>
+      <th>Attributes</th>
+      <th>Description</th>
+      <th>Card.</th>
+      <th>Rule</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td colspan="4">Same as /CandidateProfile/PersonQualifications/PersonCompetency/ProficiencyLevel</td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th colspan="4">Thesis attributes</th>
+    </tr>
+    <tr>
+      <th>Attributes</th>
+      <th>Description</th>
+      <th>Card.</th>
+      <th>Rule</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td colspan="4">Refer to DescriptionType Attributes section for additional attributes.</td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th colspan="4">OccupationalSkillsCovered attributes</th>
+    </tr>
+    <tr>
+      <th>Attributes</th>
+      <th>Description</th>
+      <th>Card.</th>
+      <th>Rule</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td colspan="4">It has no attributes.</td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th colspan="4">NationalClassification attributes</th>
+    </tr>
+    <tr>
+      <th>Attributes</th>
+      <th>Description</th>
+      <th>Card.</th>
+      <th>Rule</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td colspan="4">It has no attributes.</td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th colspan="4">CreditType attributes</th>
+    </tr>
+    <tr>
+      <th>Attributes</th>
+      <th>Description</th>
+      <th>Card.</th>
+      <th>Rule</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td colspan="4">It has no attributes.</td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th colspan="4">NumberOfCredit attributes</th>
+    </tr>
+    <tr>
+      <th>Attributes</th>
+      <th>Description</th>
+      <th>Card.</th>
+      <th>Rule</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td colspan="4">It has no attributes.</td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th colspan="4">validUntil attributes</th>
+    </tr>
+    <tr>
+      <th>Attributes</th>
+      <th>Description</th>
+      <th>Card.</th>
+      <th>Rule</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td colspan="4">Same as
+        /CandidateProfile/EducationHistory/EducationOrganizationAttendance/EducationDegree/DegreeDate.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="3115-sub-element-candidateprofileeducationhistoryeducationorganizationattendanceeducationdegreedegreedate-level-5">3.11.5 Sub-element: /CandidateProfile/EducationHistory/EducationOrganizationAttendance/EducationDegree/DegreeDate (level 5)<a class="headerlink" href="#3115-sub-element-candidateprofileeducationhistoryeducationorganizationattendanceeducationdegreedegreedate-level-5" title="Permanent link">&para;</a></h3>
+<h4 id="31151-degreedate-element-description">3.11.5.1 DegreeDate Element Description<a class="headerlink" href="#31151-degreedate-element-description" title="Permanent link">&para;</a></h4>
+<pre class="mermaid"><code>graph TD
+subgraph "eures:DegreeDate"
+A[eures:DegreeDate]
+B[The date upon which an educational degree was awarded or conferred.]
+end
+
+subgraph "hr:FreeFormDateTime"
+C[hr:FreeFormDateTime (restriction base)]
+D[FormattedDateTime]
+E[DateText]
+end
+
+subgraph "hr:FreeFormDateTime"
+F[hr:FreeFormDateTime]
+G[FormattedDateTime]
+H[DateText]
+end
+
+A --&gt; B
+A -- "0..*" --&gt; C
+A -- "0..*" --&gt; F
+C --&gt; D
+C --&gt; E
+F --&gt; G
+F --&gt; H
+D --&gt; I[FreeForm Date. Details Provides FreeForm options for representing date information. Recruiting, employment
+screening,...]
+H --&gt; J[FreeForm Date. Details Provides FreeForm options for representing date information. Recruiting, employment
+screening,...]</code></pre>
+<table>
+  <thead>
+    <tr>
+      <th>Element</th>
+      <th>Description</th>
+      <th>Cardinality</th>
+      <th>Rule</th>
+      <th>Examples</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>DegreeDate</td>
+      <td>The date in which an educational degree was awarded or conferred</td>
+      <td>0..1</td>
+      <td>BR-COM-16: At least one of its sub-elements must be provided.</td>
+      <td>N/A</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Sub-elements</p>
+<table>
+  <thead>
+    <tr>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>FormattedDateTime</td>
+      <td>A formatted representation of a date, which may be specified as a date, date/time, year, or year/month</td>
+      <td>0..1</td>
+      <td>BR-COM-06: Compulsory Date Format is: YYYY-MM-DD, YYYY-MM, YYYY or YYYY-MM-DDThh:mm:ss.</td>
+      <td>"2009-04-01" or "2009-04", etc.</td>
+    </tr>
+    <tr>
+      <td>DateText</td>
+      <td>A text or formatted representation of a date or date information</td>
+      <td>0..1</td>
+      <td>N/A</td>
+      <td>"January 4, 2009" or "Two Years Ago"</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4 id="31152-degreedate-attributes">3.11.5.2 DegreeDate Attributes<a class="headerlink" href="#31152-degreedate-attributes" title="Permanent link">&para;</a></h4>
+<table>
+  <thead>
+    <tr>
+      <th>Attributes</th>
+      <th>Description</th>
+      <th>Card.</th>
+      <th>Rule</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td colspan="4">This element has no attributes.</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>DateText attributes</p>
+<table>
+  <thead>
+    <tr>
+      <th>Attributes</th>
+      <th>Description</th>
+      <th>Card.</th>
+      <th>Rule</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td colspan="4">Refer to DateText Attributes section for additional attributes.</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>FormattedDateTime attributes</p>
+<table>
+  <thead>
+    <tr>
+      <th>Attributes</th>
+      <th>Description</th>
+      <th>Card.</th>
+      <th>Rule</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td colspan="4">This sub-element has no attributes.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="3116-sub-element-candidateprofileeducationhistoryeducationorganizationattendanceeducationdegreedegreemajor-level-5">3.11.6 Sub-element: /CandidateProfile/EducationHistory/EducationOrganizationAttendance/EducationDegree/DegreeMajor (level 5)<a class="headerlink" href="#3116-sub-element-candidateprofileeducationhistoryeducationorganizationattendanceeducationdegreedegreemajor-level-5" title="Permanent link">&para;</a></h3>
+<h4 id="31161-degreemajor-element-description">3.11.6.1 DegreeMajor Element Description<a class="headerlink" href="#31161-degreemajor-element-description" title="Permanent link">&para;</a></h4>
+<pre class="mermaid"><code>graph TD
+subgraph DegreeSpecializationType
+A[DegreeSpecializationType]
+end
+B[DegreeMajor] --&gt; A
+A -- "It contains the degree specialisation." --&gt; B
+C[ProgramConcentration] --&gt; A
+C -- "It specifies degree specialisation code." --&gt; A
+D[It specifies the degree specialisation.] --&gt; A</code></pre>
+<table>
+  <thead>
+    <tr>
+      <th>Element</th>
+      <th>Description</th>
+      <th>Cardinality</th>
+      <th>Rule</th>
+      <th>Examples</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>DegreeMajor</td>
+      <td>The degree specialisation</td>
+      <td>0..n</td>
+      <td>N/A</td>
+      <td>N/A</td>
+    </tr>
+    <tr>
+      <td colspan="5"><strong>Sub-elements</strong></td>
+    </tr>
+    <tr>
+      <td>ProgramConcentration</td>
+      <td>Degree specialisation</td>
+      <td>1</td>
+      <td>Compulsory use of Europass2: FieldOfStudy [ECV05]</td>
+      <td>"001", "002", "003" etc.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4 id="31162-degreemajor-attributes">3.11.6.2 DegreeMajor Attributes<a class="headerlink" href="#31162-degreemajor-attributes" title="Permanent link">&para;</a></h4>
+<table>
+  <thead>
+    <tr>
+      <th>Attributes</th>
+      <th>Description</th>
+      <th>Card.</th>
+      <th>Rule</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td colspan="4">Refer to CodeListAttributeGroup Attributes section for additional attributes.</td>
+    </tr>
+    <tr>
+      <td colspan="4"><strong>ProgramConcentration attributes</strong></td>
+    </tr>
+    <tr>
+      <td>Attributes</td>
+      <td>Description</td>
+      <td>Card.</td>
+      <td>Rule</td>
+    </tr>
+    <tr>
+      <td colspan="4">This sub-element has no attributes.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="3117-sub-element-candidateprofileeducationhistoryeducationorganizationattendanceeducationdegreefieldofstudy-level-5">3.11.7 Sub-element: /CandidateProfile/EducationHistory/EducationOrganizationAttendance/EducationDegree/FieldOfStudy (level 5)<a class="headerlink" href="#3117-sub-element-candidateprofileeducationhistoryeducationorganizationattendanceeducationdegreefieldofstudy-level-5" title="Permanent link">&para;</a></h3>
+<h4 id="31171-fieldofstudy-element-description">3.11.7.1 FieldOfStudy Element Description<a class="headerlink" href="#31171-fieldofstudy-element-description" title="Permanent link">&para;</a></h4>
+<pre class="mermaid"><code>graph TD
+subgraph FieldOfStudyType
+A[FieldOfStudyType]
+end
+B[FieldOfStudy] --&gt; A
+B -- "Identifies the field of study." --&gt; B
+C[MainFieldOfStudy] --&gt; A
+C -- "It specifies main field of study degree specialisation code." --&gt; C
+D[SpecificFieldOfStudy] --&gt; A
+D -- "It specifies specific field of study degree specialisation code." --&gt; D</code></pre>
+<table>
+  <thead>
+    <tr>
+      <th>Element</th>
+      <th>Description</th>
+      <th>Cardinality</th>
+      <th>Rule</th>
+      <th>Examples</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>FieldOfStudy</td>
+      <td>It identifies field of study.</td>
+      <td>0..n</td>
+      <td>N/A</td>
+      <td>N/A</td>
+    </tr>
+    <tr>
+      <td colspan="5"><strong>Sub-elements</strong></td>
+    </tr>
+    <tr>
+      <td>MainFieldOfStudy</td>
+      <td>It specifies main field of study degree</td>
+      <td>1</td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+
+<pre class="mermaid"><code>erDiagram
+AttendancePeriod ||--o{ AttendancePeriodType : " "
+AttendancePeriodType ||--|{ AttendancePeriod : " "
+AttendancePeriodType {
+StartDate
+EndDate
+Description
+Ongoing
+}</code></pre>
+<pre class="mermaid"><code>erDiagram
+SpecificFieldOfStudy {
+It specifies main field of study degree specialiation code.
+}
+MainFieldOfStudy {
+It specifies if main field of study contains: FREETEXT or URI
+}
+Same as /CandidateProfile/EducationHistory/EducationOrganizationAttendance/EducationDegree/DegreeMajor
+SpecificFieldOfStudy ||--|{ MainFieldOfStudy : " "
+MainFieldOfStudy ||--|{ SpecificFieldOfStudy : " "</code></pre>
+<h4 id="31172-fieldofstudy-attributes">3.11.7.2 <em>FieldOfStudy Attributes</em><a class="headerlink" href="#31172-fieldofstudy-attributes" title="Permanent link">&para;</a></h4>
+<table>
+  <thead>
+    <tr>
+      <th>Attributes</th>
+      <th>Description</th>
+      <th>Card.</th>
+      <th>Rule</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><b>typeCode</b></td>
+      <td>It specifies if main field of study contains: FREETEXT or URI</td>
+      <td>0..1</td>
+      <td>The value must be: FREETEXT or URI</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>MainFieldOfStudy attributes</strong></p>
+<table>
+  <thead>
+    <tr>
+      <th>Attributes</th>
+      <th>Description</th>
+      <th>Card.</th>
+      <th>Rule</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td colspan="4">Same as
+        /CandidateProfile/EducationHistory/EducationOrganizationAttendance/EducationDegree/DegreeMajor</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>SpecificFieldOfStudy attributes</strong></p>
+<table>
+  <thead>
+    <tr>
+      <th>Attributes</th>
+      <th>Description</th>
+      <th>Card.</th>
+      <th>Rule</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td colspan="4">Same as
+        /CandidateProfile/EducationHistory/EducationOrganizationAttendance/EducationDegree/DegreeMajor</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="3118-sub-element-candidateprofileeducationhistoryeducationorganizationattendanceattendanceperiod-level-4">3.11.8 Sub-element: /CandidateProfile/EducationHistory/EducationOrganizationAttendance/AttendancePeriod (level 4)<a class="headerlink" href="#3118-sub-element-candidateprofileeducationhistoryeducationorganizationattendanceattendanceperiod-level-4" title="Permanent link">&para;</a></h3>
+<h4 id="31181-attendanceperiod-element-description">3.11.8.1 <em>AttendancePeriod Element Description</em><a class="headerlink" href="#31181-attendanceperiod-element-description" title="Permanent link">&para;</a></h4>
+<p>&lt;img&gt;ER Diagram showing AttendancePeriod with sub-elements AttendancePeriodType, StartDate, EndDate, Description,
+and Ongoing.&lt;/img&gt;</p>
+<table>
+  <thead>
+    <tr>
+      <th>Element</th>
+      <th>Description</th>
+      <th>Cardinality</th>
+      <th>Rule</th>
+      <th>Examples</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><b>AttendancePeriod</b></td>
+      <td>Provides Freeform options for representing attendance period data</td>
+      <td>0..1</td>
+      <td>N/A</td>
+      <td>N/A</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Sub-elements</strong></p>
+<table>
+  <thead>
+    <tr>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><b>StartDate</b></td>
+      <td>A timestamp marking the beginning of the attendance period<br>See section
+        /CandidateProfile/EducationHistory/EducationOrganizationAttendance/AttendancePeriod/StartDate for more
+        information</td>
+      <td>0..1</td>
+      <td>BR-COM-16: At least one of its sub-elements must be provided.<br>See section
+        /CandidateProfile/EducationHistory/EducationOrganizationAttendance/AttendancePeriod/StartDate for more
+        information</td>
+      <td>N/A</td>
+    </tr>
+    <tr>
+      <td><b>EndDate</b></td>
+      <td>A timestamp marking the end of the attendance period<br>See section
+        /CandidateProfile/EducationHistory/EducationOrganizationAttendance/AttendancePeriod/EndDate for more information
+      </td>
+      <td>0..1</td>
+      <td>BR-COM-16: At least one of its sub-elements must be provided.<br>See section
+        /CandidateProfile/EducationHistory/EducationOrganizationAttendance/AttendancePeriod/EndDate for more information
+      </td>
+      <td>N/A</td>
+    </tr>
+    <tr>
+      <td><b>Description</b></td>
+      <td>Narrative details of the attendance period</td>
+      <td>0..1</td>
+      <td>N/A</td>
+      <td>"Additional information about the attendance period."</td>
+    </tr>
+  </tbody>
+</table>
+
+<pre class="mermaid"><code>erDiagram
+eures|FreeFormDateTime || hr.FreeFormDateTime (restriction base)
+eures.FreeFormDateTime || FormattedDateTime
+eures.FreeFormDateTime || DateText</code></pre>
+<table>
+  <tr>
+    <td><b>Ongoing</b></td>
+    <td>It indicates if the attendance period is still ongoing and hence has no end date.</td>
+    <td>0..1</td>
+    <td></td>
+    <td></td>
+  </tr>
+</table>
+
+<h4 id="31182-attendanceperiod-attributes">3.11.8.2 AttendancePeriod Attributes<a class="headerlink" href="#31182-attendanceperiod-attributes" title="Permanent link">&para;</a></h4>
+<table>
+  <thead>
+    <tr>
+      <th>Attributes</th>
+      <th>Description</th>
+      <th>Card.</th>
+      <th>Rule</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td colspan="4">This element has no attributes.</td>
+    </tr>
+    <tr>
+      <td colspan="4"><b>Description attributes</b></td>
+    </tr>
+    <tr>
+      <td><b>Attributes</b></td>
+      <td><b>Description</b></td>
+      <td><b>Card.</b></td>
+      <td><b>Rule</b></td>
+    </tr>
+    <tr>
+      <td colspan="4">Refer to DescriptionType attributes section for additional attributes.</td>
+    </tr>
+    <tr>
+      <td colspan="4"><b>EndDate attributes</b></td>
+    </tr>
+    <tr>
+      <td><b>Attributes</b></td>
+      <td><b>Description</b></td>
+      <td><b>Card.</b></td>
+      <td><b>Rule</b></td>
+    </tr>
+    <tr>
+      <td colspan="4">See section
+        /CandidateProfile/EducationHistory/EducationOrganizationAttendance/AttendancePeriod/EndDate for more information
+      </td>
+    </tr>
+    <tr>
+      <td colspan="4"><b>StartDate attributes</b></td>
+    </tr>
+    <tr>
+      <td><b>Attributes</b></td>
+      <td><b>Description</b></td>
+      <td><b>Card.</b></td>
+      <td><b>Rule</b></td>
+    </tr>
+    <tr>
+      <td colspan="4">See section
+        /CandidateProfile/EducationHistory/EducationOrganizationAttendance/AttendancePeriod/StartDate for more
+        information</td>
+    </tr>
+    <tr>
+      <td colspan="4"><b>Ongoing attributes</b></td>
+    </tr>
+    <tr>
+      <td><b>Attributes</b></td>
+      <td><b>Description</b></td>
+      <td><b>Card.</b></td>
+      <td><b>Rule</b></td>
+    </tr>
+    <tr>
+      <td colspan="4">It has no attributes.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="3119-sub-element-candidateprofileeducationhistoryeducationorganizationattendanceattendanceperiodstartdate-level-5">3.11.9 Sub-element: /CandidateProfile/EducationHistory/EducationOrganizationAttendance/AttendancePeriod/StartDate (level 5)<a class="headerlink" href="#3119-sub-element-candidateprofileeducationhistoryeducationorganizationattendanceattendanceperiodstartdate-level-5" title="Permanent link">&para;</a></h3>
+<h4 id="31191-startdate-element-description">3.11.9.1 StartDate Element Description<a class="headerlink" href="#31191-startdate-element-description" title="Permanent link">&para;</a></h4>
+<table>
+  <thead>
+    <tr>
+      <th>Element</th>
+      <th>Description</th>
+      <th>Cardinality</th>
+      <th>Rule</th>
+      <th>Examples</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><b>StartDate</b></td>
+      <td>A timestamp marking the beginning of the attendance period</td>
+      <td>0..1</td>
+      <td>BR-COM-16: At least one of its sub-elements must be provided.</td>
+      <td>N/A</td>
+    </tr>
+    <tr>
+      <td colspan="5"><b>Sub-elements</b></td>
+    </tr>
+    <tr>
+      <td><b>FormattedDateTime</b></td>
+      <td>A formatted representation of a date, which may be specified as a date, date/time, year, or year/month</td>
+      <td>0..1</td>
+      <td>BR-COM-06: Compulsory Date Format is: YYYY-MM-DD, YYYY-MM, YYYY or YYYY-MM-DDThh:mm:ss.</td>
+      <td>"2009-01-04", "2009-01", etc.</td>
+    </tr>
+    <tr>
+      <td><b>DateText</b></td>
+      <td>A text or formatted representation of a date or date information</td>
+      <td>0..1</td>
+      <td>N/A</td>
+      <td>"January 4, 2009" or "Two Years Ago"</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4 id="31192-startdate-attributes">3.11.9.2 <em>StartDate Attributes</em><a class="headerlink" href="#31192-startdate-attributes" title="Permanent link">&para;</a></h4>
+<table>
+  <thead>
+    <tr>
+      <th>Attributes</th>
+      <th>Description</th>
+      <th>Card.</th>
+      <th>Rule</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>This element has no attributes.</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>DateText attributes</strong></p>
+<table>
+  <thead>
+    <tr>
+      <th>Attributes</th>
+      <th>Description</th>
+      <th>Card.</th>
+      <th>Rule</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Refer to DateText Attributes section for additional attributes.</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>FormattedDateTime attributes</strong></p>
+<table>
+  <thead>
+    <tr>
+      <th>Attributes</th>
+      <th>Description</th>
+      <th>Card.</th>
+      <th>Rule</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>This sub-element has no attributes.</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="31110-sub-element-candidateprofileeducationhistoryeducationorganizationattendanceattendanceperiodenddate-level-5">3.11.10 Sub-element: /CandidateProfile/EducationHistory/EducationOrganizationAttendance/AttendancePeriod/EndDate (level 5)<a class="headerlink" href="#31110-sub-element-candidateprofileeducationhistoryeducationorganizationattendanceattendanceperiodenddate-level-5" title="Permanent link">&para;</a></h3>
+<h4 id="311101-enddate-element-description">3.11.10.1 <em>EndDate Element Description</em><a class="headerlink" href="#311101-enddate-element-description" title="Permanent link">&para;</a></h4>
+<pre class="mermaid"><code>graph TD
+A[eures:FreeFormDataType] --&gt; B(hr:FreeFormDateTime(restriction base))
+B --&gt; C[FormattedDateTime]
+B --&gt; D[DateText]
+C --&gt; E[EndDate]
+D --&gt; F[hr:FormattedDateTime]
+F --&gt; G[hr:DateText]
+subgraph "FreeForm Date. Details Provides FreeForm options for representing date information. Recruiting, employment
+screening,..."
+C
+D
+end
+subgraph "FreeForm Date. Details Provides FreeForm options for representing date information. Recruiting, employment
+screening,..."
+F
+G
+end</code></pre>
+<table>
+  <thead>
+    <tr>
+      <th>Element</th>
+      <th>Description</th>
+      <th>Cardinality</th>
+      <th>Rule</th>
+      <th>Examples</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>EndDate</td>
+      <td>A timestamp marking the end of the attendance period</td>
+      <td>0..1</td>
+      <td>BR-COM-06: Compulsory Date Format is: YYYY-MM-DD, YYYY-MM, YYYY or YYYY-MM-DDThh:mm:ss.</td>
+      <td>N/A</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Sub-elements</strong></p>
+<p>The same as /CandidateProfile/EducationHistory/ EducationOrganizationAttendance/AttendancePeriod/StartDate</p>
+<h4 id="311102-enddate-attributes">3.11.10.2 <em>EndDate Attributes</em><a class="headerlink" href="#311102-enddate-attributes" title="Permanent link">&para;</a></h4>
+<table>
+  <thead>
+    <tr>
+      <th>Attributes</th>
+      <th>Description</th>
+      <th>Card.</th>
+      <th>Rule</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>The same as /CandidateProfile/EducationHistory/ EducationOrganizationAttendance/AttendancePeriod/StartDate
+      </td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="31111-sub-element-candidateprofileeducationhistoryeducationorganizationattendanceorganizationcontact">3.11.11 Sub-element: /CandidateProfile/EducationHistory/EducationOrganizationAttendance/OrganizationContact<a class="headerlink" href="#31111-sub-element-candidateprofileeducationhistoryeducationorganizationattendanceorganizationcontact" title="Permanent link">&para;</a></h3>
+<p>(level 4)</p>
+<h4 id="311111-organizationcontact-element-description">3.11.11.1 OrganizationContact Element Description<a class="headerlink" href="#311111-organizationcontact-element-description" title="Permanent link">&para;</a></h4>
+<pre class="mermaid"><code>graph TD
+subgraph OrganizationContactType
+A[OrganizationContact] --&gt; B[hr:ContactName]
+A --&gt; C[Communication]
+end
+A -- "0..∞" --&gt; A
+B -- "+" --&gt; B
+C -- "+" --&gt; C
+style A fill:#fff,stroke:#333,stroke-width:2px,color:#333
+style B fill:#fff,stroke:#333,stroke-width:2px,color:#333
+style C fill:#fff,stroke:#333,stroke-width:2px,color:#333
+A -- "It contains the Educational Organisation's contact data." --&gt; A</code></pre>
+<table>
+  <thead>
+    <tr>
+      <th>Element</th>
+      <th>Description</th>
+      <th>Cardinality</th>
+      <th>Rule</th>
+      <th>Examples</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>OrganizationContact</strong></td>
+      <td>An Organisation's contact information</td>
+      <td>0..n</td>
+      <td>N/A</td>
+      <td>N/A</td>
+    </tr>
+    <tr>
+      <td colspan="5"><strong>Sub-elements</strong></td>
+    </tr>
+    <tr>
+      <td colspan="5">The same as /CandidateProfile/EmploymentHistory/EmployerHistory/OrganizationContact</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4 id="311112-organizationcontact-attributes">3.11.11.2 OrganizationContact Attributes<a class="headerlink" href="#311112-organizationcontact-attributes" title="Permanent link">&para;</a></h4>
+<table>
+  <thead>
+    <tr>
+      <th>Attributes</th>
+      <th>Description</th>
+      <th>Card.</th>
+      <th>Rule</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>The same as /CandidateProfile/EmploymentHistory/EmployerHistory/OrganizationContact</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="312-candidateprofilepersonqualifications-level-2">3.12 /CandidateProfile/PersonQualifications (level 2)<a class="headerlink" href="#312-candidateprofilepersonqualifications-level-2" title="Permanent link">&para;</a></h3>
+<h3 id="3121-personqualifications-element-description">3.12.1 PersonQualifications Element Description<a class="headerlink" href="#3121-personqualifications-element-description" title="Permanent link">&para;</a></h3>
+<pre class="mermaid"><code>graph TD
+subgraph PersonQualificationsType
+A[PersonQualifications] --&gt; B[hr:QualificationsSummary]
+A --&gt; C[PersonCompetency]
+end
+A -- "0..∞" --&gt; A
+B -- "+" --&gt; B
+C -- "+" --&gt; C
+style A fill:#fff,stroke:#333,stroke-width:2px,color:#333
+style B fill:#fff,stroke:#333,stroke-width:2px,color:#333
+style C fill:#fff,stroke:#333,stroke-width:2px,color:#333
+A -- "History of a Person's Qualifications" --&gt; A
+B -- "In the context of resumes, a \"qualifications summary\" is a paragraph or listing intended \"showcase\" a
+candidate's most..." --&gt; B
+C -- "A specified person competency is a skill within the context of a personal record (profile, appraisal and
+assessment)..." --&gt; C
+A -- "Used in the context of recruiting and staffing as a container of information related to matching knowledge,
+skills,..." --&gt; A</code></pre>
+<table>
+  <thead>
+    <tr>
+      <th>Element</th>
+      <th>Description</th>
+      <th>Cardinality</th>
+      <th>Rule</th>
+      <th>Examples</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>PersonQualifications</td>
+      <td>Information related to matching capacities, knowledge, skills, abilities, awards and other resource
+        deployment-related characteristics (including “competencies”) offered by a candidate</td>
+      <td>0..1</td>
+      <td>N/A</td>
+      <td>N/A</td>
+    </tr>
+    <tr>
+      <td colspan="5"><b>Sub-elements</b></td>
+    </tr>
+    <tr>
+      <td>QualificationsSummary</td>
+      <td>In the context of resumes, a "qualifications summary" is a paragraph or listing to "showcase" a candidate's
+        most compelling skills and experience. In this context, the "qualifications summary" may be persuasive or have
+        self-marketing content versus a "formal recognition of achievement or competence". In other words, use of term
+        "qualifications" sometimes encompasses both qualifications asserted or claimed as well as those that have been
+        formally recognised by an "awarding organisation." It is used in the context of recruiting and staffing as a
+        container of information related to matching knowledge, skills, abilities, and other resource deployment-related
+        characteristics (including "competencies") offered by a candidate and/or requested by a potential employer or
+        customer.</td>
+      <td>0..1</td>
+      <td>N/A</td>
+      <td>N/A</td>
+    </tr>
+    <tr>
+      <td>Person Competency</td>
+      <td>A specified person competency is a skill within the context of a personal record (profile, appraisal and
+        assessment) that is assessed or asserted at a specified level of proficiency.</td>
+      <td>0..n</td>
+      <td></td>
+      <td>N/A</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>See section /CandidateProfile/PersonQualifications/PersonCompetency for more information</p>
+<h3 id="3122-personqualifications-attributes">3.12.2 PersonQualifications Attributes<a class="headerlink" href="#3122-personqualifications-attributes" title="Permanent link">&para;</a></h3>
+<p>&lt;img&gt;Diagram showing PersonQualificationsType with attributes @Attributes, hr:EffectiveDateAttributeGroup,
+@validFrom, @validTo. A note explains HR-XML's 3.0 architecture makes a distinction between effective-date meta data and
+effective dating that is an integral part of the model. Another note states it is used in the context of recruiting and
+staffing as a container of information related to matching knowledge, skills,...&lt;/img&gt;</p>
+<table>
+  <thead>
+    <tr>
+      <th>Attributes</th>
+      <th>Description</th>
+      <th>Card.</th>
+      <th>Rule</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>validFrom</td>
+      <td>Validity start date for this entity's information</td>
+      <td>0..1</td>
+      <td>BR-COM-06: Compulsory Date Format is: YYYY-MM-DD, YYYY-MM, YYYY or YYYY-MM-DDThh:mm:ss.</td>
+    </tr>
+    <tr>
+      <td>validTo</td>
+      <td>Validity end date for this entity's information</td>
+      <td>0..1</td>
+      <td>BR-COM-06: Compulsory Date Format is: YYYY-MM-DD, YYYY-MM, YYYY or YYYY-MM-DDThh:mm:ss.</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>QualificationsSummary attributes</p>
+<table>
+  <thead>
+    <tr>
+      <th>Attributes</th>
+      <th>Description</th>
+      <th>Card.</th>
+      <th>Rule</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td colspan="4">This sub-element has no attributes.</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>PersonCompetency attributes</p>
+<table>
+  <thead>
+    <tr>
+      <th>Attributes</th>
+      <th>Description</th>
+      <th>Card.</th>
+      <th>Rule</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td colspan="4"></td>
+    </tr>
+  </tbody>
+</table>
+
+<p>See section /CandidateProfile/PersonQualifications/PersonCompetency for more information</p>
+<h3 id="3123-sub-element-candidateprofilepersonqualificationspersoncompetency-level-3">3.12.3 Sub-element: /CandidateProfile/PersonQualifications/PersonCompetency (level 3)<a class="headerlink" href="#3123-sub-element-candidateprofilepersonqualificationspersoncompetency-level-3" title="Permanent link">&para;</a></h3>
+<h4 id="31231-personcompetency-element-description">3.12.3.1 PersonCompetency Element Description<a class="headerlink" href="#31231-personcompetency-element-description" title="Permanent link">&para;</a></h4>
+<pre class="mermaid"><code>graph TD
+subgraph PersonCompetencyType
+A[CompetencyID] --&gt; B[hr:TaxonomyID]
+B --&gt; C[hr:CompetencyName]
+C --&gt; D[eures:ProficiencyLevel]
+D --&gt; E[eures:CompetencyDimension]
+end
+A -- "It contains a unique identifier for a competency definition." --&gt; A_desc
+B -- "A unique identifier for a taxonomy." --&gt; B_desc
+C -- "Competency. Name. Name A human readable, descriptive name for the given competency." --&gt; C_desc
+D -- "The state or degree of mastery or adeptness obtained or achieved for a given competency. A proficiency level
+is..." --&gt; D_desc
+E -- "It contains a measurable characteristic of a competency." --&gt; E_desc
+A -- "0..∞" --&gt; A_instance
+B -- "0..∞" --&gt; B_instance
+C -- "0..∞" --&gt; C_instance
+D -- "0..∞" --&gt; D_instance
+E -- "0..∞" --&gt; E_instance
+A_instance -- "A specified person competency is a skill within the context of a personal record (profile, appraisal and
+assessment)..." --&gt; A_instance_desc
+B_instance -- "A specified person competency is a competency within the context of a personal record (profile,
+appraisal, assessment)..." --&gt; B_instance_desc
+C_instance -- "A specified person competency is a competency within the context of a personal record (profile,
+appraisal, assessment)..." --&gt; C_instance_desc
+D_instance -- "A specified person competency is a competency within the context of a personal record (profile,
+appraisal, assessment)..." --&gt; D_instance_desc
+E_instance -- "A specified person competency is a competency within the context of a personal record (profile,
+appraisal, assessment)..." --&gt; E_instance_desc</code></pre>
+<table>
+  <thead>
+    <tr>
+      <th>Element</th>
+      <th>Description</th>
+      <th>Cardinality</th>
+      <th>Rule</th>
+      <th>Examples</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>PersonCompetency</strong></td>
+      <td>A specified person competency is a skill within the context of a personal record (profile, appraisal and
+        assessment) that is assessed or asserted at specified level of proficiency.</td>
+      <td>0..n</td>
+      <td>N/A</td>
+      <td>N/A</td>
+    </tr>
+    <tr>
+      <td colspan="5"><strong>Sub-elements</strong></td>
+    </tr>
+    <tr>
+      <td><strong>CompetencyID</strong></td>
+      <td>Unique identifier for a skill or competency that depends on the taxonomy used, in this case CEFR.<br>Taxonomy
+        information is included in the ID attributes<br>“EN”, “FR”, etc.<br>Full code list: “4.28.17 Language Codes
+        [CL24]”<br><br>If Taxonomy information isn't language,<br>text field to be used.<br>“Aircraft Assembly”,
+        “Aircraft Electronics”,<br>etc.</td>
+      <td>1</td>
+      <td>Use of ECV06-Languages, if<br>TaxonomyID’s value is<br>“language”. Or<br>NormalizedStringType
+        if<br>TaxonomyID’s value is<br>“other”.</td>
+      <td>Full code list:<br>Europass2:<br>Languages<br>[ECV06]</td>
+    </tr>
+    <tr>
+      <td><strong>TaxonomyID</strong></td>
+      <td>Unique identifier for the type of competency.</td>
+      <td>1</td>
+      <td>BR-COM-54: TaxonomyID’s value should be “language” if the CompetencyID is a language or “other”, in the other
+        competencies</td>
+      <td>“language”,<br>“other”</td>
+    </tr>
+    <tr>
+      <td><strong>CompetencyName</strong></td>
+      <td>A legible, descriptive name for a given competency</td>
+      <td>0..1</td>
+      <td>N/A</td>
+      <td>“English-<br>Language”,<br>“Social skills”,<br>etc.</td>
+    </tr>
+    <tr>
+      <td><strong>ProficiencyLevel</strong></td>
+      <td>The state or degree of mastery or adeptness obtained or achieved for a given competency. Proficiency levels
+        are expressed as a score, a point scale, or a</td>
+      <td>0..1</td>
+      <td>BR-COM-449: If<br>“CompetencyDimension /<br>TypeCode” is specified,</td>
+      <td>N/A</td>
+    </tr>
+  </tbody>
+</table>
+
+<pre class="mermaid"><code>  erDiagram
+  eures:ProficiencyLevel ||--o{ BaseScoreType : "The state or degree of mastery or adeptness obtained or achieved for a
+  given competency. A proficiency level is..."
+  BaseScoreType ||--|{ ScoreNumeric : " "
+  BaseScoreType ||--|{ hr:ScoreText : " "</code></pre>
+<p>mark in a range of values. (In case of CompetencyID=CEFR, ProficiencyLevel could be: “Basic user”, “Independent User” or
+“Proficient User”.)
+See section /Candidate/PersonQualifications/PersonCompetency/ProficiencyLevel for more information</p>
+<p>“ProficiencyLevel” is mandatory.</p>
+<p>See section /Candidate/PersonQualifications/PersonCompetency/CompetencyDimension for more information</p>
+<table>
+  <thead>
+    <tr>
+      <th>Attributes</th>
+      <th>Description</th>
+      <th>Card.</th>
+      <th>Rule</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td colspan="4"><b>CompetencyDimension attributes</b></td>
+    </tr>
+    <tr>
+      <td>Attributes</td>
+      <td>Description</td>
+      <td>Card.</td>
+      <td>Rule</td>
+    </tr>
+    <tr>
+      <td>validFrom</td>
+      <td>Validity start date for this entity’s information</td>
+      <td>0..1</td>
+      <td>BR-COM-06: Compulsory Date Format is: YYYY-MM-DD, YYYY-MM, YYYY or YYYY-MM-DDThh:mm:ss.</td>
+    </tr>
+    <tr>
+      <td>validTo</td>
+      <td>Validity end date for this entity’s information</td>
+      <td>0..1</td>
+      <td>BR-COM-06: Compulsory Date Format is: YYYY-MM-DD, YYYY-MM, YYYY or YYYY-MM-DDThh:mm:ss.</td>
+    </tr>
+    <tr>
+      <td colspan="4">Refer to IdentifierType Attributes section for additional attributes.</td>
+    </tr>
+    <tr>
+      <td colspan="4"><b>TaxonomyID attributes</b></td>
+    </tr>
+    <tr>
+      <td>Attributes</td>
+      <td>Description</td>
+      <td>Card.</td>
+      <td>Rule</td>
+    </tr>
+    <tr>
+      <td colspan="4">Refer to IdentifierType Attributes section for additional attributes.</td>
+    </tr>
+    <tr>
+      <td colspan="4"><b>CompetencyName attributes</b></td>
+    </tr>
+    <tr>
+      <td>Attributes</td>
+      <td>Description</td>
+      <td>Card.</td>
+      <td>Rule</td>
+    </tr>
+    <tr>
+      <td colspan="4">Refer to TextType Attributes section for additional attributes.</td>
+    </tr>
+    <tr>
+      <td colspan="4"><b>ProficiencyLevel attributes</b></td>
+    </tr>
+    <tr>
+      <td colspan="4">See section /Candidate/PersonQualifications/PersonCompetency/ProficiencyLevel for more information
+      </td>
+    </tr>
+    <tr>
+      <td colspan="4"><b>CompetencyDimension attributes</b></td>
+    </tr>
+    <tr>
+      <td>Attributes</td>
+      <td>Description</td>
+      <td>Card.</td>
+      <td>Rule</td>
+    </tr>
+    <tr>
+      <td colspan="4">See section /Candidate/PersonQualifications/PersonCompetency/CompetencyDimension for more
+        information</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4 id="31232-personcompetency-attributes">3.12.3.2 PersonCompetency Attributes<a class="headerlink" href="#31232-personcompetency-attributes" title="Permanent link">&para;</a></h4>
+<table>
+  <thead>
+    <tr>
+      <th>Attributes</th>
+      <th>Description</th>
+      <th>Card.</th>
+      <th>Rule</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td colspan="4">This element has no attributes.</td>
+    </tr>
+    <tr>
+      <td colspan="4"><b>CompetencyID attributes</b></td>
+    </tr>
+    <tr>
+      <td>Attributes</td>
+      <td>Description</td>
+      <td>Card.</td>
+      <td>Rule</td>
+    </tr>
+    <tr>
+      <td>validFrom</td>
+      <td>Validity start date for this entity’s information</td>
+      <td>0..1</td>
+      <td>BR-COM-06: Compulsory Date Format is: YYYY-MM-DD, YYYY-MM, YYYY or YYYY-MM-DDThh:mm:ss.</td>
+    </tr>
+    <tr>
+      <td>validTo</td>
+      <td>Validity end date for this entity’s information</td>
+      <td>0..1</td>
+      <td>BR-COM-06: Compulsory Date Format is: YYYY-MM-DD, YYYY-MM, YYYY or YYYY-MM-DDThh:mm:ss.</td>
+    </tr>
+    <tr>
+      <td colspan="4">Refer to IdentifierType Attributes section for additional attributes.</td>
+    </tr>
+    <tr>
+      <td colspan="4"><b>TaxonomyID attributes</b></td>
+    </tr>
+    <tr>
+      <td>Attributes</td>
+      <td>Description</td>
+      <td>Card.</td>
+      <td>Rule</td>
+    </tr>
+    <tr>
+      <td colspan="4">Refer to IdentifierType Attributes section for additional attributes.</td>
+    </tr>
+    <tr>
+      <td colspan="4"><b>CompetencyName attributes</b></td>
+    </tr>
+    <tr>
+      <td>Attributes</td>
+      <td>Description</td>
+      <td>Card.</td>
+      <td>Rule</td>
+    </tr>
+    <tr>
+      <td colspan="4">Refer to TextType Attributes section for additional attributes.</td>
+    </tr>
+    <tr>
+      <td colspan="4"><b>ProficiencyLevel attributes</b></td>
+    </tr>
+    <tr>
+      <td colspan="4">See section /Candidate/PersonQualifications/PersonCompetency/ProficiencyLevel for more information
+      </td>
+    </tr>
+    <tr>
+      <td colspan="4"><b>CompetencyDimension attributes</b></td>
+    </tr>
+    <tr>
+      <td>Attributes</td>
+      <td>Description</td>
+      <td>Card.</td>
+      <td>Rule</td>
+    </tr>
+    <tr>
+      <td colspan="4">See section /Candidate/PersonQualifications/PersonCompetency/CompetencyDimension for more
+        information</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="3124-sub-element-candidateprofilepersonqualificationspersoncompetencyproficiencylevel-level-4">3.12.4 Sub-element: /CandidateProfile/PersonQualifications/PersonCompetency/ProficiencyLevel (level 4)<a class="headerlink" href="#3124-sub-element-candidateprofilepersonqualificationspersoncompetencyproficiencylevel-level-4" title="Permanent link">&para;</a></h3>
+<h4 id="31241-proficiencylevel-element-description">3.12.4.1 ProficiencyLevel Element Description<a class="headerlink" href="#31241-proficiencylevel-element-description" title="Permanent link">&para;</a></h4>
+<table>
+  <thead>
+    <tr>
+      <th>Element</th>
+      <th>Description</th>
+      <th>Cardinality</th>
+      <th>Rule</th>
+      <th>Examples</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>ProficiencyLevel</strong></td>
+      <td>The state or degree of mastery or adeptness obtained or achieved for a given competency. A proficiency level
+        is expressed as a score a point scale or a mark among range of values.</td>
+      <td>0..1</td>
+      <td><strong>BR-COM-49:</strong> If "CompetencyDimension / TypeCode" is specified, "ProficiencyLevel" is mandatory.
+      </td>
+      <td>N/A</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Sub-elements</p>
+<table>
+  <thead>
+    <tr>
+      <th>Element</th>
+      <th>Description</th>
+      <th>Cardinality</th>
+      <th>Rule</th>
+      <th>Examples</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>ScoreNumeric</strong></td>
+      <td>A numerical record of the marks allotted to individuals in the measurement of abilities, capacity to learn,
+        personality assessment, or in other measurable characteristics (e.g. credit worthiness), including a set of
+        attributes to identify the scoring scheme and its characteristics</td>
+      <td>0..1</td>
+      <td>N/A</td>
+      <td>"1", "2", "3", etc.</td>
+    </tr>
+    <tr>
+      <td><strong>ScoreText</strong></td>
+      <td>A non-numerical or text representation of a score. A record of the marks allotted to an individual in
+        measuring his/her abilities, capacity to learn, personality assessment, or in other measurable characteristics
+        (e.g., credit worthiness). It represents either the total number of points awarded, or a general standard
+        achieved, including a set of attributes to identify the scoring scheme</td>
+      <td>0..1</td>
+      <td><strong>HR-Open/EURES:</strong> ProficiencyLevel [CL25], if TaxonomyID's value is "language".</td>
+      <td>"A1", "A2", "B1", etc.<br>Full code list: "HR-Open/EURES: ProficiencyLevel [CL25]"</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4 id="31242-proficiencylevel-attributes">3.12.4.2 <em>ProficiencyLevel Attributes</em><a class="headerlink" href="#31242-proficiencylevel-attributes" title="Permanent link">&para;</a></h4>
+<table>
+  <thead>
+    <tr>
+      <th>Attributes</th>
+      <th>Description</th>
+      <th>Card.</th>
+      <th>Rule</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td colspan="4">This element has no attributes.</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>ScoreText attributes</strong></p>
+<table>
+  <thead>
+    <tr>
+      <th>Attributes</th>
+      <th>Description</th>
+      <th>Card.</th>
+      <th>Rule</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td colspan="4">Refer to ScoreText Attributes section for additional attributes.</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>ScoreNumeric attributes</strong></p>
+<table>
+  <thead>
+    <tr>
+      <th>Attributes</th>
+      <th>Description</th>
+      <th>Card.</th>
+      <th>Rule</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td colspan="4">Refer to ScoreNumeric Attributes section for additional attributes.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="3125-sub-element-candidateprofilepersonqualificationspersoncompetencycompetencydimension-level-4">3.12.5 Sub-element: /CandidateProfile/PersonQualifications/PersonCompetency/CompetencyDimension (level 4)<a class="headerlink" href="#3125-sub-element-candidateprofilepersonqualificationspersoncompetencycompetencydimension-level-4" title="Permanent link">&para;</a></h3>
+<h4 id="31251-competencydimension-element-description">3.12.5.1 <em>CompetencyDimension Element Description</em><a class="headerlink" href="#31251-competencydimension-element-description" title="Permanent link">&para;</a></h4>
+<p>&lt;img&gt;Diagram showing CompetencyDimensionType with hr:CompetencyDimensionTypeCode and Score&lt;/img&gt;</p>
+<table>
+  <thead>
+    <tr>
+      <th>Element</th>
+      <th>Description</th>
+      <th>Cardinality</th>
+      <th>Rule</th>
+      <th>Examples</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>CompetencyDimension</strong></td>
+      <td>A measurable characteristic of a skill or competency</td>
+      <td>0..n</td>
+      <td>Only used for language skills</td>
+      <td>N/A</td>
+    </tr>
+    <tr>
+      <td colspan="5"><strong>BR-COM-48:</strong> If "CompetencyDimension" element is specified, "TypeCode" and "Score" are mandatory elements.</td>
+    </tr>
+    <tr>
+      <td colspan="5"><strong>BR-COM-49:</strong> If "CompetencyDimension / TypeCode" is specified, "ProficiencyLevel" is mandatory.</td>
+    </tr>
+    <tr>
+      <td colspan="5"><strong>Sub-elements</strong></td>
+    </tr>
+    <tr>
+      <td><strong>CompetencyDimensionTypeCode</strong></td>
+      <td>A code classifying the type of competency dimension described</td>
+      <td>0..1</td>
+      <td><strong>BR-COM-37:</strong> Compulsory use of the "EURES_Dimension-CodeList.gc" list defined by EURES. This is based on CEFR, if TaxonomyID's value is "language".<br><br><strong>BR-COM-55:</strong> Compulsory use of the attributes "listVersionID", "listName" and "listURI".<br><br>"CEF-Understanding-Reading", "CEF-Understanding-Listening", etc.<br><br>Full code list: "HR-Open/EURES: Dimension [CL11]"</td>
+      <td>N/A</td>
+    </tr>
+    <tr>
+      <td><strong>Score</strong></td>
+      <td>Details regarding the student's scores at a specific dimension<br>See section /CandidateProfile/PersonQualifications/PersonCompetency/CompetencyDimension/Score for more information</td>
+      <td>0..1</td>
+      <td>N/A</td>
+      <td>N/A</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4 id="31252-competencydimension-attributes">3.12.5.2 <strong>CompetencyDimension Attributes</strong><a class="headerlink" href="#31252-competencydimension-attributes" title="Permanent link">&para;</a></h4>
+<table>
+  <thead>
+    <tr>
+      <th>Attributes</th>
+      <th>Description</th>
+      <th>Card.</th>
+      <th>Rule</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td colspan="4">This element has no attributes.</td>
+    </tr>
+    <tr>
+      <td colspan="4"><strong>CompetencyDimensionTypeCode attributes</strong></td>
+    </tr>
+    <tr>
+      <td>Attributes</td>
+      <td>Description</td>
+      <td>Card.</td>
+      <td>Rule</td>
+    </tr>
+    <tr>
+      <td colspan="4">Refer to CodeType Attributes section for additional attributes.</td>
+    </tr>
+    <tr>
+      <td colspan="4"><strong>Score attributes</strong></td>
+    </tr>
+    <tr>
+      <td>Attributes</td>
+      <td>Description</td>
+      <td>Card.</td>
+      <td>Rule</td>
+    </tr>
+    <tr>
+      <td colspan="4">See section /CandidateProfile/PersonQualifications/PersonCompetency/CompetencyDimension/Score for
+        more information</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4 id="3126-sub-elementcandidateprofilepersonqualificationspersoncompetencycompetencydimensionscore-level-5">3.12.6 Sub-element:<br>/CandidateProfile/PersonQualifications/PersonCompetency/CompetencyDimension/Score (level 5)<a class="headerlink" href="#3126-sub-elementcandidateprofilepersonqualificationspersoncompetencycompetencydimensionscore-level-5" title="Permanent link">&para;</a></h4>
+<h4 id="31261-score-element-description">3.12.6.1 Score Element Description<a class="headerlink" href="#31261-score-element-description" title="Permanent link">&para;</a></h4>
+<p>&lt;img&gt;UML Diagram showing ScoreType, BaseScoreType (extension base), ScoreNumeric, hr:ScoreText, and
+@Attributes&lt;/img&gt;</p>
+<table>
+  <thead>
+    <tr>
+      <th>Element</th>
+      <th>Description</th>
+      <th>Cardinality</th>
+      <th>Rule</th>
+      <th>Examples</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <tr>
+    <td><strong>Score</strong></td>
+    <td>Details regarding the student's scores at a specific dimension</td>
+    <td>0..1</td>
+    <td>BR-COM-16: At least one of its sub-elements must be informed.</td>
+    <td>N/A</td>
+  </tr>
+</table>
+
+<p><strong>Sub-elements</strong></p>
+<p>The same as /CandidateProfile/PersonQualifications/PersonCompetency/ProficiencyLevel</p>
+<h4 id="31262-score-attributes">3.12.6.2 Score Attributes<a class="headerlink" href="#31262-score-attributes" title="Permanent link">&para;</a></h4>
+<p>&lt;img&gt;Diagram showing ScoreType, BaseScoreType (extension base), Attributes, hr:EffectiveDateAttributeGroup, @
+validFrom, @ validTo with a note "HR-XML's 3.0 architecture makes a distinction between effective-date meta data and
+effective dating that is an integral..."&lt;/img&gt;</p>
+<table>
+  <thead>
+    <tr>
+      <th>Attributes</th>
+      <th>Description</th>
+      <th>Card.</th>
+      <th>Rule</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>validFrom</strong></td>
+      <td>Validity start date for this entity's information</td>
+      <td>0..1</td>
+      <td>BR-COM-06: Compulsory Date Format is: YYYY-MM-DD, YYYY-MM, YYYY or YYYY-MM-DDThh:mm:ss.</td>
+    </tr>
+    <tr>
+      <td><strong>validTo</strong></td>
+      <td>Validity end date for this entity's information</td>
+      <td>0..1</td>
+      <td>BR-COM-06: Compulsory Date Format is: YYYY-MM-DD, YYYY-MM, YYYY or YYYY-MM-DDThh:mm:ss.</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Sub-elements</strong></p>
+<p>The same as /CandidateProfile/PersonQualifications/PersonCompetency/ProficiencyLevel</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+        
+<div class="md-social">
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://github.com/europass-unofficial/europass-schema-docs" target="_blank" rel="noopener" title="github.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.tabs", "navigation.sections", "navigation.expand", "navigation.top", "search.suggest", "search.highlight", "content.code.copy", "content.action.edit"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+        <script src="https://unpkg.com/mermaid@10/dist/mermaid.min.js"></script>
+      
+        <script src="../javascripts/mermaid.js"></script>
+      
+    
+  </body>
+</html>
